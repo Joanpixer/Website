@@ -1,0 +1,647 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="_/js/modernizr-1.7.min.js"></script>
+	<script src="_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="presentacio" class="rootnode"><p><a href="presentacio.html">Presentació</a></p></li><li id="resultats" class="rootnode"><p><a href="resultats.html">Objectius</a></p></li><li id="material_paper" class="rootnode"><p><a href="material_paper.html">Material en paper</a></p></li><li id="glossari" class="rootnode"><p><a href="glossari.html">Glossari</a></p></li><li id="" class="indexnode"><p><a href="index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li>Glossari</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="glossari"> Glossari </a></h1>
+    	<ul>
+<li class="level1"><div class="li"> <strong>alineació del full de càlcul</strong> <em>f</em> Acció i efecte de donar un lloc al contingut de la cel·la (dreta, esquerra, centrat).</div>
+</li>
+<li class="level1"><div class="li"> <strong>alineació en tractament de textos</strong> <em>f</em> Col·locació del text respecte al marge general: a l’esquerra, a la dreta, centrat o justificat.</div>
+</li>
+<li class="level1"><div class="li"> <strong>al·literació</strong> <em>f</em> Repetició de determinats sons per tal d’imitar sons de la natura, com el so de vent amb la “s”, o bé crear un cert efecte. Per exemple: <em>Mi mamá me mima</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>anàfora</strong> <em>f</em> Repetició d’una seqüència de paraules al començament de les frases per tal d’emfasitzar-les. És un recurs molt utilitzat en l’àmbit publicitari.</div>
+</li>
+<li class="level1"><div class="li"> <strong>animació d’objectes d’una presentació</strong> <em>f</em> Efecte que realitza un objecte d’una diapositiva.</div>
+</li>
+<li class="level1"><div class="li"> <strong>anomenar i desar un document</strong> Acció inicial per poder desar un document en una unitat de disc o lloc de l’ordinador i donar-li nom.</div>
+</li>
+<li class="level1"><div class="li"> <strong>àrea de treball</strong> <em>f</em> Espai de la finestra de l’aplicació que permet treballar.</div>
+</li>
+<li class="level1"><div class="li"> <strong>àrea d’impressió</strong> <em>f</em> Rang de cel·les o part del document que s’imprimeix.</div>
+</li>
+<li class="level1"><div class="li"> <strong>arrossegar</strong> <em>v</em> Moure un element per la pantalla, seleccionant-lo i mantenint-lo així mentre es mou el ratolí.</div>
+</li>
+<li class="level1"><div class="li"> <strong>arxiu</strong> <em>m</em> Conjunt de dades estructurades que es poden recuperar fàcilment i es poden fer servir en una aplicació determinada. sin. “fitxer”</div>
+</li>
+<li class="level1"><div class="li"> <strong>asíndeton</strong> <em>m</em> Supressió de conjuncions. Aquesta supressió té l’objectiu de donar un cert ritme: <em>bell, gran, fort</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>assistent</strong> <em>m</em> Programa que guia l’usuari, pas a pas i de manera instructiva, en la realització d’un procés.</div>
+</li>
+<li class="level1"><div class="li"> <strong>autocompletar</strong> <em>v</em> Opció del calc que s’utilitza per copiar el contingut d’una cel·la en una altra o en un conjunt de cel·les contigües. S’utilitza situant-se damunt del vèrtex inferior dret de la cel·la a copiar i, amb el botó esquerre pitjat, arrossegant el ratolí fins a completar el rang que volem. Quan deixem anar el botó esquerre, apareixerà la fórmula copiada.</div>
+</li>
+<li class="level1"><div class="li"> <strong>autonumèric</strong> <em>adj</em> Tipus de camp que s’incrementa automàticament en crear un nou registre. Aquest tipus de camp se sol utilitzar per crear claus principals.</div>
+</li>
+<li class="level1"><div class="li"> <strong>bàner</strong> <em>m</em> Tipus de publicitat que està dissenyat amb l’objectiu de cridar l’atenció i comunicar el missatge desitjat, sense necessàriament mantenir la línia gràfica del lloc.</div>
+</li>
+<li class="level1"><div class="li"> <strong>barra de desplaçament</strong> <em>f</em> Barra situada al costat dret i a sota de la finestra de treball que permet el desplaçament pel full de càlcul amb més rapidesa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>barra de fórmules</strong> <em>f</em> Barra que serveix per introduir dades, fórmules i funcions en les cel·les. Mostra el contingut de la cel·la.</div>
+</li>
+<li class="level1"><div class="li"> <strong>barra de menús</strong> <em>f</em> Barra que conté la llista de menús, cadascun té un menú desplegable amb unes opcions.</div>
+</li>
+<li class="level1"><div class="li"> <strong>barra de títol</strong> <em>f</em> Barra que conté el nom del document de treball i les icones de minimitzar, maximitzar i tancar el programa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>barra d’eines</strong> <em>f</em> Barra que conté botons que permeten realitzar algunes tasques amb més rapidesa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>base de dades</strong> <em>f</em> Col·lecció de dades i objectes relacionats amb un tema o una finalitat determinada.</div>
+</li>
+<li class="level1"><div class="li"> <strong>base de dades activa</strong> <em>f</em> Arxiu de base de dades que hi ha obert dins del programa Access. L’Access només permet obrir una base de dades a la vegada.</div>
+</li>
+<li class="level1"><div class="li"> <strong>base de dades relacional</strong> <em>f</em> Conjunt de dues o més taules estructurades en registres (files) i camps (columnes), cadascuna amb un nom únic i que es relacionen entre elles per un camp en comú.</div>
+</li>
+<li class="level1"><div class="li"> <strong>bit</strong> <em>m</em> Unitat d’informació digital més petita que es pot representar. Un bit només pot tenir dos estats: 0 o 1, encès o apagat o, el que és el mateix, presència o absència de corrent elèctric.</div>
+</li>
+<li class="level1"><div class="li"> <strong>blog</strong> <em>m</em> Webs de format simple. N’hi ha de personals o bé de comercials, d’un o de diversos autors. Es poden actualitzar amb temes de manera periòdica. A més, la major part són d’inscripció gratuïta, encara que també n’existeixen de pagament.</div>
+</li>
+<li class="level1"><div class="li"> <strong>botó de visualització de l’Impress</strong> <em>m</em> Botó que permet alternar entre les diferents vistes d’una presentació: normal, classificador de diapositives o presentació de diapositives des de la diapositiva activa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>caixa d’eines</strong> <em>f</em> “Vegeu quadre d’eines”.</div>
+</li>
+<li class="level1"><div class="li"> <strong>camp</strong> <em>m</em> Columna d’una taula que conté dades. És cadascun dels elements d’informació d’un registre o fila.</div>
+</li>
+<li class="level1"><div class="li"> <strong>camp perceptiu</strong> <em>m</em> Distribució del conjunt d’elements del medi que afecten la persona quan té una percepció. </div>
+</li>
+<li class="level1"><div class="li"> <strong>capçalera</strong> <em>f</em> Text i altres informacions que es poden inserir en la part superior del document per sobre del marge superior.</div>
+</li>
+<li class="level1"><div class="li"> <strong>caràcter ocult</strong> <em>m</em> Caràcter invisible per a l’editor del text i que insereix el programa quan es prem barra espaiadora, Retorn, la tecla de tabulació…</div>
+</li>
+<li class="level1"><div class="li"> <strong>carpeta</strong> <em>f</em> Terme utilitzat en el sistema operatiu Microsoft Windows per referir-se als directoris i subdirectoris. Espai del disc dur d’un ordinador destinat a emmagatzemar informació de l’usuari o del sistema, normalment disposada en forma d’arxius.</div>
+</li>
+<li class="level1"><div class="li"> <strong>cel·la</strong> <em>f</em> Intersecció d’una columna i una fila en un full de càlcul o en una taula.</div>
+</li>
+<li class="level1"><div class="li"> <strong>cercar dades</strong> <em>v</em> Buscar una dada concreta en el full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>cercar i substituir text</strong> Buscar una paraula concreta en el document per poder-la modificar o substituir per una altra</div>
+</li>
+<li class="level1"><div class="li"> <strong>cercar o substituir</strong> Buscar un contingut concret en un camp o en una taula per poder-lo consultar, modificar o substituir per un altre.</div>
+</li>
+<li class="level1"><div class="li"> <strong>clau principal</strong> <em>f</em> Camp que té un valor únic que identifica inequívocament cadascun dels registres d’una taula.</div>
+</li>
+<li class="level1"><div class="li"> <strong>clicar</strong> <em>v intr</em> Prémer i deixar anar un dels botons del ratolí.</div>
+</li>
+<li class="level1"><div class="li"> <strong>clip art</strong> <em>m</em> S’utilitza en l’argot gràfic per anomenar imatges que no són fotogràfiques sinó il·lustrades, i poden estar elaborades tant a mà com per ordinador.</div>
+</li>
+<li class="level1"><div class="li"> <strong>CMYK</strong> <em>m</em> Mode de color que treballa amb els quatre colors primaris per a la impressió: cian, magenta, groc (<em>Yellow</em>) i negre (<em>Black</em>).</div>
+</li>
+<li class="level1"><div class="li"> <strong>cohesió</strong> <em>f</em> Propietat que té un text quan està format per parts ben connectades i organitzades.</div>
+</li>
+<li class="level1"><div class="li"> <strong>colors</strong> o <strong>pigments primaris</strong> <em>m</em> Colors que no s’obtenen a partir de la barreja d’altres, sinó que són purs. Aquests són el magenta, el groc i el blau cian.</div>
+</li>
+<li class="level1"><div class="li"> <strong>colors secundaris</strong> <em>m</em> Colors resultants de la barreja de dos colors primaris entre ells. Aquests són el taronja (magenta i groc), el verd ( blau i groc) i el granat (blau i magenta).</div>
+</li>
+<li class="level1"><div class="li"> <strong>colors terciaris</strong> <em>m</em> Colors que s’obtenen barrejant un color primari i un color secundari, del que en resulten sis nous colors.</div>
+</li>
+<li class="level1"><div class="li"> <strong>color veritable</strong> (també se’n diu <strong><em>true color</em></strong>) <em>m</em> Mode de color en què la policromia s’acosta a allò que l’ull humà pot trobar en el món real. </div>
+</li>
+<li class="level1"><div class="li"> <strong>columna</strong> <em>f</em> Divisió de l’àrea de treball d’una pàgina en diverses pàgines més estretes per poder presentar el text encolumnat.</div>
+</li>
+<li class="level1"><div class="li"> <strong>combinació de correspondència</strong> <em>f</em> Acció de combinar un document de text amb una llista de correu -base de dades- per tal de personalitzar cartes, sobres i etiquetes.</div>
+</li>
+<li class="level1"><div class="li"> <strong>combinar cel·les</strong> <em>v</em> Combinar dos o més cel·les en una sola.</div>
+</li>
+<li class="level1"><div class="li"> <strong>combinar correspondència</strong> <em>v</em> Combinar un document amb una base de dades per personalitzar documents.</div>
+</li>
+<li class="level1"><div class="li"> <strong>congela</strong> <em>v</em> Acció que facilita mantenir a la vista els títols dels encapçalaments de les files i columnes.</div>
+</li>
+<li class="level1"><div class="li"> <strong>copiar cel·les</strong> <em>v</em> Duplicar un text, una fórmula, un format, una cel·la, una fila, una columna, una imatge, un arxiu, una carpeta, etc. amb la intenció d’enganxar-los en un altre lloc.</div>
+</li>
+<li class="level1"><div class="li"> <strong>copiar text</strong> <em>v</em> Copiar una selecció de text en un altre lloc del mateix document o en un altre document.</div>
+</li>
+<li class="level1"><div class="li"> <strong>copyleft</strong> <em>m</em> Conjunt de llicències que permeten que l’usuari pugui utilitzar una obra, modificar-la i redistribuir-la, tant en el seu format original com en les seves versions derivades. Per tant, en un sentit estrictament no legal, el copyleft és el contrari del copyright.</div>
+</li>
+<li class="level1"><div class="li"> <strong>copyright</strong> <em>m</em> Llicència que indica que una obra té tots els drets reservats, que està protegida per un període de temps determinat i que, per utilitzar-la, necessitem el <strong>permís</strong> de l’autor. </div>
+</li>
+<li class="level1"><div class="li"> <strong>corba de Bézier</strong> <em>f</em> Sistema que es va crear als anys seixanta per al dibuix tècnic, el disseny aeronàutic i d’automòbils. Pierre Bézier va descobrir un mètode de descripció matemàtica de les corbes molt útil per al disseny, i el va aplicar en els seus anys de treball a la fàbrica Renault per dissenyar les diferents parts d’un automòbil. </div>
+</li>
+<li class="level1"><div class="li"> <strong>Creative Commons</strong> <em>f</em> Llicència que es troba a mig camí entre el copyright i el copyleft. És a dir, l’obra a la qual se li atribueix aquesta llicència no té “tots els drets reservats” ni tampoc es troba “sense cap dret reservat”. Creative Commons proposa tenir “alguns drets reservats”. </div>
+</li>
+<li class="level1"><div class="li"> <strong>desar un document</strong> <em>v</em> Enregistrar en un lloc segur el document quan ja té nom i s’han realitzat modificacions.</div>
+</li>
+<li class="level1"><div class="li"> <strong>desfer accions</strong> Icona de la barra d’eines estàndard que permet desfer les darreres accions realitzades amb el programa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>desplegable</strong> <em>m</em> Vegeu “llista desplegable”.</div>
+</li>
+<li class="level1"><div class="li"> <strong>diapositiva d’Impress</strong> <em>f</em> Diapositiva que és per a una presentació, com una pàgina per a un document de Weiter, el lloc on es pot incloure la informació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>dibuix nou</strong> <em>m</em> Llenç de dibuix on es pot crear qualsevol tipus d’imatge amb formes automàtiques, imatges de galeria.</div>
+</li>
+<li class="level1"><div class="li"> <strong>diccionari d’ortografia i gramàtica</strong> <em>m</em> Diccionari de la llengua de treball que té instal·lat el programa i que permet fer correccions ortogràfiques i gramaticals.</div>
+</li>
+<li class="level1"><div class="li"> <strong>díptic</strong> <em>m</em> Fullet publicitari compost d’un full, un plegament i quatre cares.</div>
+</li>
+<li class="level1"><div class="li"> <strong>dixi</strong> <em>f</em> Referència als elements extra-textuals de la situació comunicativa. Pot ser personal (a partir de pronoms i pronoms febles o possessius), temporal (a partir de temps verbals, adverbis i altres formes temporals) o espacial (a partir de pronoms i adverbis demostratius i de pronoms neutres).</div>
+</li>
+<li class="level1"><div class="li"> <strong>document actiu</strong> <em>m</em> Unitat d’informació independent (document de text, full de càlcul, etc.) que es crea per mitjà d’un programa i que s’identifica amb un nom únic. En aquest cas, el document actiu és el document amb què es treballa i està obert en un moment determinat.</div>
+</li>
+<li class="level1"><div class="li"> <strong>domini públic</strong> <em>m</em> Situació en què queden les obres literàries artístiques o científiques quan s’acaba el termini de protecció dels drets d’autor. </div>
+</li>
+<li class="level1"><div class="li"> <strong>editar un registre</strong> <em>v</em> Modificar un registre: afegir-hi informació, esborrar-ne, canviar-la, etc.</div>
+</li>
+<li class="level1"><div class="li"> <strong>editar una presentació</strong> <em>v</em> Modificar una presentació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>eix de categories</strong> <em>m</em> Eix que, en un gràfic dades, correspon a l’eix X (horitzontal).</div>
+</li>
+<li class="level1"><div class="li"> <strong>eix de valors</strong> <em>m</em> Eix que, en un gràfic dades, correspon a l’eix Y (vertical).</div>
+</li>
+<li class="level1"><div class="li"> <strong>eliminar cel·les</strong> <em>v</em> Suprimir cel·les en el full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>eliminar columnes</strong> <em>v</em> Suprimir columnes en un full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>eliminar files</strong> <em>v</em> Suprimir files en un full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>empaquetar una presentació</strong> <em>v</em> Copiar i reunir en una mateixa carpeta l’arxiu d’una presentació amb tots els seus arxius vinculats, actualitzant els vincles.</div>
+</li>
+<li class="level1"><div class="li"> <strong>enganxar text</strong> <em>v</em> Col·locar un text prèviament seleccionat i retallat en algun lloc del document o en un altre document.</div>
+</li>
+<li class="level1"><div class="li"> <strong>enganxada amb opcions</strong> <em>f</em> Acció que permet escollir què es vol copiar en la cel·la de destinació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>eslògan</strong> <em>m</em> Frase curta, impactant i fàcil de recordar que trobem en els textos publicitaris i que resumeix el missatge que es vol fer arribar al públic. </div>
+</li>
+<li class="level1"><div class="li"> <strong>estils i formatació</strong> Grup d’opcions de tipus de lletra, alienació i interlínia a les quals es pot donar un nom i configurar per tal que siguin les que s’usin per defecte en la creació de documents.</div>
+</li>
+<li class="level1"><div class="li"> <strong>etiqueta de dades</strong> <em>f</em> Dades que poden aparèixer en un gràfic sobre cadascuna de les sèries.</div>
+</li>
+<li class="level1"><div class="li"> <strong>executar una presentació</strong> <em>v</em> Visualitzar una presentació en format de presentació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>filtre</strong> <em>m</em> Conjunt de criteris que s’apliquen a les dades amb la finalitat de mostrar-ne un subconjunt, o d’ordenar-les.</div>
+</li>
+<li class="level1"><div class="li"> <strong>finestra de consultes</strong> <em>f</em> Finestra amb les eines necessàries per treballar amb consultes en les visualitzacions <em>Diseño</em>, <em>Hoja de datos</em>, <em><acronym title="Structured Query Language">SQL</acronym></em> i <em>Preliminar</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>finestra de formularis</strong> <em>f</em> Finestra amb les eines necessàries per treballar amb formularis en les visualitzacions <em>Diseño</em>, <em>Hoja de datos</em>, <em>Formularios</em> i <em>Preliminar</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>finestra de la base de dades</strong> <em>f</em> Finestra que apareix en obrir una base de dades. Inclou dreceres per crear nous objectes, obrir els ja existents de base de dades i treballar-hi.</div>
+</li>
+<li class="level1"><div class="li"> <strong>finestra de taules</strong> <em>f</em> Finestra amb les eines necessàries per treballar amb taules en les visualitzacions <em>Diseño</em> i <em>Hoja de datos</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>finestra emergent</strong> <em>f</em> S’utilitza amb la finalitat de mostrar un avís publicitari de forma intrusiva, mitjançant un element que apareix en una nova finestra, un <em>pop-up</em> (anunci emergent). També existeix el <em>pop-under</em> (anunci latent) amb finestres que s’obren i es multipliquen per sota de la finestra en ús.</div>
+</li>
+<li class="level1"><div class="li"> <strong>finestra d’informes</strong> <em>f</em> Finestra amb les eines necessàries per treballar amb informes en les visualitzacions <em>Diseño</em>, <em>Vista previa del diseño</em> i <em>Preliminar</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>finestra exterior</strong> <em>f</em> Espai de pantalla on hi la les barres de menú, eines, regles i barres de desplaçament.</div>
+</li>
+<li class="level1"><div class="li"> <strong>fitxer</strong> <em>m</em> “Vegeu arxiu”.</div>
+</li>
+<li class="level1"><div class="li"> <strong>flyer</strong> (també se’n diu <strong><em>volant</em></strong>) <em>m</em> Fullet publicitari compost d’un sol full i dues cares.</div>
+</li>
+<li class="level1"><div class="li"> <strong>font True Type</strong> <em>f</em> Font que es veu igual en la pantalla d’un ordinador que quan s’imprimeixen en paper.</div>
+</li>
+<li class="level1"><div class="li"> <strong>formatació automàtica</strong> <em>f</em> Formata automàticament el fitxer d’acord amb les opcions establertes a Eines-Correcció automàtica.</div>
+</li>
+<li class="level1"><div class="li"> <strong>format de cel·la</strong> <em>m</em> Dimensió que es dóna a una cel·la quant a tipus, color, estil i mida de la lletra; alineació; quantitat de decimals; fons en color o blanc, amb marc al voltant, etc.</div>
+</li>
+<li class="level1"><div class="li"> <strong>format de pàgina</strong> <em>m</em> Configuració de la pàgina en què es crea el document que conté marges, orientació, visualització prèvia…</div>
+</li>
+<li class="level1"><div class="li"> <strong>fórmula</strong> <em>f</em> Seqüència de valors, referències, nombres, funcions i operacions, que produeixen un valor nou partint d’uns valors que ja existeixen. La finalitat de les fórmules és automatitzar els càlculs.</div>
+</li>
+<li class="level1"><div class="li"> <strong>full de càlcul</strong> <em>m</em> Document principal que s’utilitza en l’OpenOffice Calc per emmagatzemar i manipular dades. Està format per cel·les organitzades en columnes i files, i sempre forma part d’un llibre.</div>
+</li>
+<li class="level1"><div class="li"> <strong>funció</strong> <em>f</em> Opció que proporciona la utilització de càlculs predefinits.</div>
+</li>
+<li class="level1"><div class="li"> <strong>galeria</strong> <em>f</em> Selecció d’imatges i de sons per inserir en els documents.</div>
+</li>
+<li class="level1"><div class="li"> <strong>generador d’expressions</strong> <em>m</em> Eina de l’Access que s’utilitza per crear una expressió. Inclou una llista d’expressions comunes ja predefinides.</div>
+</li>
+<li class="level1"><div class="li"> <strong>gràfic</strong> <em>m</em> Representació visual de les dades que pot contenir un full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>gràfic </strong> <em>m</em> Representació gràfica de les dades introduïdes en un full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>grup</strong> <em>m</em> Dos o més objectes d’una base de dades de l’Access que s’agrupen per treballar més còmodament. També és un conjunt de controls que es tracta com una unitat quan es dissenya o modifica un formulari o informe.</div>
+</li>
+<li class="level1"><div class="li"> <strong>hipèrbaton</strong> <em>m</em> Canvi de l’ordre gramatical natural dels mots. En la publicitat es donen aquest tipus de transgressions gramaticals com una mena de llicència per cridar l’atenció: <em>una solución quiero</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>hipèrbole</strong> <em>f</em> Exageració. La hipèrbole es pot manifestar per escrit o també visualment. Busca provocar una reacció apassionada en el públic: <em>únic al món</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>hipertext</strong> <em>m</em> Text que en un dispositiu electrònic ens condueix a altres textos o elements multimèdia relacionats, prement zones sensibles destacades de la pantalla. </div>
+</li>
+<li class="level1"><div class="li"> <strong>icona de l’aplicació</strong> <em>f</em> Dibuix que representa l’aplicació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>icona del document</strong> <em>f</em> Dibuix que representa el tipus de document amb què es treballa. Està representat per un full que té la icona de l’aplicació a sobre.</div>
+</li>
+<li class="level1"><div class="li"> <strong>imatge de càmera</strong> <em>f</em> Imatge que es pot inserir en un document que prové d’una càmera fotogràfica.</div>
+</li>
+<li class="level1"><div class="li"> <strong>imatge d’escàner</strong> <em>f</em> Imatge que es pot inserir en un document que prové d’un escàner.</div>
+</li>
+<li class="level1"><div class="li"> <strong>imatge de fitxer</strong> <em>f</em> Imatge que es pot inserir en un document que prové d’un fitxer extern al Writer.</div>
+</li>
+<li class="level1"><div class="li"> <strong>imatges vectorials</strong> <em>f</em> Imatges formades per representacions geomètriques: cercles, rectangles o segments. Aquestes formes són traduïbles a fórmules matemàtiques, susceptibles de ser interpretades per la targeta gràfica de l’ordinador i, per tant, de ser transformades. </div>
+</li>
+<li class="level1"><div class="li"> <strong>impersonalització</strong> <em>f</em> Distanciar-se del text utilitzant recursos com les oracions impersonals, construccions genèriques o d’infinitiu, o oracions en forma passiva.</div>
+</li>
+<li class="level1"><div class="li"> <strong>impressió de document</strong> <em>f</em> Acció d’ordenar que el document de treball s’imprimeixi sobre paper.</div>
+</li>
+<li class="level1"><div class="li"> <strong>incrustar fonts</strong> <em>v</em> Fer que una font quedi inclosa dins de l’arxiu amb la finalitat de poder-la utilitzar en qualsevol ordinador, fins i tot, en els que no la tinguin instal·lada. Per poder-la incrustar, ha de ser del tipus True Type.</div>
+</li>
+<li class="level1"><div class="li"> <strong>índex alfabètic</strong> <em>m</em> Opció de creació d’una relació de paraules d’un document ordenades alfabèticament i associades a la pàgina en què es troben.</div>
+</li>
+<li class="level1"><div class="li"> <strong>índex de continguts</strong> <em>m</em> Opció de creació d’una relació de continguts d’un document presentat en forma de llista i associat a la pàgina en què es troben.</div>
+</li>
+<li class="level1"><div class="li"> <strong>inserir cel·les</strong> <em>v</em> Incloure cel·les noves en el full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>inserir columnes</strong> <em>v</em> Incloure columnes noves en un full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>inserir files</strong> <em>v</em> Incloure files noves en un full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>insight</strong> <em>f</em> Fenomen que fa que les persones se sentin identificades amb marques que busquen ser associades amb certs estereotips. Per aconseguir-ho, la publicitat hi té un paper protagonista. </div>
+</li>
+<li class="level1"><div class="li"> <strong>integritat referencial</strong> <em>f</em> Conjunt de regles que cal complir per mantenir correctament les relacions definides entre taules quan s’introdueixen, modifiquen o eliminen registres.</div>
+</li>
+<li class="level1"><div class="li"> <strong>interfície d’usuari</strong> <em>f</em> Conjunt de normes que defineix com es presenta la informació en la pantalla de l’usuari. Actualment, totes les interfícies acostumen a incorporar gràfics, per la qual cosa s’anomenen interfícies gràfiques d’usuari.</div>
+</li>
+<li class="level1"><div class="li"> <strong>interval d’impressió</strong> <em>m</em> Part del document que es vol imprimir.</div>
+</li>
+<li class="level1"><div class="li"> <strong>línia de divisió</strong> <em>f</em> Línia horitzontal o vertical sobre la qual es va creant el gràfic.</div>
+</li>
+<li class="level1"><div class="li"> <strong>link o enllaç</strong> <em>m</em> Publicitat a partir d’un text destacat que prement-lo ens porta a la pàgina web del producte. Moltes vegades consisteix només en el logotip de la marca.</div>
+</li>
+<li class="level1"><div class="li"> <strong>logotip</strong> <em>m</em> Element gràfic que l’usuari associa amb la marca d’un producte, empresa o servei. </div>
+</li>
+<li class="level1"><div class="li"> <strong>llegenda</strong> <em>f</em> Quadre que dóna informació sobre el contingut de les dades representades.</div>
+</li>
+<li class="level1"><div class="li"> <strong>llengua de treball</strong> <em>f</em> Llengua per treballar i amb la qual s’està creant el document.</div>
+</li>
+<li class="level1"><div class="li"> <strong>llibre de Calc</strong> <em>m</em> Llibre que reuneix un o més fulls de càlcul. Un dels avantatges que ofereix una distribució en llibres de treball és que no cal obrir per separat els documents que van agrupats, ja que, en obrir un llibre, també s’obre la totalitat dels documents (fulls de càlcul) que conté.</div>
+</li>
+<li class="level1"><div class="li"> <strong>llicència</strong> <em>f</em> Autorització formal que l’autor d’un programa o d’una obra intel·lectual concedeix a l’usuari perquè aquest la utilitzi si n’accepta les condicions. </div>
+</li>
+<li class="level1"><div class="li"> <strong>llista desplegable</strong> <em>f</em> Control d’accés a dades que, en fer-hi clic, mostra una llista on es pot seleccionar un valor. No s’hi poden escriure valors, només seleccionar-los. sin. “desplegable”</div>
+</li>
+<li class="level1"><div class="li"> <strong>macro</strong> <em>f</em> Conjunt d’operacions que s’executen d’una sola vegada i automàticament, de manera que per obtenir el resultat final no s’han d’executar cadascun dels seus passos.</div>
+</li>
+<li class="level1"><div class="li"> <strong>marge del document</strong> <em>m</em> Límit lateral, superior o inferior on es poden introduir dades en l’àrea de treball.</div>
+</li>
+<li class="level1"><div class="li"> <strong>marquesina</strong> <em>f</em> Text en moviment inserit en una pàgina web.</div>
+</li>
+<li class="level1"><div class="li"> <strong>màscara d’entrada</strong> <em>f</em> Plantilla formada per caràcters de visualització literals (nombres, lletres, parèntesis, guions…) i caràcters de màscara, que s’utilitza en un camp per indicar com s’han d’introduir les dades, quin tipus de dades, i el nombre de caràcters permesos.</div>
+</li>
+<li class="level1"><div class="li"> <strong>memòria RAM</strong> <em>f</em> Memòria que conté els programes i les dades amb els quals treballa l’ordinador en un moment determinat. La memòria RAM és una memòria d’accés directe i de caràcter efímer, ja que el seu contingut s’esborra quan s’apaga l’ordinador.</div>
+</li>
+<li class="level1"><div class="li"> <strong>metàfora</strong> <em>f</em> Figura retòrica més utilitzada en publicitat per la capacitat d’evocar significats de manera senzilla però impactant. S’assembla a la comparació, però no sempre apareixen els dos termes, el real i l’irreal: <em>un tractament que allisa el temps</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Microsoft Graph</strong> <em>m</em> Programa que utilitza l’Access per representar gràficament les dades d’una taula en un formulari o informe.</div>
+</li>
+<li class="level1"><div class="li"> <strong>mòdem</strong> <em>m</em> Dispositiu que permet a l’ordinador connectar amb una xarxa informàtica per mitjà de la xarxa telefònica commutada ( RTC ). Pot ser de diversos tipus.</div>
+</li>
+<li class="level1"><div class="li"> <strong>moure cel·les</strong> <em>v</em> Traslladar el contingut i format d’una cel·la a un altre lloc del full de càlcul.</div>
+</li>
+<li class="level1"><div class="li"> <strong>multitasca</strong> <em>f</em> Sistema que permet treballar amb més d’una aplicació funcionant alhora.</div>
+</li>
+<li class="level1"><div class="li"> <strong>multiusuari</strong> <em>m</em> Sistema que permet treballar en el mateix ordinador a diverses persones .</div>
+</li>
+<li class="level1"><div class="li"> <strong>nota a peu de pàgina</strong> <em>f</em> Explicació que es pot posar en la part inferior d’una pàgina relativa a una paraula o paràgraf del document.</div>
+</li>
+<li class="level1"><div class="li"> <strong>notes</strong> <em>f</em> A l’Impress, es pot utilitzar la visualització Notes per escriure una pàgina de notes per a cada diapositiva.</div>
+</li>
+<li class="level1"><div class="li"> <strong>numeració de pàgines</strong> <em>f</em> Opció que permet numerar les pàgines d’un document per tal de poder trobar millor la informació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>objecte d’Access</strong> <em>m</em> Objecte que conté una base de dades de l’Access, com ara una taula, formulari, informe, consulta, macro, grup, etc.</div>
+</li>
+<li class="level1"><div class="li"> <strong>obrir document</strong> <em>v</em> Recuperar un document ja creat que està desat en una unitat d’emmagatzemament.</div>
+</li>
+<li class="level1"><div class="li"> <strong>operador aritmètic</strong> <em>m</em> Operador que permet realitzar càlculs bàsics (suma, resta…).</div>
+</li>
+<li class="level1"><div class="li"> <strong>operador de comparació del Calc</strong> <em>m</em> Operador útil per comparar valors dins una fórmula o funció (més gran que, igual que…).</div>
+</li>
+<li class="level1"><div class="li"> <strong>operador de comparació de l’Acces</strong> <em>m</em> Operador que s’utilitza, quan en una consulta hi ha més d’un criteri, per determinar si s’han de complir tots o no. Per exemple: Y (s’han de complir tots), O (n’hi ha prou que es compleixi un dels dos).</div>
+</li>
+<li class="level1"><div class="li"> <strong>operador de referència</strong> <em>m</em> Operador que determina si els valors que hi ha en una fórmula o funció designen un rang, unes cel·les determinades o més d’un rang.</div>
+</li>
+<li class="level1"><div class="li"> <strong>operador lògic</strong> <em>m</em> Operador que s’utilitza per comparar dos valors o expressions. Per exemple: &lt; (menor que), &gt; (major que), = (igual a), &lt; &gt; (diferent de).</div>
+</li>
+<li class="level1"><div class="li"> <strong>optimitzar imatges</strong> <em>v</em> Modificar les característiques d’una imatge d’alta resolució per reduir-ne la mida en kilobytes sense gaire pèrdua de qualitat.</div>
+</li>
+<li class="level1"><div class="li"> <strong>PageRank</strong> <em>m</em> Valor numèric que representa la importància d’una pàgina web a Internet. </div>
+</li>
+<li class="level1"><div class="li"> <strong>pàgines mestres</strong> o <strong>pàgines maqueta</strong> <em>f</em> Plantilles que eviten haver de dissenyar la maqueta bàsica de cada pàgina cada cop que es crea un document.</div>
+</li>
+<li class="level1"><div class="li"> <strong>paràgraf de text</strong> <em>m</em> Grup de paraules, frase, frases o grup de frases, del document acabades en punt i apart (Retorn).</div>
+</li>
+<li class="level1"><div class="li"> <strong>peu</strong> <em>m</em> Text i altres informacions que es poden inserir en la part inferior del document per sota del marge inferior.</div>
+</li>
+<li class="level1"><div class="li"> <strong>pics i numeració</strong> <em>m</em> Opció de format que permet presentar textos que cal categoritzar o enumerar.</div>
+</li>
+<li class="level1"><div class="li"> <strong>plantilla de disseny d’una presentació</strong> <em>f</em> Plantilla que inclou tots els aspectes de format que definiran l’aspecte de la presentació: colors, fons, lletres, imatges i línies decoratives…</div>
+</li>
+<li class="level1"><div class="li"> <strong>port</strong> <em>m</em> Qualsevol circuit lògic que posa en connexió dos dispositius electrònics o informàtics amb l’objectiu que puguin intercanviar dades entre ells.</div>
+</li>
+<li class="level1"><div class="li"> <strong>porta-retalls</strong> <em>m</em> Eina del Windows que permet emmagatzemar temporalment informació de qualsevol tipus ( text, imatges, arxius…). Normalment, el contingut del porta-retalls s’obté des de la funció copia o retalla, i es recupera amb la funció enganxa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>presentació d’Impress</strong> <em>f</em> Arxiu format per una o més diapositives i que utilitza elements multimèdia.</div>
+</li>
+<li class="level1"><div class="li"> <strong>presentació d’imatges</strong> <em>f</em> Elecció de la relació d’una imatge respecte al text o de la pàgina on va inserida.</div>
+</li>
+<li class="level1"><div class="li">  <strong>profunditat de color</strong> o <strong>bits per píxel</strong> <em>f</em> Concepte originalment de l’edició gràfica digital que es refereix a la quantitat de bits d’informació necessaris per representar el color d’un píxel en una imatge digital. </div>
+</li>
+<li class="level1"><div class="li"> <strong>propietats d’impressió</strong> <em>f</em> Configuració de les opcions d’impressió d’un document com ara l’orientació, les pàgines per full, qualitat de la impressió, etc.</div>
+</li>
+<li class="level1"><div class="li"> <strong>propietats d’un camp</strong> <em>f</em> pl Conjunt de formats d’informació: text, nombres dates, Sí/No, etc. En funció d’un o altre format, presentarà diferents característiques i propietats.</div>
+</li>
+<li class="level1"><div class="li"> <strong>propietats d’un control</strong> <em>f</em> pl Valors determinats en les propietats o característiques d’un control.</div>
+</li>
+<li class="level1"><div class="li"> <strong>publicar a Internet</strong> <em>v</em> Exportar fulls de dades, formularis o informes a <acronym title="HyperText Markup Language">HTML</acronym> per poder-los publicar (penjar) a Internet.</div>
+</li>
+<li class="level1"><div class="li"> <strong>publicitat Web</strong> <em>f</em> El web és el format on es troba la publicitat que pot tenir diversos graus de complexitat: pot contenir animacions <em>flash</em>, només text, pot incloure imatges o vídeo, cercadors… A més, internament pot contenir anuncis de text, bàners…</div>
+</li>
+<li class="level1"><div class="li"> <strong>quadre d’eines</strong> <em>f</em> Conjunt d’eines disponibles en la vista Diseño per afegir controls en un formulari o informe o pàgina d’accés a dades. sin. “caixa d’eines”</div>
+</li>
+<li class="level1"><div class="li"> <strong>quadrícula QBE</strong> <em>f</em> Quadrícula que s’utilitza per dissenyar una consulta des de la vista Diseño d’una consulta o en la finestra <em>Filtro u orden avanzado</em>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>rang de cel·les</strong> <em>m</em> Grup de cel·les contigües en un full de càlcul o en una taula.</div>
+</li>
+<li class="level1"><div class="li"> <strong>recuperar un document</strong> <em>v</em> Obrir un document ja desat per acabar-lo o fer-hi modificacions.</div>
+</li>
+<li class="level1"><div class="li"> <strong>refer accions</strong> Icona de la barra d’eines estàndard que permet refer les darreres accions realitzades amb el programa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>referència absoluta</strong> <em>f</em> Nom que es dóna a una cel·la o grup de cel·les de manera que, quan es copien en un altre lloc del full de càlcul, els seus valors quedin invariables.</div>
+</li>
+<li class="level1"><div class="li"> <strong>referència de cel·la</strong> <em>f</em> Combinació de columna i fila de qualsevol cel·la en un full de càlcul. La primera cel·la d’un full de càlcul és la A1 (columna A i fila 1).</div>
+</li>
+<li class="level1"><div class="li"> <strong>referència relativa</strong> <em>f</em> Nom que es dóna a una cel·la o grup de cel·les de manera que, quan es copien en un altre lloc del full de càlcul, aquesta referència s’adapti a la nova posició.</div>
+</li>
+<li class="level1"><div class="li"> <strong>regla de validació</strong> <em>f</em> Propietat que defineix valors d’entrada vàlids per a un camp o registre d’una taula o un control d’un formulari. L’Access mostra el missatge especificat en la propietat <em>Texto de validación</em> quan s’infringeix la regla.</div>
+</li>
+<li class="level1"><div class="li"> <strong>RGB</strong> <em>m</em> Mode de color que treballa amb tres canals, oferint una imatge composta pels colors primaris de la llum: vermell (<em>Red</em>), verd (<em>Green</em>) i blau (<em>Blue</em>). </div>
+</li>
+<li class="level1"><div class="li"> <strong>relació</strong> <em>f</em> Associació o correspondència entre dues o més taules.</div>
+</li>
+<li class="level1"><div class="li"> <strong>retallar text</strong> <em>v</em> Retallar un text seleccionat per tal de traslladar-lo a un altre lloc del document o a un altre document.</div>
+</li>
+<li class="level1"><div class="li"> <strong>retícula</strong> <em>f</em> Base que suporta els diferents elements gràfics en un programa de maquetació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>sagnat del text</strong> <em>f</em> Espai de separació d’un paràgraf o de la primera línia d’un paràgraf respecte al marge general.</div>
+</li>
+<li class="level1"><div class="li"> <strong>salt de pàgina</strong> <em>f</em> Opció que permet passar de pàgina automàticament quan el seu contingut no n’ocupa la totalitat.</div>
+</li>
+<li class="level1"><div class="li"> <strong>secció</strong> <em>f</em> Part d’un formulari o informe, des de la visualització de disseny. Per exemple, l’encapçalament, el peu de pàgina, la secció de detalls…</div>
+</li>
+<li class="level1"><div class="li"> <strong>seleccionar text</strong> <em>v</em> Senyalar un grup de text per tal de fer-hi alguna modificació o canvi.</div>
+</li>
+<li class="level1"><div class="li"> <strong>SEM</strong> o <strong>màrqueting de cercadors web</strong> (en anglès <em>Search Engine Marketing</em>) <em>m</em> Cerca millorar les pàgines web als motors de cerca, aquest cop a partir d’<strong>enllaços patrocinats</strong>, que fan que el web aparegui a l’inici dels resultats de cerca en forma d’anunci.</div>
+</li>
+<li class="level1"><div class="li"> <strong>SEO</strong> o <strong>posicionament en cercadors</strong> (en anglès <em>Search Engine Optimization</em>) <em>m</em> Procés de millorar la visibilitat d’un lloc web als diferents cercadors. Això es pot fer sobretot a partir de l’optimització de l’estructura, la navegació i els continguts del mateix amb l’objectiu que desperti interès i sigui molt visitat.</div>
+</li>
+<li class="level1"><div class="li"> <strong>servidor</strong> <em>m</em> Ordinador de gran potència connectat a una xarxa informàtica que s’encarrega de rebre i processar peticions d’usuaris per, després, tornar respostes.</div>
+</li>
+<li class="level1"><div class="li"> <strong>sintaxi d’una fórmula</strong> <em>f</em> Forma correcta d’elaboració d’una fórmula.</div>
+</li>
+<li class="level1"><div class="li"> <strong>sintaxi d’una funció</strong> <em>f</em> Forma correcta d’elaboració d’una funció.</div>
+</li>
+<li class="level1"><div class="li"> <strong>slow motion</strong> o <strong>càmera lenta</strong> <em>f</em> Ralentització de les imatges. Moltes vegades es busca un efecte emotiu.</div>
+</li>
+<li class="level1"><div class="li"> <strong>so incrustat en una presentació</strong> <em>m</em> Arxiu de so que forma part de la presentació, i hi està inclòs.</div>
+</li>
+<li class="level1"><div class="li"> <strong>so vinculat a una presentació</strong> <em>m</em> So que no forma part de la presentació però hi està enllaçat de manera que, quan s’ha de reproduir, ho fa des d’una ubicació externa.</div>
+</li>
+<li class="level1"><div class="li"> <strong>storyboard</strong> <em>m</em> Conjunt d’il·lustracions enllaçades formant seqüències. L’objectiu d’un <em>storyboard</em> és que es pugui seguir una narració a partir dels diferents plans abans de ser gravada.</div>
+</li>
+<li class="level1"><div class="li"> <strong>subfinestra de tasques</strong> <em>f</em> Subfinestra que reuneix eines i dreceres d’ús habitual quan es treballa amb l’Access, i les agrupa segons diferents tipus de tasques. Mitjançant una llista desplegable, es pot triar la subfinestra que es vol activar.</div>
+</li>
+<li class="level1"><div class="li"> <strong>substituir dades</strong> <em>v</em> Buscar una dada concreta i substituir-la per una altra dada.</div>
+</li>
+<li class="level1"><div class="li"> <strong>tabulació</strong> <em>f</em> Marca de marge provisional dins del document per tal de poder encolumnar i alienar text i nombres fàcilment.</div>
+</li>
+<li class="level1"><div class="li"> <strong>taula de text</strong> <em>f</em> Espai que es pot crear dins d’una pàgina d’un document, compost de files i columnes on es pot inserir text.</div>
+</li>
+<li class="level1"><div class="li"> <strong>tipografia</strong> <em>f</em> Lletres que formen part d’un projecte de disseny; cal conèixer l’estructura de les lletres per poder-ne triar la correcta entre la multitud de tipus que existeixen.</div>
+</li>
+<li class="level1"><div class="li"> <strong>tipus de lletra</strong> <em>m</em> Format de lletra amb què s’edita el document. El Writer en té moltes i se’n poden instal·lar moltes més.</div>
+</li>
+<li class="level1"><div class="li"> <strong>transició de diapositives</strong> <em>f</em> Efecte que es produeix en una presentació en passar d’una diapositiva a una altra.</div>
+</li>
+<li class="level1"><div class="li"> <strong>tríptic</strong> <em>m</em> Fullet publicitari compost d’un full, dos plegaments i sis cares.</div>
+</li>
+<li class="level1"><div class="li"> <strong>valor per defecte</strong> <em>m</em> Vegeu “valor predeterminat”.</div>
+</li>
+<li class="level1"><div class="li"> <strong>valor predeterminat</strong> <em>m</em> Valor que s’especifica automàticament. Es pot acceptar o canviar escrivint un valor diferent. sin. “valor per defecte”</div>
+</li>
+<li class="level1"><div class="li"> <strong>vincular fulls</strong> <em>v</em> Obtenir o recuperar dades d’un altre full de càlcul del mateix llibre de treball.</div>
+</li>
+<li class="level1"><div class="li"> <strong>virus informàtic</strong> <em>m</em> Petit programa dissenyat explícitament per alterar d’alguna manera el funcionament correcte de l’ordinador o destruir dades de la seva memòria. Els virus són capaços de passar d’un ordinador a un altre per mitjà, principalment, del correu electrònic.</div>
+</li>
+<li class="level1"><div class="li"> <strong>visita</strong> <em>f</em> Cada cop que una pàgina web es baixa en el navegador d’un usuari.</div>
+</li>
+<li class="level1"><div class="li"> <strong>vista Disseny</strong> <em>f</em> Visualització des d’on es poden crear nous objectes de la base de dades i modificar el disseny dels que ja hi ha.</div>
+</li>
+<li class="level1"><div class="li"> <strong>vista Full de dades</strong> <em>f</em> Dades d’una taula, formulari o consulta que es mostren en format de files i columnes.</div>
+</li>
+<li class="level1"><div class="li"> <strong>vista visualització prèvia</strong> <em>f</em> Visualització en pantalla d’un informe, un formulari o una consulta, que mostra com quedarà un cop imprès.</div>
+</li>
+<li class="level1"><div class="li"> <strong>vista en pantalla</strong> <em>f</em> Manera de veure en pantalla el document que s’està realitzant.</div>
+</li>
+<li class="level1"><div class="li"> <strong>visualització prèvia</strong> <em>f</em> Opció que permet veure en pantalla com quedarà el document una vegada imprès.</div>
+</li>
+<li class="level1"><div class="li"> <strong>vora</strong> <em>f</em> Requadre per a una cel·la, o una part o la totalitat d’un document.</div>
+</li>
+<li class="level1"><div class="li"> <strong>vores i ombrejat</strong> <em>f</em> Opció per posar línies de vora en els marges de la pàgina i, també, per donar color a l’àrea de treball.</div>
+</li>
+</ul>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="material_paper.html">Material en paper</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="index.html">&Iacute;ndex general</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>

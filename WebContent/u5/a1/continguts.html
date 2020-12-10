@@ -1,0 +1,631 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="../../../img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="../../../_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="../../../_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../../../_/js/modernizr-1.7.min.js"></script>
+	<script src="../../../_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="../../../_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="../../../img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="../../../img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="../../../index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="../../../search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="../../../img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="../../../img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="../../../img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="../../../img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="../../../img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="../../../img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="../../../img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="u5" class="parentnode"><p><a href="../../../WebContent/u5/resum.html">5. Bases de dades</a></p><ul class="expander"><li id="u5resum"><a href="../../../WebContent/u5/resum.html">Resum</a></li><li id="u5resultats"><a href="../../../WebContent/u5/resultats.html">Resultats d'aprenentatge i criteris d'avaluació</a></li><li id="u5referencies"><a href="../../../WebContent/u5/referencies.html">Referències</a></li><li id="u5a1" class="tocsection"><p id="u5a1continguts"><a href="../../../WebContent/u5/a1/continguts.html">Disseny i creació de bases de dades</a><span class="buttonexp"></span></p><ul><li id="u5a1activitats"><a href="../../../WebContent/u5/a1/activitats.html">Activitats</a></li><li id="u5a1exercicis"><a href="../../../WebContent/u5/a1/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a2" class="tocsection"><p id="u5a2continguts"><a href="../../../WebContent/u5/a2/continguts.html">Taules</a><span class="buttonexp"></span></p><ul><li id="u5a2activitats"><a href="../../../WebContent/u5/a2/activitats.html">Activitats</a></li><li id="u5a2exercicis"><a href="../../../WebContent/u5/a2/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a3" class="tocsection"><p id="u5a3continguts"><a href="../../../WebContent/u5/a3/continguts.html">Consultes: definició i tipus</a><span class="buttonexp"></span></p><ul><li id="u5a3activitats"><a href="../../../WebContent/u5/a3/activitats.html">Activitats</a></li><li id="u5a3exercicis"><a href="../../../WebContent/u5/a3/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a4" class="tocsection"><p id="u5a4continguts"><a href="../../../WebContent/u5/a4/continguts.html">Formularis</a><span class="buttonexp"></span></p><ul><li id="u5a4activitats"><a href="../../../WebContent/u5/a4/activitats.html">Activitats</a></li><li id="u5a4exercicis"><a href="../../../WebContent/u5/a4/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a5" class="tocsection"><p id="u5a5continguts"><a href="../../../WebContent/u5/a5/continguts.html">Informes</a><span class="buttonexp"></span></p><ul><li id="u5a5activitats"><a href="../../../WebContent/u5/a5/activitats.html">Activitats</a></li><li id="u5a5exercicis"><a href="../../../WebContent/u5/a5/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a6" class="tocsection"><p id="u5a6continguts"><a href="../../../WebContent/u5/a6/continguts.html">Macros i altres eines</a><span class="buttonexp"></span></p><ul></ul></li></ul></li><li id="" class="indexnode"><p><a href="../../../index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="../../../index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li><a href="../resum.html">Bases de dades</a></li><li>Disseny i creació de bases de dades</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="disseny_i_creacio_de_bases_de_dades"> Disseny i creació de bases de dades </a></h1>
+    	
+<p>
+Una base de dades és un conjunt de dades ordenades segons certes regles i criteris. Si a aquesta definició li afegim el concepte de <em>gestor de bases de dades</em> ens trobem davant d’una aplicació que permet emmagatzemar de forma ordenada qualsevol tipus d’informació, així com accedir i recuperar aquestes dades aplicant diferents filtres i criteris de selecció. I és en aquesta última part en la qual resideix la veritable raó de ser de les bases de dades: en les possibilitats de recuperar només la informació que necessitem en cada moment, ordenar i fins i tot aplicar-hi operacions aritmètiques.
+</p>
+
+<p>
+Insistint en el concepte de <em>conjunt ordenat de dades</em>, podem trobar un exemple bastant clar en la diferència existent entre un munt de números de telèfon i adreces en trossos de paper o tenir-ho organitzat en una agenda. En ambdós casos tenim la mateixa informació, però mentre que en el primer cas, trobar un número de telèfon pot portar bastant temps, en el segon cas, el treball es pot reduir a uns pocs segons. La diferència es troba en la manera com la informació està emmagatzemada i organitzada. 
+</p>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+En l’actualitat, les bases de dades són el pilar fonamental sobre el qual es sustenten la majoria dels sistemes informàtics.
+</p>
+</div></div>
+<p>
+Tot, pràcticament tot, es troba emmagatzemat en bases de dades. Algunes tan complexes com els sistemes administratius públics: sanitat, hisenda, etc,o tan senzilles com la gestió de reparacions del taller mecànic on arreglem el nostre cotxe, o la gestió d’un começ amb els seus clients, proveïdors, articles, treballadors, etc.
+</p>
+
+<h2><a id="introduccio_al_libreoffice_base" >Introducció al LibreOffice Base</a></h2>
+<div class="level2">
+
+<p>
+
+</p>
+
+<p>
+El LibreOffice Base és un sistema gestor de base de dades (SGBD) que permet, d’una banda crear les  pròpies bases de dades o bé obrir sistemes d’altres fabricants. Entre les principals característiques d’aquesta aplicació podríem destacar-ne:
+</p>
+<ul>
+<li class="level1"><div class="li"> Com la resta de la <em>suite</em> d’ofimàtica es tracta d’una aplicació dissenyada sota les normes del programari lliure. </div>
+</li>
+<li class="level1"><div class="li"> El sistema gestor de base de dades (SGBD) que s’utilitza es denomina HSQL i està basat en Java. </div>
+</li>
+<li class="level1"><div class="li"> Inclou una gran quantitat d’assistents i vistes que fan més fàcil el treball a totes aquelles persones que disposen de coneixements limitats sobre bases de dades. </div>
+</li>
+</ul>
+
+</div>
+
+<h2><a id="components_essencials_d_una_base_de_dades" >Components essencials d&#039;una base de dades</a></h2>
+<div class="level2">
+
+<p>
+En pràcticament qualsevol base de dades actual hi ha quatre elements essencials: taules, consultes, informes i formularis. Tots són indispensables i necessaris.
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Taules:</strong> són estructures formades per camps i registres que permeten emmagatzemar la informació. Sense taules es pot dir que la base de dades no existeix, ja que la resta de components en depenen. </div>
+</li>
+<li class="level1"><div class="li"> <strong>Consultes:</strong> tenen com a propòsit principal recuperar la informació que contenen les taules. Aquestes permeten filtrar informació i mostrar només aquelles dades que ens interessen en cada cas. </div>
+</li>
+<li class="level1"><div class="li"> <strong>Formularis:</strong> faciliten principalment la tasca d’introduir informació a les taules. Quan hem d’introduir poques dades ho fem directament a les taules però si són moltes dades les que s’han d’introduir és millor fer-ho a través del formulari. </div>
+</li>
+<li class="level1"><div class="li"> <strong>Informes:</strong> per obtenir còpies impreses de les nostres dades, utilitzarem els informes, tot permetent fer operacions d’agrupament, suma i càlcul amb les dades.  </div>
+</li>
+</ul>
+
+<p>
+Aquesta és una definició molt bàsica de cada un dels elements que formen part d’una base de dades però suficient per començar a familiaritzar-vos amb aquests conceptes.
+</p>
+
+</div>
+
+<h3><a id="taules" >Taules</a></h3>
+<div class="level3">
+
+<p>
+Dins d’una base de dades, la informació s’emmagatzema i s’organitza en taules. La <span class="figref"><a href="#Figura1.1"><span>figura</span></a></span> en mostra un exemple.
+</p>
+<div class="iocfigure"><a name="Figura1.1"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Taula
+
+</figcaption><img src="../media/ud1_a1_1.1.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A cada taula trobareu una sèrie de <strong>files</strong> i <strong>columnes</strong>. Les files d’una taula d’una base de dades s’anomenen <strong>registres</strong> i les columnes, <strong>camps</strong>.
+</p>
+
+<p>
+Totes les dades que apareixen en un registre es refereixen a un mateix individu i totes les dades que apareixen en un camp es refereixen a un tipus d’informació igual sobre l’individu. La intersecció d’un registre amb un camp s’anomena <strong>dada</strong>. 
+</p>
+
+</div>
+
+<h3><a id="consultes" >Consultes</a></h3>
+<div class="level3">
+
+<p>
+Les consultes tenen com a propòsit recuperar la informació emmagatzemada en les taules. Amb aquesta breu descripció podríem pensar &#039;<em>per què no la mirem directament a les taules?</em>’ Doncs bé, l’avantatge es troba en la possibilitat que ofereixen les consultes de filtrar la informació i mostrar només aquelles dades que interessin en cada cas. 
+</p>
+
+<p>
+Per exemple, imagineu que teniu una enorme base de dades amb centenars de clients i resulta que necessiteu saber els que resideixen a Tarragona per facilitar al vostre comercial la planificació de la ruta de visites. 
+</p>
+
+<p>
+En aquest cas, la solució és crear una consulta per obtenir només aquells clients de Tarragona, tal com es pot observar a la <span class="figref"><a href="#Figura1.2"><span>figura</span></a></span>
+</p>
+
+<p>
+Una altra de les característiques importants de les consultes és que podeu utilitzar més d’una taula per mostrar dades relacionades. Això és així gràcies al fet que Base és un sistema de bases de dades relacional. 
+</p>
+<div class="iocfigure"><a name="Figura1.2"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Consulta
+
+</figcaption><img src="../media/1.2.png" alt="" /></figure>
+
+</p>
+</div><div class="iocimportant"><div class="ioccontent">
+<p>
+Les consultes es formen a partir de diferents expressions que permeten relacionar-vos amb la base de dades per extreure informació d’una o diverses taules. Aquestes expressions es creen utilitzant la interfície de disseny de consultes i els assistents de LibreOffice Base, que serveixen com a pont entre el llenguatge intern de Base, o <acronym title="Structured Query Language">SQL</acronym>, i els vostres propòsits.
+</p>
+</div></div>
+</div>
+
+<h3><a id="formularis" >Formularis</a></h3>
+<div class="level3">
+
+<p>
+Els formularis ajuden principalment en tasques d’introducció d’informació. Quan es tracta d’incloure poques dades podeu fer-ho directament sobre les taules, però quan el volum és important, aquest mètode es torna poc eficaç. Per resoldre aquest problema, els formularis permeten incloure dades de forma molt més intuïtiva i senzilla. 
+</p>
+
+<p>
+A la <span class="figref"><a href="#Figura1.3"><span>figura</span></a></span> podeu veure un exemple de formulari. 
+</p>
+
+<p>
+A més, i tal com passa amb les consultes, els formularis també permeten treballar simultàniament sobre diverses taules d’una base de dades.
+</p>
+<div class="iocfigure"><a name="Figura1.3"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Formulari
+
+</figcaption><img src="../media/1.3.png" alt="" /></figure>
+
+</p>
+</div><div class="iocimportant"><div class="ioccontent">
+<p>
+Un aspecte menys conegut dels formularis, però molt útil en alguns casos, és la recerca d’informació. LibreOffice Base permet utilitzar les eines de cerca també sobre els vostres formularis.
+</p>
+</div></div>
+</div>
+
+<h3><a id="informes" >Informes</a></h3>
+<div class="level3">
+
+<p>
+Els informes tenen com a objectiu proporcionar les eines necessàries per obtenir una <strong>còpia impresa</strong> de les dades existents en una base de dades. Tot i això, existeixen altres possibilitats tan interessants com la generació d’arxius en format <acronym title="Portable Document Format">PDF</acronym>. Habitualment, els informes se solen fer a partir dels resultats obtinguts de l’execució de consultes. D’aquesta manera es combina la possibilitat de seleccionar només les dades que desitgeu que ens ofereixin les consultes amb l’avantatge d’imprimir que tenen els informes.
+</p>
+
+<p>
+La <span class="figref"><a href="#Figura1.4"><span>figura</span></a></span> mostra l’aparença típica d’un informe creat amb LibreOffice Base. Tal com podeu comprovar el seu aspecte és molt similar als arxius de text creats amb Writer. Aquesta opció permet aprofitar els vostres coneixements amb Writer i aplicar-los en el disseny de formularis amb Base.
+</p>
+<div class="iocfigure"><a name="Figura1.4"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Informe
+
+</figcaption><img src="../media/1.4.png" alt="" /></figure>
+
+</p>
+</div><div class="iocimportant"><div class="ioccontent">
+<p>
+Base denomina a cadascun dels elements que hem descrit <strong>objectes</strong> de la base de dades. 
+</p>
+</div></div>
+<p>
+A la <span class="figref"><a href="#Figura1.5"><span>figura</span></a></span> es pot veure a la part esquerra de la interfície de l’aplicació els accessos disponibles per a la creació de taules, consultes, formularis i informes.
+</p>
+<div class="iocfigure"><a name="Figura1.5"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Objectes
+
+</figcaption><img src="../media/1.5.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="la_importancia_de_planificar" >La importància de planificar</a></h2>
+<div class="level2">
+
+<p>
+Abans de començar a treballar en una nova base de dades, és imprescindible 
+realitzar un procés previ de planificació i organització del treball. 
+</p>
+
+<p>
+Quan treballeu amb bases de dades relacionals és habitual distribuir la informació en diferents taules vinculades entre si. Aquesta característica obliga a un procés de planificació i disseny previ per obtenir el resultat esperat. Penseu què voleu emmagatzemar a la base de dades, quines dades necessiteu recuperar i, en definitiva, determineu el propòsit final del projecte per establir uns fonaments prou sòlids.
+</p>
+
+<p>
+Per això és convenient agafar llapis i paper per fer-nos un petit <strong>esbós</strong> del que serà <strong>l’estructura de la base de dades</strong>. 
+</p>
+<div class="iocnote"><div class="ioccontent">
+<p>
+Per començar, establiu prioritats i enumereu les funcionalitats principals que desitgeu obtenir de la base de dades.
+</p>
+</div></div><ul>
+<li class="level1"><div class="li"> En primer lloc heu de tenir clara la finalitat del projecte, ja que serà determinant per crear les taules necessàries i, en definitiva, l’estructura de la base de dades més adequada. </div>
+</li>
+<li class="level1"><div class="li"> Enumereu les taules que necessiteu. Per exemple, si esteu dissenyant una base de dades per un petit negoci, probablement necessitarà una taula de clients, una altra de proveïdors, una altra de comandes, etc.</div>
+</li>
+<li class="level1"><div class="li">  Un cop presa la decisió sobre les taules, passeu a determinar quina serà la informació que contindrà cada taula. Seguint amb l’exemple anterior, per la taula de clients necessitarà el nom, l’adreça, el telèfon, la persona de contacte, etc.</div>
+</li>
+<li class="level1"><div class="li">  Posteriorment, heu de pensar quina relació s’establirà entre les diferents taules. Per exemple, està clar que entre la taula de comandes i la taula de proveïdors hi haurà una relació.</div>
+</li>
+<li class="level1"><div class="li"> Per últim, també caldrà pensar en els elements que necessitareu com ara consultes, formularis o informes.</div>
+</li>
+</ul>
+
+<p>
+Veiem ara uns exemples per il·lustrar la importància de realitzar una bona planificació. Veureu destacades certes paraules que considerem que són les més bàsiques per cadascun dels diferents projectes.
+</p>
+<div class="iocexample"><div class="ioccontent"><p class="ioctitle">Exemple d&#039;una base de dades per portar un inventari</p>
+<p>
+Podríem utilitzar una base de dades com a suport per realitzar un inventari de tots els ordinadors de l’empresa, impressores, taules, dispositius de projecció i qualsevol altre element que formi part del mobiliari de l’empresa. En aquest cas necessitaríem taules en les quals guardar la descripció i la quantitat de cada un d’aquests objectes, així com la seva ubicació. Per això últim, necessitareu crear una taula que contingui tots els <strong>departaments</strong>, i altres estances de l’empresa, que continguin <strong>materials</strong> susceptibles de ser inclosos en l’inventari. Els inventaris i catàlegs de material en general són susceptibles de gestionar-se mitjançant bases de dades. Una base de dades és una bona solució per realitzar aquesta gestió. 
+</p>
+</div></div><div class="iocexample"><div class="ioccontent"><p class="ioctitle">Exemple d&#039;una base de dades per controlar les activitats d&#039;un petit videoclub</p>
+<p>
+Podríem utilitzar una base de dades per gestionar aquest negoci. En aquest cas necessitaríem taules en les quals guardar les dades dels <strong>socis</strong>: nom, adreça, DNI, data d’alta, etc. Necessitareu també crear una taula que contingui totes les <strong>pel·lícules</strong>: títol, categoria, número de la pel·lícula, sinopsi, director, etc. Una taula <strong>categoria</strong>, en la qual podríeu establir el preu de lloguer, si és d’aventures, infantil, d’acció o ciencia ficció, etc. També faria falta una taula <strong>lloguer</strong>, en la qual, entre d’altres, podríeu enregistrar les diferents informacions sobre les pel·lícules llogades: número de lloguer, número de soci, número de pel·lícula, data de lloguer, si ha estat tornada o no, estat de devolució, etc.
+</p>
+</div></div><div class="iocexample"><div class="ioccontent"><p class="ioctitle">Exemple d&#039;una base de dades per gestionar un despatx d&#039;administració de finques</p>
+<p>
+En primer lloc necessitareu una taula en la qual pugueu especificar les diferents <strong>comunitats</strong> que gestioneu. Això suposarà tenir informació del CIF, nom, domicili, propietari, president, etc. També és convenient tenir en la vostra BD una taula que pugui recollir les <strong>despeses</strong> que generen les diferents comunitats. És necessari també una taula d’<strong>ingressos</strong> per tenir constància de les aportacions dels propietaris. I una taula on pugueu tenir tota la informació rellevant de cada <strong>propietari</strong>. Quina és la taula que pot agrupar tota aquesta informació?. Possiblement necessitareu una taula comodí <strong>relació-propietari-comunitat</strong>  que us permeti establir les relacions entre totes les taules.
+</p>
+</div></div><div class="iocexample"><div class="ioccontent"><p class="ioctitle">Exemple d&#039;una base de dades d&#039;una empresa amb sucursals</p>
+<p>
+Una possibilitat prou correcta seria tenir les taules dels <strong>articles</strong>, en les quals podríeu indicar les característiques del producte que comercialitzeu, l’estoc que teniu, quin proveïdor el subministra, etc. Necessitareu una taula de <strong>zones</strong> per indicar on s’ubiquen els vostres <strong>clients</strong>. Quines taules penseu que falten? <strong>Treballadors</strong>, amb les seves dades personals, zona comercial, <strong>vendes</strong> en la qual pugueu relacionar les vendes realitzades i quin comercial n’és el responsable, quins articles ha venut, etc. Per acabar, una taula amb els <strong>proveïdors</strong>, en la qual pugueu indicar, a part de les dades necessàries, l’article que us subministra.
+</p>
+</div></div>
+<p>
+Com podeu observar pràcticament no hi ha cap aspecte al qual no es puguin aplicar les bases de dades. Tot i això, cal dir que moltes vegades no hi ha una solució única  en el moment de planificar una base de dades ja que dependrà molt de les necessitats d’informació que hi hagin. 
+</p>
+<div class="iocnote"><div class="ioccontent">
+<p>
+Després de llegir els paràgrafs anteriors, veiem que la nostra base de dades ha de contenir unes taules de dades que seran les que disposaran de la informació que necessitem gestionar.
+</p>
+</div></div>
+<p>
+Cal concretar una mica més. Les dades dels clients, quines són? Evidentment hem d’incloure nom i cognoms. I la seva adreça? No, si no pensem enviar-los correspondència. El seu número de telèfon? Sí, si preveiem que els haurem d’avisar d’un enviament de mercaderia o de qualsevol altra circumstància. Persona de contacte, CIF, forma de pagament, crèdit concedit, condicions de ports, etc? Totes aquestes preguntes, i més, són les que us heu de fer abans de començar a treballar amb una base de dades.
+</p>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+Una bona idea pot ser fer un <strong>esquema</strong> en paper anotant les dades que voleu utilitzar i les tasques que voleu que realitzi la base de dades: llistat de clients, articles que pertanyen a una determinada categoria, proveïdors, etc. D’aquesta manera resultarà més senzill concretar la informació que necessitem emmagatzemar-hi.
+</p>
+</div></div>
+<p>
+És convenient, també, estudiar l’estructura resultant per tal de poder detectar possibles errors. Insistim en què una bona planificació farà molt més fàcil el treball amb la base de dades. I el més important, evitarà que haguem de fer canvis sobre l’estructura de taules, quan aquestes ja continguin informació.
+</p>
+
+</div>
+
+<h2><a id="sobre_libreoffice_base" >Sobre LibreOffice Base</a></h2>
+<div class="level2">
+
+<p>
+LibreOffice Base és un sistema gestor de base de dades (SGBD) i, com a tal, permet administrar grans quantitats d’informació de forma ràpida i senzilla. També es tracta d’una aplicació gratuïta i en català que es pot descarregar des del seu web.
+</p>
+
+<p>
+Entre les principals característiques de LibreOffice Base podríem destacar-ne:
+</p>
+<ul>
+<li class="level1"><div class="li"> Permet tant crear les nostres pròpies bases de dades com obrir aquelles creades per altres persones.</div>
+</li>
+<li class="level1"><div class="li"> És programari lliure, com la resta de la <em>suite</em> LibreOffice.</div>
+</li>
+<li class="level1"><div class="li"> El sistema gestor de base de dades (SGBD) que utilitza Base s’anomena HSQL i està escrit utilitzant llenguatge Java, oferint, entre d’altres, l’avantatge de ser multiplataforma. És a dir, es pot executar en diferents entorns com Linux o Windows sense que sigui necessari alterar res en els nostres projectes.</div>
+</li>
+<li class="level1"><div class="li"> Inclou un gran nombre d’assistents i vistes per fer més fàcil la feina a totes aquelles persones que disposin de coneixements limitats sobre bases de dades.</div>
+</li>
+<li class="level1"><div class="li"> Per projectes senzills és possible accedir directament a fitxers DBase. També permet obrir bases de dades Access, text pla, mysql, DAO o, fins i tot, Oracle. O bé qualsevol altra base de dades a partir de les interfícies ODBC o JDBC.</div>
+</li>
+<li class="level1"><div class="li"> Des de Base, podem accedir a la informació existent en agendes compatibles amb <acronym title="Lightweight Directory Access Protocol">LDAP</acronym>, Outlook i, per descomptat, Mozilla.</div>
+</li>
+</ul>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+Hi ha una relació estreta entre LibreOffice i Java. Aquest element resulta imprescindible per dur a terme certes operacions dins del programa però, a Base, la situació és molt més crítica ja que si no tenim instal·lada la màquina virtual de Java pràcticament no funciona.
+</p>
+</div></div>
+</div>
+
+<h2><a id="la_primera_base_de_dades_amb_libreoffice" >La primera base de dades amb LibreOffice</a></h2>
+<div class="level2">
+
+<p>
+Per crear una nova base de dades, LibreOffice ho posa bastant fàcil amb l’<em>Auxiliar per a bases de dades</em> que apareix després d’obrir l’aplicació o intentar crear una base de dades des de qualsevol altra aplicació de LibreOffice. L’aspecte d’aquest quadre de diàleg es pot comprovar a la <span class="figref"><a href="#Figura1.6"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figura1.6"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Assistent de creació de base de dades
+
+</figcaption><img src="../media/1.6.png" alt="" /></figure>
+
+</p>
+</div><div class="iocexample"><div class="ioccontent"><p class="ioctitle">Pràctica d&#039;accés a base de dades</p>
+<p>
+Executeu els següents passos per accedir a una base de dades:
+</p>
+<ol>
+<li class="level1"><div class="li"> Feu clic a <em>Inici / Programes / LibreOffice.org / LibreOffice.org Base</em> si encara no heu iniciat el programa o utilitzeu l’opció <em>Arxiu / Nou / Base de dades</em> si us trobeu dins l’entorn de qualsevol altra aplicació de LibreOffice.</div>
+</li>
+<li class="level1"><div class="li"> Dins del quadre de diàleg <em>Assistent per a bases de dades</em> apareixen diverses possibilitats: <em>Crear una nova base de dades, Obrir una base de dades ja existent o connectar amb una base de dades existent</em>. En aquests moments interessa crear una nova base de dades. Feu clic en ella i premeu el botó <em>Següent</em>.</div>
+</li>
+<li class="level1"><div class="li"> Un cop completat el pas anterior, en la següent finestra, que es veu a la <span class="figref"><a href="#Figura1.7"><span>figura</span></a></span>, trieu entre registrar o no la base de dades. Si decidiu registrar-la, estarà disponible com a origen de dades per a altres projectes de LibreOffice (Write, Calc, Impress) amb tan sols recórrer a la comanda <em>Veure / Fonts de dades</em> de Writer, Calc … La <span class="figref"><a href="#Figura1.8"><span>figura</span></a></span> mostra l’aspecte de Writer després d’utilitzar aquesta característica. En canvi, si no voleu aprofitar aquesta opció i preferiu no registrar la base de dades, només estarà disponible des del propi arxiu de LibreOffice Base.</div>
+</li>
+<li class="level1"><div class="li"> Una altra de les opcions que podeu marcar és la casella que permet obrir la base de dades en mode edició. Aquesta opció serà la més habitual per començar a treballar amb la base de dades immediatament.</div>
+</li>
+<li class="level1"><div class="li"> En prémer <em>Finalitzar</em> apareix la finestra <em>Desa</em>, en la qual triareu un nom i una ubicació per a la base de dades que esteu creant. En aquest cas, a la nova base de dades li donareu el nom de <em>base1.odb</em>.</div>
+</li>
+</ol>
+<div class="iocfigure"><a name="Figura1.7"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Registrar la base de dades
+
+</figcaption><img src="../media/1.7.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+
+</p>
+<div class="iocfigure"><a name="Figura1.8"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Enllaçar Writer i base de dades
+
+</figcaption><img src="../media/1.8.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+
+</p>
+</div></div>
+</div>
+
+<h2><a id="l_entorn_de_libreoffice_base" >L&#039;entorn de LibreOffice Base</a></h2>
+<div class="level2">
+
+<p>
+Encara que Base és un component de LibreOffice.org, el seu aspecte difereix lleugerament de la resta d’aplicacions de la <em>suite</em>. La <span class="figref"><a href="#Figura1.10"><span>figura</span></a></span> mostra l’entorn del programa després de crear o obrir una base de dades amb l’assistent.
+</p>
+<div class="iocfigure"><a name="Figura1.10"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Entorn de base de dades
+
+</figcaption><img src="../media/1.10.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Dins de l’entorn de Base podeu distingir tres parts, a més de les típiques barres d’eines i de menús que ja coneixeu. Al marge esquerre trobeu accessos per als objectes de la base de dades: taules, consultes, formularis i informes. Ara, fixeu-vos en l’àrea situada a la dreta i comproveu com apareix dividida en dues seccions: la superior permetrà accedir ràpidament a les tasques disponibles per a cada objecte com ara crear taules, afegir consultes, dissenyar formularis, etc. S’anomena igualment <em>Tasques</em>. Mentre que la part inferior mostrarà els elements disponibles per a l’objecte seleccionat en cada cas: taules, formularis …
+</p>
+<div class="iocnote"><div class="ioccontent">
+<p>
+Situeu el ratolí sobre qualsevol de les tasques disponibles i a la dreta n’apareixerà una breu descripció.
+</p>
+</div></div>
+</div>
+
+<h2><a id="obrir_bases_de_dades_existents" >Obrir bases de dades existents</a></h2>
+<div class="level2">
+
+<p>
+LibreOffice Base també permet obrir arxius de bases de dades ja creats tant del propi programa com de tercers. En aquest últim cas podeu treballar amb bases de dades Access, Paradox, dBase…
+</p>
+
+<p>
+Per obrir un arxiu de bases de dades creat prèviament heu de marcar l’opció <em>Obrir un arxiu de base de dades existent</em> en el primer pas de l’<em>Assistent</em>, per després fer clic sobre el botó <em>Obrir</em>.
+</p>
+
+<p>
+La llista <em>Usat recentment</em> mostra els últims projectes amb els quals heu treballat, tal com mostra la <span class="figref"><a href="#Figura1.11"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figura1.11"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Obrir una base de dades existent
+
+</figcaption><img src="../media/1.11.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="../../../WebContent/u5/referencies.html">Referències</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="../../../WebContent/u5/a1/activitats.html">Activitats</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>

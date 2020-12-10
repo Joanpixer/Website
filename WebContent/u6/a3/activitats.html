@@ -1,0 +1,843 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="../../../img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="../../../_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="../../../_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../../../_/js/modernizr-1.7.min.js"></script>
+	<script src="../../../_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="../../../_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="../../../img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="../../../img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="../../../index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="../../../search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="../../../img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="../../../img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="../../../img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="../../../img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="../../../img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="../../../img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="../../../img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="u6" class="parentnode"><p><a href="../../../WebContent/u6/resum.html">6. Imatge i vídeo. Presentacions</a></p><ul class="expander"><li id="u6resum"><a href="../../../WebContent/u6/resum.html">Resum</a></li><li id="u6resultats"><a href="../../../WebContent/u6/resultats.html">Resultats de l'aprenentatge i criteris d'avaluació</a></li><li id="u6referencies"><a href="../../../WebContent/u6/referencies.html">Referències</a></li><li id="u6a1" class="tocsection"><p id="u6a1continguts"><a href="../../../WebContent/u6/a1/continguts.html">Tractament de la imatge</a><span class="buttonexp"></span></p><ul><li id="u6a1activitats"><a href="../../../WebContent/u6/a1/activitats.html">Activitats</a></li><li id="u6a1exercicis"><a href="../../../WebContent/u6/a1/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u6a2" class="tocsection"><p id="u6a2continguts"><a href="../../../WebContent/u6/a2/continguts.html">Vídeo i àudio</a><span class="buttonexp"></span></p><ul><li id="u6a2activitats"><a href="../../../WebContent/u6/a2/activitats.html">Activitats</a></li><li id="u6a2exercicis"><a href="../../../WebContent/u6/a2/exercicis.html">Exercicis d'autoavaluació</a></li><li id="u6a2annexos"><a href="../../../WebContent/u6/a2/annexos.html">Annexos</a></li></ul></li><li id="u6a3" class="tocsection"><p id="u6a3continguts"><a href="../../../WebContent/u6/a3/continguts.html">Elaboració de presentacions</a><span class="buttonexp"></span></p><ul><li id="u6a3activitats"><a href="../../../WebContent/u6/a3/activitats.html">Activitats</a></li><li id="u6a3exercicis"><a href="../../../WebContent/u6/a3/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li></ul></li><li id="" class="indexnode"><p><a href="../../../index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="../../../index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li><a href="../resum.html">Imatge i vídeo. Presentacions</a></li><li><a href="continguts.html">Elaboració de presentacions</a></li><li>Activitats</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="activitats"> Activitats </a></h1>
+    	
+<h2><a id="creacio_de_diapositives" >Creació de diapositives</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a afegir diapositives noves i escollir el format adequat.
+</p>
+
+<p>
+<strong>Creació d’una diapositiva de Text centrat</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el LibreOffice Impress.</div>
+</li>
+<li class="level1"><div class="li"> A la primera finestra de l’auxiliar escolliu l’opció <strong>Diapositiva buida</strong> i premeu el botó <strong>Crea</strong>. En aquests moment només tindreu a la presentació una diapositiva buida.</div>
+</li>
+<li class="level1"><div class="li"> Al panell de <strong>Tasques</strong>, a <strong>Format</strong>, canvieu el format de la diapositiva. Escolliu el format <strong>Text centrat</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Començareu per posar un títol a la presentació. Premeu el botó <strong>Text</strong> de la barra d’eines de dibuix. A continuació feu clic al centre de la diapositiva. Us apareixerà un quadre amb el cursor parpadejant. Ja podeu començar a escriure. Escriviu: <strong>Conceptes econòmics bàsics</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu el títol. Escolliu una font Arial 40, negreta, amb alineació centrada.</div>
+</li>
+<li class="level1"><div class="li"> Feu <em>intro</em> i escriviu: <strong>Magnituds i variables econòmiques</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu el subtítol. Escolliu una font Arial 32, amb alineació centrada.</div>
+</li>
+<li class="level1"><div class="li"> Aquesta primera diapositiva us ha de quedar com es mostra a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0307.gif" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Creació d’una diapositiva de títol i contingut</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> A continuació creeu una diapositiva de títol i contingut. Aneu a <strong>Tasques \ Formats</strong> i escolliu una diapositiva de <strong>Títol i contingut</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Premeu el botó dret del ratolí i en el menú contextual seleccioneu l’opció <strong>Insereix una diapositiva</strong>. Ara tindreu una diapositiva com la següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/diapositiva_titol.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Feu clic per afegir el títol. Escriviu: <strong>Agregats</strong> (font Arial 44, amb alineació centrada).</div>
+</li>
+<li class="level1"><div class="li"> Feu clic per afegir el text. Escriviu el següent text (font Arial 32, amb alineació justificada): Magnituds globals, obtingudes a base de les dades subministrades pels diferents comptes macroeconòmics i corresponents a conjunts estadístics definits. Els quals permeten de calcular les magnituds globals de l’activitat econòmica, des de l’enfocament de la producció fins a la venda, la despesa o l’ocupació. Text extret de l’Hiperenciclopèdia.</div>
+</li>
+<li class="level1"><div class="li"> Ara l’aspecte de la diapositiva serà com el que es mostra a la imatge:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0309.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Per modificar el text escrit, situant el cursor dins el quadre, podeu eliminar i afegir text.</div>
+</li>
+<li class="level1"><div class="li"> Deseu la presentació amb el nom <strong>conceptes_economics</strong>.</div>
+</li>
+</ul>
+
+</div>
+
+<h2><a id="inserir_una_imatge_a_una_diapositiva" >Inserir una imatge a una diapositiva</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és mostrar com inserir imatges en una diapositiva.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio1.odp">Presentacio1</a><span> ( 12.8 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Inseriu una nova diapositiva amb format de <strong>Títol i dos continguts</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Poseu el títol “Producte interior brut”.</div>
+</li>
+<li class="level1"><div class="li"> Inseriu la imatge que trobareu al fitxer comprimit <div class="mediaf filezip"><div class="mediacontent"><a href="../media/pib.zip">pib , procedència imatge: http://bancoimagenes.isftic.mepsyd.es/</a><span> ( 6.5 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Per inserir la imatge feu un clic sobre el requadre blanc que es mostra a la imatge següent.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/inserir_imatge.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> S’obrirà una finestra en la qual podreu seleccionar la imatge de la ubicació on la tingueu al vostre ordinador.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/inserir_imatge2.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> En el bloc esquerre de contingut escriviu el text següent: <em>Sigla: PIB Agregat que coincideix amb el PNB, després de la deducció prèvia del produït pels factors nacionals situats a l’estranger i afegint-hi el produït pels factors estrangers situats a l’interior</em>. (Text extret de l’Hiperenciclopèdia).</div>
+</li>
+<li class="level1"><div class="li"> Deseu la presentació.</div>
+</li>
+<li class="level1"><div class="li"> La diapositiva us haurà de quedar com es mostra a la imatge següent.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/diaposiiva3.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="afegir_una_animacio_a_una_imatge" >Afegir una animació a una imatge</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és mostrar la manera d’afegir efectes d’animació a una imatge.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio2.odp">presentacio2</a><span> ( 20.4 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu la diapositiva 3. A continuació, seleccioneu la imatge fent-hi un clic.</div>
+</li>
+<li class="level1"><div class="li"> Aneu al tauler <strong>Tasques</strong> i desplegueu el quadre de control <strong>Animació personalitzada</strong>. Si aneu a l’opció del menú <strong>Presentació de diapositives \ Animació personalitzada</strong>, també es desplega el mateix quadre de control.</div>
+</li>
+<li class="level1"><div class="li"> A <strong>Modifica l’efecte</strong>, escolliu l’opció <strong>Afegeix</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu l’efecte d’entrada <strong>Diamant</strong>.</div>
+</li>
+<li class="level1"><div class="li"> A <strong>Velocitat</strong> indiqueu <strong>mitjana</strong>.</div>
+</li>
+<li class="level1"><div class="li"> L’opció <strong>Previsualització automàtica</strong> us permet provar i visualitzar efectes a la pàgina amb el mode <strong>Normal</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Per acabar, feu un clic a <strong>D’acord</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Deseu la presentació.</div>
+</li>
+</ul>
+
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio3.odp">Solucio3.odp</a><span> ( 27.1 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+<h2><a id="afegir_interaccio_a_una_imatge" >Afegir interacció a una imatge</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és mostrar com inserir interacció a elements de la diapositiva.
+</p>
+
+<p>
+La interacció permet que, fent clic sobre una imatge, s’executi una determinada acció.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio3.odp">presentacio3</a><span> ( 27.1 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Situeu-vos a la diapositiva 2.</div>
+</li>
+<li class="level1"><div class="li"> Inseriu les imatges de la galeria que es mostren a continuació:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0513.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Seleccioneu la primera imatge </div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0514.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Aneu al menu <strong>Presentació de diapositives</strong> i escolliu l’opció <strong>Interacció</strong>.</div>
+</li>
+<li class="level1"><div class="li"> A la finestra <strong>Interacció</strong>, escolliu l’acció: <strong>Vés a la diapositiva anterior</strong>.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/interaccio1.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Seleccioneu la segona imatge</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0516.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Seguiu els mateixos passos que amb la imatge anterior, però a la finestra <strong>Interacció</strong> escolliu l’opció <strong>Vés a la diapositiva següent</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Un cop hagueu afegit interacció a una imatge, fent clic amb el botó esquerre, executarà l’acció que heu indicat. Al mode <strong>Normal</strong>, si voleu seleccionar la imatge de nou i no us deixa, utilitzeu el botó dret del ratolí.</div>
+</li>
+<li class="level1"><div class="li"> Observeu les diferents opcions que us ofereix la finestra <strong>Interacció</strong>.</div>
+</li>
+</ul>
+
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/solucio4.odp">solucio4.odp</a><span> ( 23.7 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+<h2><a id="afegir_animacio_als_diferents_elements_d_una_diapositiva" >Afegir animació als diferents elements d&#039;una diapositiva</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és mostrar com afegir efectes d’animació a diferents elements d’una diapositiva.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio4.odp">presentacio4</a><span> ( 23.7 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu la diapositiva 3.</div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu el títol i a la finestra de <strong>Tasques</strong>, a l’apartat <strong>Animació personalitzada</strong>, feu clic sobre el botó <strong>Afegeix</strong> i seleccioneu l’efecte que apareix a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/animacio1.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> A <strong>Inicia</strong> escolliu l’opció <strong>Després de l’anterior</strong>.</div>
+</li>
+<li class="level1"><div class="li"> A continuació seleccioneu la imatge. Comproveu que ja té un <strong>Efecte diamant</strong>. Però a <strong>Inicia</strong> apareix <strong>En fer clic</strong>. Canvieu aquesta opció per <strong>Després de l’anterior</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu el text. Afegiu-li un efecte d’entrada <strong>Apareix</strong>, també <strong>Després de l’anterior</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Feu clic sobre el botó <strong>Presentació de diapositives</strong> per veure el resultat.</div>
+</li>
+</ul>
+
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/solucio5.odp">solucio5</a><span> ( 29.7 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+<h2><a id="escollir_un_fons" >Escollir un fons</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat es veure com posar un fons a una àrea, a una pàgina o a tota la presentació.
+</p>
+
+<p>
+<strong>Escollir un fons per a una àrea de la pàgina</strong>
+</p>
+
+<p>
+Podeu escollir un color, una textura, un patró, un degradat o una imatge de fons per a una àrea seleccionada. Primer, seleccioneu el quadre on voleu afegir un fons i, a continuació, aneu a <strong>Format\Àrea</strong>, escolliu una opció que us agradi.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio5.odp">presentacio5</a><span> ( 29.7 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu el quadre de text de la diapositiva 3.</div>
+</li>
+<li class="level1"><div class="li"> Aneu a <strong>Format\Àrea</strong> i escolliu un color gris 10%.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0601.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> El resultat serà el que es mostra a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0602.gif" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Seleccionant un quadre, a la barra d’eines també podeu accedir a les opcions per editar la línia i el fons d’una àrea.
+</p>
+
+<p>
+<strong>Escollir un fons per a una pàgina o per a tota la presentació</strong>
+</p>
+
+<p>
+Per escollir un color, una textura, un patró, un degradat o una imatge de fons per a la pàgina que esteu editant o per a totes les pàgines, aneu a <strong>Format\Pàgina\Fons</strong>. A la finestra <strong>Prepara la pàgina</strong>, escolliu com ha de ser el fons de la vostra presentació.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0604.gif" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Un cop heu escollit, un missatge us pregunta: ¿Configuració per a totes les pàgines? Si contesteu afirmativament, el fons s’aplica a totes les diapositives de la presentació.
+</p>
+<ul>
+<li class="level1"><div class="li"> Escolliu un fons <strong>Marbre</strong> i apliqueu-lo a tota la presentació.</div>
+</li>
+<li class="level1"><div class="li"> A continuació seleccioneu la primera diapositiva i aplique un fons <strong>Degradat 1</strong>. En aquest cas quan us pregunti ¿Configuració per a totes les pàgines?, marqueu <strong>No</strong>. Comprovareu que el degradat només s’ha aplicat a la primera diapositiva.</div>
+</li>
+</ul>
+
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/solucio6.odp">solucio6</a><span> ( 41.8 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+<h2><a id="aplicar_una_transicio_a_una_o_a_mes_diapositives" >Aplicar una transició a una o a més diapositives</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a aplicar transicions a les diapositives d’una presentació.
+</p>
+
+<p>
+Una transició és l’efecte que mostra una diapositiva mentre s’obre durant una presentació. Per aplicar una transició, situeu-vos al mode <strong>Classificador de diapositives</strong> i seleccioneu les diapositives a les quals voleu aplicar la mateixa transició.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio6.odp">presentacio6</a><span> ( 41.8 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Des del <strong>Classificador de diapositives</strong> seleccioneu les tres diapositives de la presentació.</div>
+</li>
+<li class="level1"><div class="li"> Apliqueu una transició <strong>Descobreix cap avall</strong>. Ho podeu fer des del menú <strong>Presentació de diapositives \ Transició de diapositives…</strong> o des de la finestra de <strong>Tasques</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Premeu el botó <strong>Aplica a totes les diapositives</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Premeu el botó <strong>Presentació de diapositives</strong> per veure el resultat.</div>
+</li>
+</ul>
+
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/solucio7.odp">solucio7</a><span> ( 32.1 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+<h2><a id="inserir_una_taula" >Inserir una taula</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a inserir taules en una diapositiva.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio7.odp">presentacio7</a><span> ( 32.1 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Inseriu una nova diapositiva buida.</div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu la diapositiva i aneu al menú <strong>Insereix \ Taula</strong>. S’obrirà una finestra com la següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0702.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Inseriu una taula amb 3 columnes i 5 files.</div>
+</li>
+<li class="level1"><div class="li"> A <strong>Tasques</strong>, apartat <strong>Disseny de taula</strong>, configureu la taula tal i com es mostra a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0703.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Introduïu les dades que apareixen a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/dades_taula.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Acabeu de donar format a la taula (tipus de lletra, alineacions…). El resultat ha de ser com el que es mostra a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/taula.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/solucio8.odp">solucio8</a><span> ( 38.4 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+<h2><a id="inserir_un_diagrama" >Inserir un diagrama</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a inserir un diagrama en una diapositiva.
+</p>
+<ul>
+<li class="level1"><div class="li"> Obriu el fitxer <div class="mediaf fileodp"><div class="mediacontent"><a href="../media/presentacio8.odp">presentacio8</a><span> ( 38.4 KB )</span></div></div></div>
+</li>
+<li class="level1"><div class="li"> Inseriu una nova diapositiva al final. Al panel de <strong>Tasques</strong>, a <strong>Format</strong>, escolliu un disseny de <strong>Títol i contingut</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Us apareixerà una diapositiva com la següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/diagrama2.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Poseu com a títol “Producte interior brut a preus de mercat”.</div>
+</li>
+<li class="level1"><div class="li"> A continuació feu doble clic en la part central a <strong>Inserir un diagrama</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Cal modificar les dades que surten per defecte.</div>
+</li>
+<li class="level1"><div class="li"> Amb el diagrama seleccionat, feu clic amb el botó dret del ratolí i escolliu l’opció <strong>Taula de dades del diagrama</strong>. S’obrirà la <strong>Taula de dades</strong> amb una sèrie de dades per defecte. Esborreu-les i introduïu les dades tal com es mostra a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/diagrama3.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Tanqueu la taule de dades. Obtindreu un gràfic com el que es veu a continuació:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/diagrama4.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Per modificar el diagrama feu doble clic a sobre per editar-lo. A continuació premeu el botó dret del ratolí. S’obrirà un menú contextual. A partir d’aquest menú podeu canviar el tipus de diagrama, indicar la posició i mida i l’arranjament. També podeu modificar les dades a <strong>Taula de dades del diagrama</strong>. Si escolliu l’opció <strong>Propietats de l’objecte</strong> s’obrirà una finestra en la qual podreu modificar diferents elements del diagrama. Aquesta finestra variarà en funció de l’element del diagrama sobre el que estigueu situats . Per exemple, si esteu situats sobre els eixos la finestra que apareixerà serà com la següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0712.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Modifiqueu ara alguns elements:</div>
+</li>
+<li class="level1"><div class="li"> Feu que el tipus de lletra dels eixos i de la llegenda sigui Arial 12.</div>
+</li>
+<li class="level1"><div class="li"> Modifiqueu el color dels punts de dades. La primera columna ha de tenir color vermell i la segona color turquesa.</div>
+</li>
+<li class="level1"><div class="li"> Canvieu la posició de la llegenda a la part superior.</div>
+</li>
+</ul>
+
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/solucio9.odp">solucio9</a><span> ( 45.9 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+<h2><a id="diapositiva_mestre" >Diapositiva mestre</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a crear diapositives mestres.
+</p>
+
+<p>
+Una diapositiva mestre és aquella on podeu afegir elements que voleu que apareguin a totes les diapositives de la presentació que utilitzin la mateixa diapositiva mestra.
+</p>
+<ul>
+<li class="level1"><div class="li"> Creeu una nova diapositiva mestre.</div>
+</li>
+<li class="level1"><div class="li"> Ara treballareu amb aquesta diapositiva mestra per incorporar els elements comuns a tota la presentació.</div>
+</li>
+<li class="level1"><div class="li"> Primer reanomeneu la diapositiva mestra. Ho podeu fer clicant sobre el botó <strong>Reanomena el mestre</strong> de la barra d’eines o escollint l’opció <strong>Canvia el nom del mestre</strong> del menú contextual. Anomeneu-la <strong>Verd</strong>.</div>
+</li>
+<li class="level1"><div class="li"> A continuació modifiqueu i incorporeu els elements que seran comuns a tota la presentació:</div>
+<ul>
+<li class="level2"><div class="li"> Tot el text de la diapositiva ha de ser <strong>Arial</strong>.</div>
+</li>
+<li class="level2"><div class="li"> A la part inferior esquerra de la diapositiva inseriu un camp de data variable. Per fer-ho aneu al menú <strong>Insereix\Camps\Data (variable)</strong>. El tipus de lletra ha de ser Arial, 14, negreta i color blanc.</div>
+</li>
+</ul>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0810.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> També podeu inserir la data, així com un text o el número de diapositiva, al peu de pàgina de la diapositiva mestre.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/mestre2.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> Per fer-ho aneu al menú <strong>Visualitza\Capçalera i peu…</strong> S’obrirà la finestra que es mostra a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0814.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> En aquesta finestra heu d’activar les opcions que considereu oportunes i, per acabar, prémer el botó <strong>Aplica-ho a tot</strong>.</div>
+</li>
+<li class="level3"><div class="li"> El resultat, seguint el procediment esmentat, és el que es mostra a la imatge següent.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0815.gif" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> A continuació feu un clic a dins de la capçalera i inseriu la imatge que trobareu al fitxer comprimit <div class="mediaf filezip"><div class="mediacontent"><a href="../media/logo.zip">logo</a><span> ( 12.7 KB )</span></div></div> Per inserir la imatge aneu al menú <strong>Insereix\Imatge\Des d’un fitxer</strong>.</div>
+</li>
+<li class="level3"><div class="li"> Ara inseriu dos botons de la <strong>Galeria</strong>, els que es mostren a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0811.gif" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Situeu els botons a la part dreta del peu de pàgina i des del menú <strong>Presentació de diapositives\Interacció</strong>… escolliu l’acció <strong>Vés a la pàgina següent</strong> pel botó amb el signe + i <strong>Vés a la pàgina anterior</strong> pel botó amb el signe -.
+</p>
+<ul>
+<li class="level1"><div class="li"> El resultat ha de ser com el que es mostra a la imatge següent:</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/m10a0812a.gif" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<form action=""><div class="solution ioccontent">
+<p>
+<div class="mediaf fileodp"><div class="mediacontent"><a href="../media/solucio10.odp">solucio10</a><span> ( 99 KB )</span></div></div>
+</p>
+</div><input class="btn_solution3" type="button" value="Mostra"></input></form>
+</p>
+
+</div>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="../../../WebContent/u6/a3/continguts.html">Elaboració de presentacions</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="../../../WebContent/u6/a3/exercicis.html">Exercicis d'autoavaluació</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>

@@ -1,0 +1,953 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="../../../img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="../../../_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="../../../_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../../../_/js/modernizr-1.7.min.js"></script>
+	<script src="../../../_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="../../../_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="../../../img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="../../../img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="../../../index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="../../../search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="../../../img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="../../../img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="../../../img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="../../../img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="../../../img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="../../../img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="../../../img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="u5" class="parentnode"><p><a href="../../../WebContent/u5/resum.html">5. Bases de dades</a></p><ul class="expander"><li id="u5resum"><a href="../../../WebContent/u5/resum.html">Resum</a></li><li id="u5resultats"><a href="../../../WebContent/u5/resultats.html">Resultats d'aprenentatge i criteris d'avaluació</a></li><li id="u5referencies"><a href="../../../WebContent/u5/referencies.html">Referències</a></li><li id="u5a1" class="tocsection"><p id="u5a1continguts"><a href="../../../WebContent/u5/a1/continguts.html">Disseny i creació de bases de dades</a><span class="buttonexp"></span></p><ul><li id="u5a1activitats"><a href="../../../WebContent/u5/a1/activitats.html">Activitats</a></li><li id="u5a1exercicis"><a href="../../../WebContent/u5/a1/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a2" class="tocsection"><p id="u5a2continguts"><a href="../../../WebContent/u5/a2/continguts.html">Taules</a><span class="buttonexp"></span></p><ul><li id="u5a2activitats"><a href="../../../WebContent/u5/a2/activitats.html">Activitats</a></li><li id="u5a2exercicis"><a href="../../../WebContent/u5/a2/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a3" class="tocsection"><p id="u5a3continguts"><a href="../../../WebContent/u5/a3/continguts.html">Consultes: definició i tipus</a><span class="buttonexp"></span></p><ul><li id="u5a3activitats"><a href="../../../WebContent/u5/a3/activitats.html">Activitats</a></li><li id="u5a3exercicis"><a href="../../../WebContent/u5/a3/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a4" class="tocsection"><p id="u5a4continguts"><a href="../../../WebContent/u5/a4/continguts.html">Formularis</a><span class="buttonexp"></span></p><ul><li id="u5a4activitats"><a href="../../../WebContent/u5/a4/activitats.html">Activitats</a></li><li id="u5a4exercicis"><a href="../../../WebContent/u5/a4/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a5" class="tocsection"><p id="u5a5continguts"><a href="../../../WebContent/u5/a5/continguts.html">Informes</a><span class="buttonexp"></span></p><ul><li id="u5a5activitats"><a href="../../../WebContent/u5/a5/activitats.html">Activitats</a></li><li id="u5a5exercicis"><a href="../../../WebContent/u5/a5/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a6" class="tocsection"><p id="u5a6continguts"><a href="../../../WebContent/u5/a6/continguts.html">Macros i altres eines</a><span class="buttonexp"></span></p><ul></ul></li></ul></li><li id="" class="indexnode"><p><a href="../../../index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="../../../index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li><a href="../resum.html">Bases de dades</a></li><li>Formularis</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="formularis"> Formularis </a></h1>
+    	
+<p>
+Un dels principals propòsits dels formularis és facilitar-vos la tasca d’introduir informació a les taules de la vostra base de dades. A més de ser un mitjà senzill i intuïtiu per introduir informació a la base de dades, els formularis tenen dues funcions destacables: modificar i visualitzar informació. 
+</p>
+
+<p>
+Sobretot aquesta última és fonamental quan les vostres taules comencen a tenir un volum raonable, ja que també inclouen funcions de filtratge o cerca similars a les aplicades per a les taules.
+</p>
+
+<p>
+Una utilització més avançada dels formularis permetrà introduir o modificar dades de diverses taules alhora, aprofitant les propietats que aporten les relacions entre taules.
+</p>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+Un formulari pot incloure textos, gràfics, quadres combinats i d’altres elements.
+</p>
+</div></div>
+<h2><a id="assistent_per_crear_formularis" >Assistent per crear formularis</a></h2>
+<div class="level2">
+
+<p>
+En la majoria dels casos, el mètode més convenient per crear un nou formulari és utilitzar l’assistent al contrari que en el procés de la creació de taules.
+</p>
+
+<p>
+Això no vol dir que l’assistent sigui l’única mitjà que podeu utilitzar per crear els formularis, però sí el més còmode.
+</p>
+<div class="iocfigure"><a name="Figura2.1.1"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Objecte formulari
+
+</figcaption><img src="../media/2.1.1.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+El primer que heu de fer és col·locar-vos a la finestra principal de Base. A continuació, feu clic sobre l’objecte <em>Formularis</em> que apareix al panell de l’esquerra, tal com mostra la <span class="figref"><a href="#Figura2.1.1"><span>figura</span></a></span>.
+</p>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+Els formularis s’utilitzen fonamentalment per introduir dades en taules. Cal  que la base de dades que s’utilitza disposi de les taules necessàries.
+</p>
+</div></div>
+<p>
+Veureu que Base mostra dues noves opcions a la finestra de tasques:
+</p>
+<ol>
+<li class="level1"><div class="li"> Crea un formulari en vista de disseny.</div>
+</li>
+<li class="level1"><div class="li"> Crea un formulari utilitzant l’auxiliar.</div>
+</li>
+</ol>
+
+<p>
+En aquest cas feu clic sobre <em>Crea un formulari utilitzant l’auxiliar</em>, tal com s’indica a la <span class="figref"><a href="#Figura2.1.2"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figura2.1.2"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Iniciar l’assistent
+
+</figcaption><img src="../media/2.1.2.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Immediatament, com podeu veure a la <span class="figref"><a href="#Figura2.1.3"><span>figura</span></a></span>, apareix una finestra similar a Writer sota de l’assistent.
+</p>
+<div class="iocfigure"><a name="Figura2.1.3"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+ Assistent del formulari
+
+</figcaption><img src="../media/f2.1.3.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Veureu que l’assistent us presenta una finestra dividida en dues parts, tal com mostra la imatge <span class="figref"><a href="#Figura2.1.3b"><span>figura</span></a></span>:
+</p>
+<ul>
+<li class="level1"><div class="li"> La part esquerra, mostra els 8 passos per fer el formulari.</div>
+</li>
+<li class="level1"><div class="li"> La part dreta, mostra les opcions que podreu emprar en funció del moment de la creació del formulari en què us trobeu.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name="Figura2.1.3b"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra assistent
+
+</figcaption><img src="../media/f2.1.3b.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+L’assistent us anirà guiant pel procés de creació del formulari.
+</p>
+
+<p>
+<strong>Primer pas</strong>
+</p>
+
+<p>
+El primer que heu de fer és desplegar el quadre de llista <em>Taules o consulta</em> per seleccionar la taula o consulta que conté els camps que voleu utilitzar en el formulari, tal com mostra la imatge <span class="figref"><a href="#Figura2.1.4"><span>figura</span></a></span>.
+</p>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+Els formularis es poden crear sobre les taules o sobre les consultes que contingui la base de dades. 
+</p>
+</div></div><div class="iocfigure"><a name="Figura2.1.4"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Selecció de camps
+
+</figcaption><img src="../media/2.1.4.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+
+</p>
+
+<p>
+Automàticament veureu que el quadre de llista <em>Camps disponibles</em> mostra tots els camps que conté la taula que heu seleccionat.
+</p>
+
+<p>
+Indiqueu quins d’aquests camps apareixeran al formulari. Seleccioneu el camp que us interessi i feu clic sobre el botó que serveix per transferir el camp cap a la dreta (&gt;). D’aquesta manera el camp seleccionat apareixerà en el quadre de llista <em>Camps del formulari</em>. 
+</p>
+
+<p>
+A la <span class="figref"><a href="#Figura2.1.5"><span>figura</span></a></span> podeu veure una descripció del significat de cadascun dels botons que podeu trobar en el primer pas de l’assistent.
+</p>
+<div class="iocfigure"><a name="Figura2.1.5"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Botons de selecció de camps
+
+</figcaption><img src="../media/2.1.5.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Un cop transferits tots els camps que utilitzareu en el formulari, dins el quadre de llista <em>Camps del formulari</em>, podeu establir l’ordre en què desitgeu que apareguin al formulari. Podeu modificar la posició dels camps, només heu de seleccionar-los i, utilitzant els botons <em>Pujar un lloc</em> o <em>Baixar un lloc</em>, podreu col·locar-los en la posició adequada.
+</p>
+
+<p>
+<strong>Segon pas</strong>
+</p>
+
+<p>
+Podeu incloure un subformulari al formulari principal sempre que les taules estiguin relacionades, tal com mostra la <span class="figref"><a href="#Figura2.1.5b"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figura2.1.5b"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Afegir subformulari
+
+</figcaption><img src="../media/f2.1.5b.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+En deixar desactivada l’opció <em>Afegeix un subformulari</em> comproveu com els passos 3 i 4 apareixen atenuats, indicant que aquests passos s’obviaran si feu un formulari sense subformulari.
+</p>
+
+<p>
+A la <span class="figref"><a href="#Figura2.1.6"><span>figura</span></a></span> podeu veure les opcions que mostra aquest segon pas de l’assistent.
+</p>
+<div class="iocfigure"><a name="Figura2.1.6"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Configurar subformulari
+
+</figcaption><img src="../media/2.1.6.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Com que no incloem cap subformulari, l’assistent passa automàticament al cinquè pas.
+</p>
+
+<p>
+<strong>Cinquè pas</strong>
+</p>
+
+<p>
+En aquest pas de l’assistent heu de triar la millor disposició dels camps dins el formulari. Tal com podeu veure, la <span class="figref"><a href="#Figura2.1.7"><span>figura</span></a></span> us mostra, en la secció <em>Disposició del formulari principal</em>, diversos models predeterminats perquè seleccioneu el que més us interessi per al vostre formulari. Observareu que després de seleccionar-ne qualsevol canvia el formulari que teniu sota l’assistent mostrant la disposició escollida dels controls.
+</p>
+<div class="iocfigure"><a name="Figura2.1.7"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Distribució de camps al formulari
+
+</figcaption><img src="../media/2.1.7.png" alt="" /></figure>
+
+</p>
+</div><div class="iocnote"><div class="ioccontent">
+<p>
+Si trieu la disposició <em>En columnes</em> també podreu col·locar els noms dels camps alineats a l’esquerra o a la dreta.
+</p>
+</div></div>
+<p>
+<strong>Sisè pas</strong>
+</p>
+
+<p>
+Aquest pas permet triar la finalitat per a la qual es crea el formulari, tal com es mostra en la <span class="figref"><a href="#Figura2.1.8"><span>figura</span></a></span>
+</p>
+<div class="iocfigure"><a name="Figura2.1.8"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Selecció entrada de dades
+
+</figcaption><img src="../media/2.1.8.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Les possibilitats que us ofereix l’assistent són:
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>El formulari s’ha d’utilitzar per introduir únicament dades noves</em>: si voleu utilitzar el formulari únicament per omplir les dades d’una o més taules.</div>
+</li>
+<li class="level1"><div class="li"> <em>No es mostraran les dades existents</em>: el formulari mostrarà els camps buits i només hi podreu introduir noves dades. No podreu ni editar, ni modificar, ni tan sols veure les dades que ja són dins de la taula o taules.</div>
+</li>
+<li class="level1"><div class="li"> <em>El formulari mostrarà totes les dades</em>: permet veure les dades de la taula o taules amb les quals es treballa.</div>
+</li>
+</ul>
+
+<p>
+En seleccionar aquesta última opció també podeu indicar tot el que es podrà fer amb les dades que es mostren:
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>No permetis la modificació de les dades existents</em>: les dades es mostren en el formulari, però no es pot modificar el contingut de cap dels seus camps.</div>
+</li>
+<li class="level1"><div class="li"> <em>No permetis la supressió de les dades existents</em>: no permet que esborreu cap dels camps.</div>
+</li>
+<li class="level1"><div class="li"> <em>No permetis l’addició de noves dades</em>: si seleccioneu aquesta casella no podreu introduir noves dades a la taula o taules mitjançant el formulari.</div>
+</li>
+</ul>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+De les tres caselles disponibles podeu seleccionar-ne una o diverses sumant amb això les accions que cadascuna indica.
+</p>
+</div></div>
+<p>
+<strong>Setè pas</strong>
+</p>
+
+<p>
+Aquest nou pas està destinat a configurar l’aspecte formal del formulari, permetent, com podeu veure a la <span class="figref"><a href="#Figura2.1.9"><span>figura</span></a></span>, configurar el color del fons i la forma de mostrar el requadre que conté les dades dels camps.
+</p>
+<div class="iocfigure"><a name="Figura2.1.9"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Estil de formulari
+
+</figcaption><img src="../media/2.1.9.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+El quadre de llista <em>Aplica els estils</em> mostra els diferents colors que podeu utilitzar en el fons del formulari.
+</p>
+
+<p>
+La secció <em>Vora del camp</em>  ofereix les tres formes de mostrar el requadre de les dades dels camps:
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Sense vores</em>: mostra simplement el requadre d’un altre color.</div>
+</li>
+<li class="level1"><div class="li"> <em>Vista en 3D</em>: mostra el requadre amb efecte tridimensional.</div>
+</li>
+<li class="level1"><div class="li"> <em>Pla</em>: mostra el requadre amb una línia en el contorn.</div>
+</li>
+</ul>
+
+<p>
+<strong>Vuitè pas</strong>
+</p>
+
+<p>
+En aquest últim pas, tal com podem veure en la <span class="figref"><a href="#Figura2.1.10"><span>figura</span></a></span>, només heu de posar el nom que assignareu al formulari i indicar si a continuació treballareu amb el formulari o el modificareu.
+</p>
+<div class="iocfigure"><a name="Figura2.1.10"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Donar nom al formulari
+
+</figcaption><img src="../media/2.1.10.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Després de posar-li nom, feu clic sobre el botó <em>Fi</em> i segons si heu marcat <em>Treballa amb el formulari</em> o <em>Modifica el formulari</em> passareu a la introducció de dades en el formulari o a l’edició del formulari.
+</p>
+
+<p>
+Si heu decidit treballar amb el formulari veureu que el nou formulari creat, tal com mostra la <span class="figref"><a href="#Figura2.1.11"><span>figura</span></a></span>, apareix davant de l’entorn de la vostra base de dades llest per començar a introduir dades o per navegar per les dades que ja teniu en les taules.
+</p>
+<div class="iocfigure"><a name="Figura2.1.11"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Formulari final
+
+</figcaption><img src="../media/2.1.11.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="entorn_de_disseny_del_formularibarres_i_controls" >Entorn de disseny del formulari: barres i controls</a></h2>
+<div class="level2">
+
+<p>
+L’entorn de disseny del formulari està integrat per dues parts diferenciades:  el <strong>cos del formulari</strong> i les <strong>barres d’eines</strong>. A continuació es descriuen les diferents barres d’eines.
+</p>
+
+<p>
+<strong>Barra de menús</strong>: amb menús similars als que mostra el processador de textos Writer, si bé és cert que hi ha algunes opcions específiques dels formularis (vegeu <span class="figref"><a href="#FGX1"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="FGX1"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra menú
+
+</figcaption><img src="../media/barra_menu.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>La barra d’eines estàndard</strong>: de la mateixa manera que els menús, conté els mateixos botons que observeu quan esteu escrivint qualsevol document en Writer, tal com mostra la imatge <span class="figref"><a href="#FGX2"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="FGX2"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra estàndard
+
+</figcaption><img src="../media/barra-standard.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>La barra d’eines de disseny</strong>: només està activa quan editeu un formulari o quan el creeu en mode disseny, vegeu la imatge <span class="figref"><a href="#FGX3"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="FGX3"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra disseny
+
+</figcaption><img src="../media/disseny_formulari.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A la taula <span class="tabref"><a href="#taula1"><span>taula</span></a></span> hi teniu la funció de cadascuna de les seves icones.
+</p>
+<div class="ioctable donthyphenate"><div class="titletable"><a name="taula1"><span>Taula</span></a>
+
+ Icones de la barra de disseny
+
+</div><div class="table"><table class="inline">
+	<tr class="row0">
+		<th class="col0"> Icona </th><th class="col1"> Funció </th>
+	</tr>
+	<tr class="row1">
+		<td class="col0"><img src="../media/control.png" width="50" alt="" /></td><td class="col1">Control: aquest botó s’activa en el moment en què es tingui seleccionat un control o objecte del formulari </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"><img src="../media/formulari.png" width="50" alt="" /></td><td class="col1">Formulari: permet visualitzar les propietats del formulari</td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"><img src="../media/navegador_form.png" width="50" alt="" /></td><td class="col1"> Navegador: permet navegar pels diferents objectes incrustats al formulari</td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"><img src="../media/afegir_camp.png" width="50" alt="" /></td><td class="col1">Afegir camp: permet afegir un camp de la taula amb la que s’està treballant en aquest moment</td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"><img src="../media/ordre_tab.png" width="50" alt="" /></td><td class="col1">Ordre d’activació: permet definir l’ordre per anar d’un camp a l’altre. També anomenat <em>ordre de tabulació</em></td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"><img src="../media/disseny_activat_desactivat.png" width="50" alt="" /></td><td class="col1">Disseny activat/desactivat: permet canviar del mode disseny al mode edició</td>
+	</tr>
+</table></div>
+</div>
+<p>
+<strong>La barra d’eines de navegació de formularis</strong>: és la barra que teniu activa quan treballeu amb les dades en un formulari i hi podeu trobar botons per desplaçar-vos pels diferents registres, botons per filtrar les dades del formulari, botons per ordenar els registres per diferents camps, etc., vegeu la imatge <span class="figref"><a href="#FGX4"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="FGX4"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra navegació
+
+</figcaption><img src="../media/barra_formularis2.1.13.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A continuació es detalla la funció de les diferents icones que conté la <em>barra de navegació</em>:
+</p>
+<ol>
+<li class="level1"><div class="li"> Permet cercar un registre que ja existeixi en el formulari. </div>
+</li>
+<li class="level1"><div class="li"> És el registre que esteu visualitzant actualment a la pantalla del formulari.</div>
+</li>
+<li class="level1"><div class="li"> És el número de registres total de què disposeu al formulari o taula.</div>
+</li>
+<li class="level1"><div class="li"> Comandaments que permeten anar al primer o a l’últim registre o anar d’un en un.</div>
+</li>
+<li class="level1"><div class="li"> Permet afegir un registre nou. Si feu clic sobre aquest botó mostrarà el formulari amb tots els camps buits i el cursor intermitent en el primer perquè comenceu a introduir les dades d’un nou registre.</div>
+</li>
+<li class="level1"><div class="li"> Permet desar els registres o canvis realitzats en el formulari. Podeu usar-lo per desar les dades que s’han introduït en un registre nou o en un que estigueu modificant. Els registres també es desen automàticament quan premeu Retorn (<em>Intro</em>) estant en l’últim camp del formulari.</div>
+</li>
+<li class="level1"><div class="li"> Permet desfer una acció. Elimina els canvis que s’hagin realitzat, bé sigui modificant dades o introduint dades noves en el registre actual. Aquesta opció és vàlida en l’edició de dades.</div>
+</li>
+<li class="level1"><div class="li"> Permet eliminar el contingut del registre que ens mostra el formulari. Aquesta acció elimina les dades de la taula que els conté i ja no es poden recuperar, de manera que convé tenir molt clar que voleu esborrar les dades.</div>
+</li>
+<li class="level1"><div class="li"> Permet refer una acció. Es tracta d’un botó que inclou dues accions diferents: <em>Actualitzar</em> que mostra el contingut actualitzat de la taula de la base de dades de la qual pren les dades el formulari i mostra el primer registre d’aquesta taula, i <em>Reconstruir</em> que recompon la vista de la taula de la base de dades. Heu d’utilitzar aquesta última acció sempre que modifiqueu l’estructura de la taula.</div>
+</li>
+<li class="level1"><div class="li"> Permet ordenar els registres en ordre ascendent o descendent.</div>
+</li>
+<li class="level1"><div class="li"> Comandaments que permeten filtrar informació.</div>
+</li>
+<li class="level1"><div class="li"> Permet visualitzar la taula de la qual s’està fent el formulari. Si hi feu clic canviarà el formulari mostrant les dades en forma de taula com podeu veure a la <span class="figref"><a href="#Figura3.15"><span>figura</span></a></span>. Si hi torneu a fer clic tornarà a mostrar-se com a formulari. Aquesta forma de visualització dels formularis també es pot utilitzar per navegar pels registres, per modificar dades dels registres i per afegir nous registres.</div>
+</li>
+</ol>
+<div class="iocnote"><div class="ioccontent">
+<p>
+Per desar un registre no és necessari omplir tots els camps del formulari, només cal que s’omplin aquells que siguin obligatoris.
+</p>
+</div></div><div class="iocfigure"><a name="Figura3.15"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Visualització de dades
+
+</figcaption><img src="../media/3.15.png" alt="" /></figure>
+
+</p>
+</div><div class="iocimportant"><div class="ioccontent">
+<p>
+Els diferents botons d’aquesta barra no serveixen per navegar pels camps que integren un formulari, sinó per navegar pels diferents registres que utilitza aquest formulari.
+</p>
+</div></div>
+<p>
+<strong>La barra d’estat</strong>: ofereix un determinat tipus d’informació al mateix temps que permet modificar determinats paràmetres (<span class="figref"><a href="#FGX5"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="FGX5"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra d’estat
+
+</figcaption><img src="../media/barra_estat.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Segurament teniu flotant, o a l’esquerra del monitor, <strong>la barra de controls</strong> (<span class="figref"><a href="#FGX6"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="FGX6"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Botons de control
+
+</figcaption><img src="../media/botons_de_control.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A la taula <span class="tabref"><a href="#taula2"><span>taula</span></a></span> hi teniu la funció de cadascuna de les seves icones. 
+</p>
+<div class="ioctable donthyphenate"><div class="titletable"><a name="taula2"><span>Taula</span></a>
+
+Controls del formulari
+
+</div><div class="table"><table class="inline">
+	<tr class="row0">
+		<th class="col0"> Icona </th><th class="col1"> Funció </th>
+	</tr>
+	<tr class="row1">
+		<td class="col0"><img src="../media/disseny_activat_desactivat.png" width="50" alt="" /></td><td class="col1">Mode disseny: activa i desactiva el mode disseny. Permet alternar entre els modes d’usuari (introducció de dades a través dels camps) i la manera disseny (edició dels camps de control)</td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"><img src="../media/formulari.png" width="50" alt="" /></td><td class="col1"> Navegador del formulari: mostra tots els formularis i subformularis del document amb el seus camps de control</td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"><img src="../media/casella_verificacio.png" width="50" alt="" /></td><td class="col1">Casella de verificació: per valors Sí/No. Es pot posar dins d’un grup d’opcions</td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"><img src="../media/abc.png" width="50" alt="" /></td><td class="col1">Camp text: serveix per introduir dades o mostrar dades</td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"><img src="../media/camp_formatat.png" width="50" alt="" /></td><td class="col1">Camp formatat: és un quadre de text en el qual es defineix el format de les entrades, sortides així com els valors limitadors que les afecten</td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"><img src="../media/boto_premer.png" width="50" alt="" /></td><td class="col1">Botó per prèmer: insereix un botó que en ser premut executa instruccions</td>
+	</tr>
+	<tr class="row7">
+		<td class="col0"><img src="../media/boto_d_opcio.png" width="50" alt="" /></td><td class="col1">Botó d’opció: permet a l’usuari escollir d’entre diverses opcions</td>
+	</tr>
+	<tr class="row8">
+		<td class="col0"><img src="../media/quadre_llista.png" width="50" alt="" /></td><td class="col1">Quadre llista: permet seleccionar  un element d’una llista</td>
+	</tr>
+	<tr class="row9">
+		<td class="col0"><img src="../media/quadre_combinat.png" width="50" alt="" /></td><td class="col1">Quadre combinat: permet seleccionar un element d’una llista o escriure les dades directament</td>
+	</tr>
+	<tr class="row10">
+		<td class="col0"><img src="../media/camp_etiqueta.png" width="50" alt="" /></td><td class="col1">Camp etiqueta: serveix per mostrar un tex predefinit</td>
+	</tr>
+	<tr class="row11">
+		<td class="col0"><img src="../media/auxiliars_habilitats.png" width="50" alt="" /></td><td class="col1">Assistent: especifica si s’ha d’activar l’assistent a l’inserir un camp de control nou. Ajuda a establir les propietats dels quadres de llista, control de taules i d’altres camps de control</td>
+	</tr>
+	<tr class="row12">
+		<td class="col0"><img src="../media/quadre_grup.png" width="50" alt="" /></td><td class="col1">Quadre de grup:  serveix per mostrar un marc per agrupar camps de control. Molt útil per les caselles de verificació o botó d’opció</td>
+	</tr>
+	<tr class="row13">
+		<td class="col0"><img src="../media/taula.png" width="50" alt="" /></td><td class="col1">Control de taula: permet crear un control amb el disseny d’una taula de la base de dades</td>
+	</tr>
+	<tr class="row14">
+		<td class="col0"><img src="../media/seleccio_arxiu.png" width="50" alt="" /></td><td class="col1">Control de selecció d’arxiu: permet seleccionar un arxiu exterior a la base de dades</td>
+	</tr>
+	<tr class="row15">
+		<td class="col0"><img src="../media/control_moneda.png" width="50" alt="" /></td><td class="col1">Control moneda: permet introduir un camp definit a la base de dades com a monetari</td>
+	</tr>
+	<tr class="row16">
+		<td class="col0"><img src="../media/calendari.png" width="50" alt="" /></td><td class="col1">Control calendari: permet introduir un camp a mode de calendari per escollir una data concreta</td>
+	</tr>
+</table></div>
+</div>
+</div>
+
+<h2><a id="entorn_de_disseny_del_formulariseleccio_i_modificacio_dels_controls" >Entorn de disseny del formulari: selecció i modificació dels controls</a></h2>
+<div class="level2">
+
+<p>
+En l’entorn de disseny dels formularis cal seleccionar prèviament els controls abans de fer-hi qualsevol canvi. Tingueu en compte:
+</p>
+<ol>
+<li class="level1"><div class="li"> En seleccionar un control es seleccionen automàticament l’etiqueta i el camp.</div>
+</li>
+<li class="level1"><div class="li"> Si en seleccionar un control manteniu premuda la tecla <em>Ctrl</em> podreu seleccionar únicament l’etiqueta o únicament el camp.</div>
+</li>
+<li class="level1"><div class="li"> La selecció de múltiples controls us permetrà fer-hi canvis de forma simultània.</div>
+</li>
+<li class="level1"><div class="li"> Podeu seleccionar més d’un control mantenint premuda la tecla <em>Maj</em> o les tecles <em>Ctrl + Maj</em> i fent clic als diferents controls. </div>
+</li>
+<li class="level1"><div class="li"> Si es tracta de controls contigus, també els podeu seleccionar activant el botó <em>Selecciona</em> de la barra d’eines <em>Disseny del formulari</em>, el que té la icona amb la fletxa, i dibuixant un requadre al voltant dels controls que vulgueu seleccionar. </div>
+</li>
+<li class="level1"><div class="li"> Seleccioneu diversos controls alhora i utilitzeu les opcions <em>Alineació</em> i <em>Posició i mida</em> del menú contextual o accediu a les propietats des de l’opció <em>Control…</em>, per alinear-los i igualar-ne la mida.</div>
+</li>
+</ol>
+
+</div>
+
+<h2><a id="afegir_informacio_a_les_taules" >Afegir informació a les taules</a></h2>
+<div class="level2">
+
+<p>
+La informació que introduireu mitjançant un formulari es reflectirà a la taula d’origen.
+</p>
+
+<p>
+Un cop obert el formulari, feu clic al botó corresponent de la barra de navegació i, a continuació, cliqueu dins del camp en el qual voleu introduir les dades.
+</p>
+
+<p>
+Per introduir dades en un altre camp podeu tornar a fer clic amb el ratolí sobre un altre camp o prémer la tecla tabulador. A més de la tecla tabulador, disposeu d’altres dreceres de teclat que poden ser útils i que estan recolliden en la taula <span class="tabref"><a href="#Taula3"><span>taula</span></a></span>
+</p>
+<div class="ioctable donthyphenate"><div class="titletable"><a name="Taula3"><span>Taula</span></a>
+
+Taula de dreceres de teclat
+
+</div><div class="table"><table class="inline">
+	<tr class="row0">
+		<th class="col0"> Tecla </th><th class="col1"> Acció </th>
+	</tr>
+	<tr class="row1">
+		<td class="col0"><strong>Fletxa amunt</strong></td><td class="col1"> Si el cursor es troba en un camp numèric augmenta en un la quantitat que el camp contingui. Si el cursor es troba en un camp de text no fa res.</td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"><strong>Fletxa avall</strong></td><td class="col1">Si el cursor es troba en un camp numèric disminueix en un la quantitat que el camp contingui. Si el cursor es troba en un camp de text no fa res.</td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"><strong>Inici</strong></td><td class="col1"> Col·loca el cursor al principi del camp en què es troba.</td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"><strong>Fi</strong></td><td class="col1">Col·loca el cursor al final del camp en què es troba.</td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"><strong>Tabulador o <em>Intro</em></strong></td><td class="col1"> En prémer aquesta tecla el cursor es col·loca en el camp següent del formulari. Si el cursor es troba en l’últim camp del formulari passa al registre següent.</td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"><strong>Maj + Tabulador</strong></td><td class="col1">En prémer aquesta combinació de tecles el cursor es col·loca al camp anterior del formulari. Si el cursor es troba en el primer camp del formulari passa al registre anterior.</td>
+	</tr>
+</table></div>
+</div>
+</div>
+
+<h2><a id="afegir_camps_al_formulari" >Afegir camps al formulari</a></h2>
+<div class="level2">
+
+<p>
+Si inicialment el formulari no conté algun camp que es pugui necessitar es pot afegir mitjançant el botó <em>Afegir camp</em> i apareixerà el quadre de diàleg <em>Afegeix camp</em>, tal com podeu veure a la <span class="figref"><a href="#Figura3.21"><span>figura</span></a></span>, en el qual es mostren tots els camps disponibles a la taula.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/afegir_camp.png" class="imgB" title="Afegir camp/-15" alt="Afegir camp/-15" /></li><li><small>Afegir camp</small></li>
+</ul></div>
+
+</p>
+<div class="iocfigure"><a name="Figura3.21"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Afegeix camp
+
+</figcaption><img src="../media/3.2.1.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Si el lloc on ha quedat el camp no és del vostre gust, podeu canviar-ne la posició arrossegant-lo per deixar-lo a la posició definitiva dins del disseny del vostre formulari. Feu-hi clic i moveu-lo amb el ratolí.
+</p>
+
+</div>
+
+<h2><a id="propietats_del_formulari" >Propietats del formulari</a></h2>
+<div class="level2">
+
+<p>
+És interessant conèixer les propietats del formulari ja que us permetran configurar diversos aspectes del formulari. Per accedir-hi, feu clic amb el botó dret sobre qualsevol camp i seleccioneu <em>Formulari</em>. Observeu que apareix el quadre de diàleg <em>Propietats del formulari</em>, que es mostra a la <span class="figref"><a href="#Figura3.22"><span>figura</span></a></span>, i que a la primera pestanya, <em>General</em>, al camp <em>Nom</em> hi apareix <em>MainForm</em>. 
+</p>
+<div class="iocfigure"><a name="Figura3.22"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Propietats del formulari
+
+</figcaption><img src="../media/3.22.png" alt="" /></figure>
+
+</p>
+</div><div class="iocimportant"><div class="ioccontent">
+<p>
+Aquesta és la manera que té Base d’indicar-nos que està seleccionat el formulari principal.
+</p>
+</div></div>
+<p>
+Mitjançant les opcions de configuració del quadre de diàleg <em>Propietats del formulari</em> podreu modificar algunes de les decisions preses en els passos de l’assistent, quan vau crear el formulari.
+</p>
+
+<p>
+De les tres pestanyes disponibles al quadre de diàleg <em>Propietats del formulari</em> prestareu especial atenció a la pestanya <em>Dades</em> que podeu veure a la <span class="figref"><a href="#Figura3.23"><span>figura</span></a></span> on hi ha les propietats que permeten configurar el comportament del formulari. 
+</p>
+
+<p>
+Algunes d’aquestes propietats són:
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Tipus de contingut</strong>: permet seleccionar l’origen de les dades que mostra el formulari podent triar entre: taula, consulta o expressió <acronym title="Structured Query Language">SQL</acronym>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Contingut</strong>: depenent del que es tingui seleccionat en l’opció anterior,  haureu de seleccionar la taula, la consulta o escriure una sentència <acronym title="Structured Query Language">SQL</acronym>. És a dir, si decidiu utilitzar una taula, aquí haureu de triar el nom de la taula en qüestió que es desitja utilitzar.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Filtra</strong>: permet establir un filtre associat a les dades que es mostren al formulari. El filtre que establiu s’aplicarà sempre que obriu el formulari.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Ordena</strong>: aquesta propietat permet aplicar un ordre als registres que mostra el formulari. </div>
+</li>
+<li class="level1"><div class="li"> <strong>Permetre addicions</strong>: es pot decidir si utilitzareu el formulari per afegir dades o només per veure els registres.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Permet les modificacions</strong>: igual que en l’opció anterior, però en aquest cas fa referència a la possibilitat de modificar les dades que es mostren en el formulari.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Permet les supressions</strong>: permet controlar des del formulari l’eliminació o no dels registres que es mostren.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Afegeix només dades</strong>: si especifiqueu aquesta propietat a <em>Sí</em> no podreu visualitzar la informació existent en el formulari i només podreu incloure nous registres.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name="Figura3.23"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Propietats del formulari
+
+</figcaption><img src="../media/3.23.png" alt="" /></figure>
+
+</p>
+</div><div class="iocnote"><div class="ioccontent">
+<p>
+En funció del sistema operatiu amb què treballeu o la versió de LibreOffice que tingueu instal·lada, les icones poden variar una mica.
+</p>
+</div></div>
+</div>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="../../../WebContent/u5/a3/exercicis.html">Exercicis d'autoavaluació</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="../../../WebContent/u5/a4/activitats.html">Activitats</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>

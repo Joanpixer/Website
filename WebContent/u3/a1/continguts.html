@@ -1,0 +1,1727 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="../../../img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="../../../_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="../../../_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../../../_/js/modernizr-1.7.min.js"></script>
+	<script src="../../../_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="../../../_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="../../../img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="../../../img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="../../../index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="../../../search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="../../../img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="../../../img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="../../../img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="../../../img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="../../../img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="../../../img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="../../../img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="u3" class="parentnode"><p><a href="../../../WebContent/u3/resum.html">3. Processadors de text</a></p><ul class="expander"><li id="u3resum"><a href="../../../WebContent/u3/resum.html">Resum</a></li><li id="u3resultats"><a href="../../../WebContent/u3/resultats.html">Resultats d'aprenentatge i criteris d'avaluació</a></li><li id="u3referencies"><a href="../../../WebContent/u3/referencies.html">Referències</a></li><li id="u3a1" class="tocsection"><p id="u3a1continguts"><a href="../../../WebContent/u3/a1/continguts.html">Processadors de text</a><span class="buttonexp"></span></p><ul><li id="u3a1activitats"><a href="../../../WebContent/u3/a1/activitats.html">Activitats</a></li><li id="u3a1exercicis"><a href="../../../WebContent/u3/a1/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li></ul></li><li id="" class="indexnode"><p><a href="../../../index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="../../../index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li><a href="../resum.html">Processadors de text</a></li><li>Processadors de text</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="processadors_de_text"> Processadors de text </a></h1>
+    	
+<p>
+El mòdul Writer del LibreOffice incorpora les eines bàsiques d’un processador de textos, juntament als recursos més avançats. Porta annexat un editor <acronym title="HyperText Markup Language">HTML</acronym>.
+</p>
+
+<p>
+En funció de les necessitats de cadascú en l’ús d’un processador de textos, utilitzareu amb més freqüència unes eines o unes altres.
+</p>
+
+<p>
+Sobre el processador de textos del LibreOffice, es mostrarà quines funcionalitats hi trobareu i es presentarà una introducció de les seves possibilitats, sense aprofundir en el funcionament de cadascuna de les utilitats. Per una altra banda, moltes de les eines que utilitzeu habitualment funcionen de manera similar en diferents processadors de textos.
+</p>
+
+<p>
+Es presentarà els diferents menús, moltes de les opcions que s’explicaran són comunes als diferents components del LibreOffice.
+</p>
+
+<h2><a id="el_menu_fitxer" >El menú Fitxer</a></h2>
+<div class="level2">
+
+<p>
+Des de <strong>Fitxer</strong>, podeu fer accions que afecten tot el document. A la barra d’eines, s’ubiquen les icones amb algunes de les opcions que també trobeu al menú <strong>Fitxer</strong>:
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_01.png" class="imgB" title="Opcions del menú Fitxer a la barra d&#039;eines/-15" alt="Opcions del menú Fitxer a la barra d&#039;eines/-15" /></li><li><small>Opcions del menú Fitxer a la barra d&#039;eines</small></li>
+</ul></div>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> Crear un document nou</div>
+</li>
+<li class="level1"><div class="li"> Obrir un document ja existent</div>
+</li>
+<li class="level1"><div class="li"> Desar</div>
+</li>
+<li class="level1"><div class="li"> Enviar per correu electrònic </div>
+</li>
+<li class="level1"><div class="li"> Exportar directament com a <acronym title="Portable Document Format">PDF</acronym></div>
+</li>
+<li class="level1"><div class="li"> Imprimir fitxer</div>
+</li>
+<li class="level1"><div class="li"> Previsualització</div>
+</li>
+</ul>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_03.png" class="imgB" title="Més opcions del menú Fitxer a la barra d&#039;eines/-45" alt="Més opcions del menú Fitxer a la barra d&#039;eines/-45" /></li><li><small>Més opcions del menú Fitxer a la barra d&#039;eines</small></li>
+</ul></div>
+
+</p>
+
+<p>
+Fent clic sobre el triangle petit situat a la dreta de la icona per crear un document nou, es desplega un menú d’opcions per escollir el tipus de document.
+</p>
+
+<p>
+Les funcionalitats que trobeu al menú <strong>Fitxer</strong> són:
+</p>
+
+<p>
+<strong>1.</strong> <strong>Nou</strong> crea un document nou, que pot ser com es mostra a la <span class="figref"><a href="#Figure3"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figure3"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Tipus de documents 
+
+</figcaption><img src="../media/gadm07u3_06.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+En funció de l’opció que escolliu, es configurarà l’entorn del LibreOffice.
+</p>
+
+<p>
+<strong>2.</strong> <strong>Obre…</strong> proporciona el quadre de diàleg <strong>Abrir</strong> (<span class="figref"><a href="#Figure4"><span>figura</span></a></span>), amb el qual podeu cercar un document al vostre ordinador. Podeu obrir arxius ODT, OTT, SXW, STW, DOC, DOT, TXT, <acronym title="HyperText Markup Language">HTML</acronym>, <acronym title="Extensible Markup Language">XML</acronym>…
+</p>
+
+<p>
+Des del diàleg <strong>Obre</strong>, podeu:
+</p>
+<ul>
+<li class="level1"><div class="li"> Desplaçar-vos pels diferents nivells de carpetes, veure’n el contingut i crear carpetes noves.</div>
+</li>
+<li class="level1"><div class="li"> Des de <strong>Tipo</strong>, podeu seleccionar que es vegin tots els arxius, o bé només un format en concret.</div>
+</li>
+<li class="level1"><div class="li"> Si teniu un mateix document desat en diferents versions, a <strong>Versió</strong> podeu escollir la versió que voleu obrir.</div>
+</li>
+<li class="level1"><div class="li"> L’opció <strong>Només lectura</strong>, si està activada, no us permet editar el document que obrireu.</div>
+</li>
+<li class="level1"><div class="li"> Per obrir més d’un fitxer alhora, cal prémer <strong>Control</strong>, seleccionar-los i obrir.</div>
+</li>
+<li class="level1"><div class="li"> Per esborrar un arxiu, primer el seleccioneu, feu un clic amb el botó dret del ratolí i, en el menú contextual, escolliu l’opció <strong>Suprimeix</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Al menú contextual que s’obre fent un clic amb el botó dret sobre un fitxer, trobeu altres opcions, com canviar el nom, imprimir, crear un accés directe…</div>
+</li>
+<li class="level1"><div class="li"> Des de <strong>Documents recents</strong>, podeu accedir als deu darrers documents oberts amb el LibreOffice.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name="Figure4"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Diàleg Obre
+
+</figcaption><img src="../media/gadm07u3_08.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Amb l’opció <strong>Tanca</strong>, tanqueu totes les finestres obertes sense tancar el programa. Si un document té modificacions pendents de desar, el LibreOffice us avisa.
+</p>
+
+<p>
+La primera vegada que deseu un document és amb l’opció <strong>Anomena i desa…</strong>
+</p>
+
+<p>
+Des del diàleg <strong>Anomena i desa…</strong>, podeu:
+</p>
+<ul>
+<li class="level1"><div class="li"> Desplaçar-vos pels diferents nivells de carpetes, veure’n el contingut i crear carpetes noves.</div>
+</li>
+<li class="level1"><div class="li"> Des de <strong>Tipo</strong>, podeu seleccionar amb quin format voleu desar el document. Si escolliu un format, només veureu els arxius amb l’extensió indicada.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Extensió automàtica del nom del fitxer</strong> desa l’arxiu amb l’extensió que, per defecte, es correspon amb el tipus d’arxiu. En el cas d’un document de text, l’extensió pròpia del LibreOffice és ODT.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Desa amb contrasenya</strong> permet introduir una contrasenya per protegir l’arxiu la propera vegada que es vulgui obrir.</div>
+</li>
+</ul>
+
+<p>
+L’opció <strong>Desa </strong> permet desar les modificacions fetes a un document que ja ha estat desat anteriorment.
+</p>
+
+<p>
+L’opció <strong>Desa-ho tot</strong> permet, quan teniu més d’una finestra oberta amb els documents corresponents, desar alhora les modificacions fetes a tots els documents.
+</p>
+
+<p>
+L’opció <strong>Torna a carregar</strong> presenta el document actiu tal com es troba desat, eliminant les modificacions fetes des de l’última vegada que s’ha desat.
+</p>
+
+<p>
+<strong>Versions…</strong> fa possible obrir i desar, amb un sol fitxer, un document que té diferents versions. Aquesta opció del menú es mostra activa després d’haver desat un document. Permet que diferents persones treballin amb un mateix document i que, posteriorment, es puguin comparar les modificacions fetes per cadascú. Els canvis incorporats a una versió del document es poden acceptar per integrar-los al document final, o bé es poden rebutjar. Al camp <strong>Desa una versió nova</strong> de la finestra <strong>Versions</strong> podeu escriure un comentari sobre cada versió, que no es veurà al document, que indiqui l’autoria dels canvis que es faran a cada versió.
+</p>
+
+<p>
+<strong>Exporta</strong> i <strong>Exporta com a <acronym title="Portable Document Format">PDF</acronym>…</strong> obre la finestra <strong>Exporta</strong>, que permet desar un arxiu amb les extensions <acronym title="Portable Document Format">PDF</acronym> o <acronym title="Extensible HyperText Markup Language">XHTML</acronym>.
+</p>
+
+<p>
+Amb l’opció <strong>Envia</strong> podreu fer el que es mostra a la <span class="figref"><a href="#Figure5"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figure5"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions d’Envia
+
+</figcaption><img src="../media/gadm07u3_16.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> L’opció <strong>Envia \ Document com a correu electrònic</strong> obre el programa que teniu predeterminat com a client de missatgeria amb un missatge en blanc i el document actiu adjunt.</div>
+</li>
+<li class="level1"><div class="li"> L’opció <strong>Envia com a text d’OpenDocument </strong>obre una finestra nova del programa de correu electrònic per defecte amb el document actual com a adjunt. S’utilitza el format de fitxer OpenDocument.</div>
+</li>
+<li class="level1"><div class="li"> L’opció <strong>Envia com a Microsoft Word…</strong> obre una finestra nova del programa de correu electrònic per defecte amb el document actual com a adjunt. S’utilitza el format de fitxer Microsoft Word.</div>
+</li>
+<li class="level1"><div class="li"> Escollint l’opció <strong>Document com a <acronym title="Portable Document Format">PDF</acronym> adjunt…</strong>, converteix el document actiu en aquest format i l’adjunta a un missatge.</div>
+</li>
+<li class="level1"><div class="li"> Quan treballeu amb documents molt extensos, l’opció <strong>Crea un document mestre</strong> us permet treballar amb documents més reduïts que després incorporareu al document principal.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Crea un document <acronym title="HyperText Markup Language">HTML</acronym></strong> permet desar un document en format <acronym title="HyperText Markup Language">HTML</acronym> per visualitzar-lo amb un navegador.</div>
+</li>
+</ul>
+
+<p>
+A <strong>Propietats</strong> podeu accedir a informació sobre el document actual.
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>General</strong>: nom del fitxer, format, ubicació, pes, data i hora de creació (de la primera vegada que s’ha desat), darrera vegada que ha estat modificat, signatura digital (si la té), darrera vegada que s’ha imprès, temps d’edició…</div>
+</li>
+<li class="level1"><div class="li"> <strong>Estadística</strong>: nombre de pàgines, paràgrafs, paraules, caràcters…</div>
+</li>
+</ul>
+
+<p>
+També a <strong>Propietats</strong> podeu introduir informació sobre el document. Al camp <strong>Descripció</strong> podeu escriure el títol, el tema, les paraules clau i els comentaris que es desaran amb el document.
+</p>
+
+<p>
+L’opció <strong>Signatures digitals…</strong> avala l’autoria del document i permet incorporar-hi un certificat digital.
+</p>
+
+<p>
+Des de <strong>Plantilles</strong> podeu administrar les plantilles. Podeu desar un document nou com a plantilla, editar una plantilla, crear carpetes noves de plantilles… Per als documents de distribució múltiple, permet inserir automàticament dades des de la llibreta d’adreces.
+</p>
+
+<p>
+Amb l’opció <strong>Previsualització de la pàgina</strong>, visualitzeu totes les pàgines del document. No permet editar l’arxiu. Per sortir, premeu l’opció <strong>Tanca la previsualització</strong>.
+</p>
+
+<p>
+Des d’<strong>Imprimeix</strong>, accediu a les opcions d’impressió.
+</p>
+
+<p>
+<strong>Configuració de la impressora</strong> permet escollir la impressora i configurar opcions d’impressió accessibles també des d’<strong>Imprimeix</strong>.
+</p>
+
+<p>
+El botó <strong>Surt</strong> tanca totes les finestres i el programa. LibreOffice us pregunta si voleu desar els canvis abans de tancar.
+</p>
+
+</div>
+
+<h2><a id="el_menu_edita" >El menú Edita</a></h2>
+<div class="level2">
+
+<p>
+El menú <strong>Edita</strong> incorpora opcions que permeten modificar el contingut d’un document.
+</p>
+
+<p>
+Des de la barra d’eines, podeu accedir a algunes opcions del menú <strong>Edita</strong>: tallar, copiar, enganxar, desfer i tornar a fer, buscar i substituir i el navegador (<span class="figref"><a href="#Figure6"><span>figura</span></a></span>). Alguns botons tenen opcions múltiples (<span class="tabref"><a href="#tau01"><span>taula</span></a></span>)
+</p>
+<div class="iocfigure"><a name="Figure6"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions del menú Edita a la barra d’eines
+
+</figcaption><img src="../media/gadm07u3_20.png" alt="" /></figure>
+
+</p>
+</div><div class="ioctable donthyphenate"><div class="titletable"><a name="tau01"><span>Taula</span></a>
+
+Botons del menú Edita
+
+</div><div class="table"><table class="inline">
+	<tr class="row0">
+		<th class="col0"> Botó </th><th class="col1"> Opcions </th>
+	</tr>
+	<tr class="row1">
+		<td class="col0"> <img src="../media/gadm07u3_21.png" alt="" /> </td><td class="col1"> Fent un clic sobre el triangle situat a la dreta de la icona d’<strong>Enganxar</strong>, us informa del tipus de fitxer del porta-retalls </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> <img src="../media/gadm07u3_22.png" alt="" /> </td><td class="col1"> Fent un clic sobre el triangle situat a la dreta de la icona <strong>Desfés</strong> es desplega una relació de les darreres accions que heu fet. Podeu seleccionar quantes voleu desfer </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> <img src="../media/gadm07u3_23.png" alt="" /> </td><td class="col1"> Fent un clic sobre el triangle situat a la dreta de la icona <strong>Restaura</strong>, trobeu una relació de les accions per restaurar. Podeu escollir quantes voleu restaurar </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> <img src="../media/gadm07u3_24.png" alt="" /> </td><td class="col1"> Fent un clic sobre aquest botó <strong>Retalla</strong> la selecció i la ubica al porta-retalls </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> <img src="../media/gadm07u3_25.png" alt="" /> </td><td class="col1"> <strong>Copia</strong> ubica una còpia de la selecció al porta-retalls </td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"> <img src="../media/gadm07u3_21.png" alt="" /> </td><td class="col1"> <strong>Enganxa</strong> situa el contingut del porta-retalls al lloc on es troba el cursor. Si heu fet una selecció, serà substituïda pel contingut que enganxeu </td>
+	</tr>
+</table></div>
+</div>
+<p>
+Aquestes accions també les podeu fer amb les dreceres de teclat (<span class="figref"><a href="#Figure7"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure7"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Dreceres del teclat
+
+</figcaption><img src="../media/gadm07u3_27.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Enganxament especial…</strong> us permet escollir un format per al contingut del porta-retalls que voleu enganxar. Resulta molt útil quan voleu enganxar text sense format.
+</p>
+
+<p>
+L’opció <strong>Seleccioneu el text</strong> es mostra activa en documents de lectura. Permet fer una selecció sense que el cursor faci pampallugues.
+</p>
+
+<p>
+<strong>Selecciona-ho tot</strong> selecciona tot el contingut del document.
+</p>
+
+<p>
+<strong>Canvis</strong> fa referència a l’edició de les diferents versions d’un mateix document. Una versió d’un document no es pot editar, és de lectura. Les modificacions a una versió d’un document només es poden introduir amb l’opció <strong>Registre</strong>.
+</p>
+
+<p>
+Si treballeu amb versions, des de <strong>Canvis</strong> podeu activar o desactivar les opcions següents:
+</p>
+<ul>
+<li class="level1"><div class="li"> Activar l’opció <strong>Registre</strong> permet introduir modificacions a una versió. Els canvis fets es mostraran subratllats i amb un color diferent.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Protegeix els registres</strong> permet introduir una contrasenya per evitar una modificació del document amb l’opció <strong>Registre</strong>.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Mostra</strong> permet veure, al document original, les modificacions fetes a les diferents versions. Les diferències es mostraran amb colors diferents.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Accepta o rebutja</strong> permet decidir, per a cada canvi, si s’incorpora o no al document original.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Comentari</strong> permet afegir un comentari a una modificació.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Fusiona el document</strong> unifica les versions en un mateix document. Es mostra el document original i els canvis introduïts a les diferents versions.</div>
+</li>
+</ul>
+
+<p>
+<strong>Compara el document</strong> permet comparar un document original amb una còpia que ha estat modificada indicant on es troben els canvis.
+</p>
+
+<p>
+<strong>Cerca i reemplaça</strong> permet cercar un text al document i substituir-lo, si es vol, per un altre text.
+</p>
+
+<p>
+<strong>Text automàtic</strong> mostra suggeriments per completar una paraula. Després d’escriure les tres primeres lletres, si coincideixen amb una entrada registrada a <strong>Text automàtic</strong>, es mostra una ajuda de color blau amb la resta de lletres per completar la paraula. Si premeu <em>Retorn</em>, accepteu la suggerència.
+</p>
+
+<p>
+A el LibreOffice les opcions del menú inactives es mostren grises i dins un marc blau quan passeu el punter per sobre (<span class="figref"><a href="#Figure8"><span>figura</span></a></span>). Les icones de la barra d’eines inactives es mostren de color gris.
+</p>
+<div class="iocfigure"><a name="Figure8"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions inactives
+
+</figcaption><img src="../media/gadm07u3_30.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Intercanvia la base de dades</strong> obre una finestra que permet obrir un document que intercanviarà unes dades amb el document actual. Cal seleccionar als dos documents els camps que intercanviaran.
+</p>
+
+<p>
+L’opció <strong>Camps</strong> permet editar un camp que s’ha introduït a <strong>Insereix\Camps</strong>.
+</p>
+
+<p>
+Una <strong>nota al peu</strong> és una informació addicional que s’ubica al final d’una pàgina o d’un document. S’insereix des del menú <strong>Insereix\Nota al peu</strong>. Poden estar numerades, o bé indicades amb un símbol. Des d’<strong>Edita\Nota al peu</strong>, podeu editar la nota.
+</p>
+
+<p>
+<strong>Entrada de l’índex</strong> permet editar l’índex de contingut del document. Per crear un índex de contingut, cal anar al menú <strong>Insereix\Índexs i taules\Entrada</strong>.
+</p>
+
+<p>
+Per inserir una base de dades bibliogràfica, cal anar a <strong>Eines\Base de dades bibliogràfica</strong>. L’opció <strong>Edita\Entrada bibliogràfica</strong> permet modificar-la.
+</p>
+
+<p>
+Per inserir un enllaç a una pàgina d’Internet, cal anar a <strong>Insereix\Enllaç</strong>. L’opció <strong>Edita\Enllaç</strong> obre el diàleg <strong>Enllaç</strong> per fer-hi modificacions.
+</p>
+
+<p>
+L’opció <strong>Enllaços</strong> permet editar els enllaços del document actual cap a altres documents.
+</p>
+
+<p>
+L’opció <strong>Connector</strong> permet editar complements que amplien les funcionalitats del programa.
+</p>
+
+<p>
+
+</p>
+
+<p>
+<strong>Mapa d’imatge</strong> permet editar les opcions d’un mapa sensible amb diferents àrees d’enllaços cap a altres documents o a una <acronym title="Uniform Resource Locator">URL</acronym> d’Internet. Cal seleccionar una imatge perquè es mostri activa al menú.
+</p>
+
+<p>
+<strong>Objecte</strong> permet editar un objecte que s’ha inserit amb el menú <strong>Insereix\Objecte</strong>.
+</p>
+
+</div>
+
+<h2><a id="el_menu_visualitza" >El menú Visualitza</a></h2>
+<div class="level2">
+
+<p>
+Amb el menú <strong>Visualitza</strong>, podeu activar o desactivar opcions de visualització. Les opcions actives incorporen un senyal (<em>checkbox</em>) al davant.
+</p>
+
+<p>
+A la barra d’eines, podeu accedir a algunes de les opcions del menú <strong>Visualitza</strong>: visualitzar fonts de dades, caràcters que no s’imprimeixen i escala.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_33.png" class="imgB" title="Opcions del menú Visualitza a la barra d&#039;eines/-20" alt="Opcions del menú Visualitza a la barra d&#039;eines/-20" /></li><li><small>Opcions del menú Visualitza a la barra d&#039;eines</small></li>
+</ul></div>
+
+</p>
+
+<p>
+<strong>Format d’impressió</strong> mostra l’aspecte que tindrà el document quan s’imprimeixi.
+</p>
+
+<p>
+<strong>Format web </strong>mostra com es visualitzarà el document amb un navegador.
+</p>
+
+<p>
+<strong>Barra d’eines</strong> configura quines barres d’eines voleu que es mostrin i quines no. Permet accedir a diferents barres d’eines útils i interessants.
+</p>
+<div class="iocfigure"><a name="Figure10"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions de les barres d’eines
+
+</figcaption><img src="../media/gadm07u3_35.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Activant les diferents opcions, es mostren barres d’eines flotants o incrustades (<span class="figref"><a href="#Figure10"><span>figura</span></a></span>).
+</p>
+
+<p>
+Podeu arrossegar una barra d’eines flotant per acoblar-la i fer-la fixa. El rectangle gris us mostra on se situarà. Quan deixeu de prémer el punter del ratolí, s’ubicarà.
+</p>
+
+<p>
+També podeu desacoblar-la per fer-la flotant.
+</p>
+
+<p>
+Per tancar una barra d’eines flotant, és suficient fer un doble clic sobre la barra superior corresponent.
+</p>
+
+<p>
+Fent un clic a la icona de la barra d’eines, fareu que es mostri la <strong>barra de dibuix</strong> a sobre de la barra d’estat. Fent un clic a la mateixa icona, feu que es deixi de mostrar.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_36.png" class="imgB" title="Accés a barra de dibuix/-20" alt="Accés a barra de dibuix/-20" /></li><li><small>Accés a barra de dibuix</small></li>
+</ul></div>
+
+</p>
+
+<p>
+<strong>Barra d’estat</strong> mostra o amaga la barra d’estat. La barra d’estat us ofereix informació i opcions com són, entre d’altres:
+</p>
+<ul>
+<li class="level1"><div class="li"> El nombre de pàgines i el número de la pàgina actual.</div>
+</li>
+<li class="level1"><div class="li"> Determinar l’escala de visualització del document.</div>
+</li>
+<li class="level1"><div class="li"> Fer que el text nou que introduïu s’insereixi, INSERT, o es sobreescrigui, SOBRE.</div>
+</li>
+</ul>
+
+<p>
+<strong>Estat del mètode d’entrada</strong> es refereix a la visualització d’una finestra anomenada Input Method Engine.
+</p>
+
+<p>
+<strong>Regle</strong> mostra o amaga els regles horitzontals i verticals.
+</p>
+
+<p>
+<strong>Límits del text</strong> mostra o amaga el marc gris de la pàgina, que indica els marges de l’àrea que s’imprimirà.
+</p>
+
+<p>
+<strong>Ombreigs de camp </strong> permet veure l’ombra de color gris que es mostra a sota d’un camp i d’altres indicadors.
+</p>
+
+<p>
+<strong>Nom dels camps </strong> permet veure el nom dels camps introduïts al document.
+</p>
+
+<p>
+<strong>Caràcters no imprimibles</strong> permet veure els salts de paràgraf, de línia…
+</p>
+
+<p>
+<strong>Paràgrafs amagats</strong> es refereix a la visualització de text no visible, si n’hi ha al document.
+</p>
+
+<p>
+<strong>Font de dades</strong> permet veure a una àrea de la pantalla una font de dades.
+</p>
+
+<p>
+<strong>Navegador</strong> obre la finestra que porta aquest nom (<span class="figref"><a href="#Figure11"><span>figura</span></a></span>). En documents extensos, resulta molt útil i facilita la navegació pel document. El navegador permet, per a cada categoria (imatges, capçaleres, taules, enllaços…), veure si hi ha elements al document. Fent un clic sobre els símbols + i -, feu que s’amaguin o es mostrin els elements. Al navegador, feu doble clic sobre l’element que busqueu, i el cursor immediatament el selecciona i us porta al lloc on està situat.
+</p>
+
+<p>
+Per entendre el funcionament del navegador, obriu un document que contingui imatges, enllaços, taules… A sota de cada categoria, trobareu el nom dels elements que el document conté: gràfic 1, gràfic 2…, o bé objecte 1, objecte 2… Fent doble clic sobre un element d’una categoria, automàticament el cursor es desplaçarà i el veureu seleccionat.
+</p>
+
+<p>
+L’opció <strong>Pantalla completa</strong> amaga les barres amb els menús i les eines. Des de Pantalla completa, clicant al botó Pantalla completa, torneu a veure de nou els menús i les eines.
+</p>
+
+<p>
+<strong>Escala</strong> augmenta o redueix el zoom de visualització de la pantalla. Aquesta opció també és configurable des de la barra d’estat.
+</p>
+<div class="iocfigure"><a name="Figure11"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Navegador
+
+</figcaption><img src="../media/gadm07u3_29.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Fent clic al triangle petit situat al extrem dret de la barra d’eines, podeu accedir als diàlegs per configurar quines icones de comandaments es mostraran a la barra d’eines (<span class="figref"><a href="#Figure12"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure12"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Diàleg de configuració de la barra d’eines
+
+</figcaption><img src="../media/gadm07u3_39.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="el_menu_insereix" >El menú Insereix</a></h2>
+<div class="level2">
+
+<p>
+Des d’<strong>Insereix</strong>, podeu inserir elements al document: salts de pàgina, imatges, enllaços, objectes, àrees, marcs, símbols, etiquetes, marcadors, camps…
+</p>
+
+<p>
+<strong>Salt manual…</strong> permet les opcions següents (<span class="figref"><a href="#Figure13"><span>figura</span></a></span>).
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Salt de línia</strong> situa el cursor a la línia següent, sense crear un paràgraf nou. Si hi ha text a la dreta del cursor, el mou a la línia següent. Prement les tecles de majúscules i de retorn també es fa un salt de línia.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Salt de columna</strong> situa el cursor a l’inici de la columna següent. Si hi ha text a la dreta del cursor, el mou a la columna següent.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Salt de pàgina</strong> mou el cursor al començament de la pàgina següent. Si hi ha text a la dreta del cursor, el situa a la pàgina següent. Prement les tecles <em>Control</em> i <em>Retorn</em>, feu un salt de pàgina.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name="Figure13"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions de Salt manual…
+
+</figcaption><img src="../media/gadm07u3_41.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+L’opció <strong>Camps</strong> permet introduir automàticament al document la informació que indiqueu, com la data, l’hora, el número de pàgina, el tema, el títol, l’autor/a… (<span class="figref"><a href="#Figure14"><span>figura</span></a></span>). Aquesta informació es mostra al document amb un fons gris i un text genèric, com data, hora, títol, autor/a… Per visualitzar les dades que el LibreOffice ha introduït automàticament, feu una previsualització o activeu <strong>Visualitza \ Nom dels camps</strong>. Dades com l’autor/a, el títol, el tema… són les que heu fet constar a <strong>Eines \ Opcions \ Dades d’usuari</strong> i a <strong>Fitxer \ Propietats</strong>.
+</p>
+
+<p>
+Des d’<strong>Edita \ Camps</strong> o des del menú contextual que s’activa fent clic amb el botó dret del ratolí, s’obre el diàleg <strong>Camps</strong> on podeu configurar que el contingut d’un camp sigui fix o variable. Si deixeu camps variables, la propera vegada que deseu el document es modificaran: l’hora, la data, el número de pàgina… Des del diàleg <strong>Camps</strong>, també podeu configurar el format del camp.
+</p>
+
+<p>
+<strong>Caràcter especial</strong> obre la finestra que porta el seu nom (<span class="figref"><a href="#Figure15"><span>figura</span></a></span>). Seleccioneu un Tipus de lletra i un Subconjunt per cercar un símbol. Amb l’opció D’acord, el símbol escollit s’insereix al document en el lloc on es troba el cursor.
+</p>
+<div class="iocfigure"><a name="Figure14"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions de camps
+
+</figcaption><img src="../media/gadm07u3_42.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name="Figure15"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Caràcters especials
+
+</figcaption><img src="../media/gadm07u3_43.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Secció</strong> permet inserir, al lloc on es troba el cursor, una secció nova al document.
+</p>
+
+<p>
+A la finestra <strong>Insereix una secció</strong>, a <strong>Enllaç</strong>, podeu fer la crida a un altre document que s’inserirà dins la secció. Com que el document no està incrustat sinó vinculat, quan modifiqueu el document d’origen, també el veureu modificat dins la secció. Des de <strong>Columnes</strong>, podeu indicar quantes n’hi ha d’haver i el seu disseny. Podeu configurar també el sagnat, el color de fons… per a la secció nova (<span class="figref"><a href="#Figure16"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure16"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Inserir un text amb un enllaç a una pàgina d’Internet
+
+</figcaption><img src="../media/gadm07u3_45.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Enllaç</strong> obre la finestra que porta aquest nom.
+</p>
+
+<p>
+Per crear un enllaç a una adreça d’Internet, seleccioneu Internet. Empleneu el camp Destinació amb la <acronym title="Uniform Resource Locator">URL</acronym> i Text amb el nom que es veurà al document. A continuació, premeu els botons Aplica i Tanca: ja tindreu el text amb l’enllaç al document.
+</p>
+
+<p>
+Per inserir un enllaç a un document que teniu en local, escolliu l’opció Document de la columna de l’esquerra. Al camp Camí, prement sobre la carpeta, indiqueu el camí del fitxer i, al camp Text, escriviu el text que es mostrarà al document. Finalment, premeu les opcions Aplica i Tanca (<span class="figref"><a href="#Figure17"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure17"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Inserir un text amb un enllaç a un document que teniu en local
+
+</figcaption><img src="../media/gadm07u3_46.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Atenció! Heu de tenir en compte la ruta que indiqueu per cercar el document. En el cas de l’exemple superior, l’enllaç funciona, però deixarà de funcionar si moveu el fitxer o la carpeta de lloc.
+</p>
+
+<p>
+Per garantir que l’enllaç funcioni encara que la carpeta s’ubiqui en un altre lloc, a un servidor web, per exemple, cal que el document d’origen de l’enllaç i el document de destí es trobin a la mateixa carpeta o al mateix directori de carpetes. Aleshores, al camp Camí, modifiqueu manualment el camí. Continuant amb l’exemple, si el document d’origen i de destí es troben a la mateixa carpeta, a Camí escriureu només Informe.odt. Si el document d’origen de l’enllaç es troba a un nivell superior, a Camí escriureu: elnomdelacarpeta\Informe.odt.
+</p>
+
+<p>
+Activant <strong>Capçalera</strong> per defecte, situeu, a la part superior de la pàgina, una àrea on podeu inserir text, una imatge… La capçalera se situa a totes les pàgines del document. Desactivant <strong>Capçalera</strong>, suprimiu la capçalera amb el seu contingut. Un missatge d’avís us demana que confirmeu que voleu suprimir la capçalera.
+</p>
+<div class="iocfigure"><a name="Figure18"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Marc gris
+
+</figcaption><img src="../media/gadm07u3_48.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+El marc gris no es mostrarà quan s’imprimeixi el document (<span class="figref"><a href="#Figure18"><span>figura</span></a></span>).
+</p>
+
+<p>
+A la finestra anomenada <em>l’estilista</em>, que s’activa al menú <strong>Format \ Estil i formatació</strong>, situeu-vos a l’opció Encapçalament de la categoria Estils de paràgraf. Feu clic amb el botó dret i, al menú contextual, seleccioneu l’opció Modifica…. S’obrirà la finestra <strong>Estil de paràgraf: capçalera</strong> on podeu configurar opcions, com el color de fons de la capçalera, l’alineació, afegir-hi un marc, la font, la mida de la lletra… Feu un clic al botó D’acord i s’aplicarà automàticament a la capçalera el format escollit. També podeu accedir a aquesta opció situant-vos a la capçalera, fent clic amb el botó dret del ratolí i escollint l’opció del menú contextual Edita l’estil del paràgraf.
+</p>
+
+<p>
+<strong>Peu i Nota al peu</strong>… situen una àrea a la part inferior de la pàgina. Peu s’insereix a totes les pàgines del document. Nota al peu s’insereix cada vegada només a una pàgina. Funcionen com Capçalera. Per modificar el format, aneu a l’estilista, que s’activa a i feu un clic a <strong>Format \ Estil i formatació</strong>, segons sigui el cas, a l’opció Peu o Nota al peu de la categoria Estils de paràgraf. Al menú contextual, escolliu l’opció Modifica i configureu un format nou. A <strong>Eines \ Notes al peu</strong> podeu indicar les opcions de configuració.
+</p>
+
+<p>
+Per numerar les pàgines d’un document, inseriu, primer, un Peu. A continuació, amb el cursor dins el peu, aneu a Insereix \ Camps \ Número de pàgina.
+</p>
+
+<p>
+L’opció <strong>Llegenda</strong> només es mostra activa quan seleccioneu una imatge, quan situeu el cursor a una taula… i permet escriure un peu per a una imatge, per a una taula… Incorpora moltes opcions de configuració, com la inserció automàtica.
+</p>
+
+<p>
+<strong>Marca de text</strong> permet situar, al lloc on teniu el cursor, un marcador invisible per a un punt on voleu tornar-hi més endavant. Fent un clic a l’opció del menú <strong>Insereix \ Marca de text</strong>, s’obre la finestra Insereix una marca. Escriviu un nom per al marcador i premeu D’acord. Al vostre exemple, heu creat al document tres marcadors que porten per nom <em>completar</em>, <em>conclusions</em> i <em>revisar</em>. Al navegador (Edita \ Navegador), feu un clic sobre aquestes opcions i el cursor es desplaçarà automàticament al lloc on heu inserit la marca.
+</p>
+
+<p>
+
+</p>
+
+<p>
+<strong>Referència creuada</strong> té un funcionament similar a Camps, però amb més opcions de configuració.
+</p>
+
+<p>
+<strong>Nota</strong> permet inserir una nota al document amb un comentari. Incorpora la data i l’hora i, si es vol, prement sobre el botó Autor, també el nom de qui ha escrit la nota. Una nota mostra la forma d’un petit rectangle groc i se situa al lloc on teniu el cursor. No es mostra fent una previsualització o quan s’imprimeix el document.
+</p>
+
+<p>
+<strong>Seqüència</strong> insereix una seqüència de comandaments <em>script</em> al document. Es mostra en forma de petit rectangle verd. Aquesta opció s’utilitza, principalment, quan es crea un document destinat a ser visualitzat amb un navegador.
+</p>
+
+<p>
+<strong>Índexs i taules</strong> permet crear un índex de contingut (<span class="figref"><a href="#Figure19"><span>figura</span></a></span>). A <strong>Insereix \ Índexs i taules</strong> teniu les opcions Entrada, Índexs i taules i Entrada bibliogràfica. Per crear un índex nou, aneu a l’opció Índexs i taules. Podeu escollir el tipus d’índex que voleu crear: de contingut, alfabètic, d’il·lustracions, de taula… i podeu configurar un disseny. Un cop creat l’índex, per afegir una entrada nova, aneu a l’opció Insereix <strong>\ Índexs i taules</strong> \ Entrada.
+</p>
+<div class="iocfigure"><a name="Figure19"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Vista del diàleg per crear un Índex de contingut d’un document
+
+</figcaption><img src="../media/gadm07u3_49.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Amb l’opció Sobre, podeu escriure el nom del destinatari/ària i del remitent, donar format i configurar la impressora per imprimir una carta.
+</p>
+
+<p>
+<strong>Marc</strong> obre la finestra que porta el seu nom. Escolliu, per al marc que voleu crear, les mides (que després podeu modificar manualment), indiqueu si ha de tenir columnes, el color de fons… Dins el marc, podeu inserir text, imatges, objectes… Hi podeu afegir un enllaç, que s’activarà fent clic sobre el marc.
+</p>
+
+<p>
+Podeu canviar el format d’un marc seleccionant-lo i anant a Format \ Marc. Seleccioneu un marc i feu un doble clic a sobre, també obrireu la finestra Marc.
+</p>
+
+<p>
+<strong>Taula</strong> permet inserir una taula al document. També trobeu la mateixa funció a Taula \ Insereix.
+</p>
+
+<p>
+<strong>Línia horitzontal</strong> permet escollir un dels dissenys per inserir un separador decoratiu al document.
+</p>
+
+<p>
+<strong>Imatge</strong> permet inserir al document una imatge. Teniu dues opcions:
+</p>
+<ul>
+<li class="level1"><div class="li"> Des d’un fitxer: obre la finestra Insereix una imatge. Desplaçant-vos pels diferents nivells de carpetes, podeu cercar la imatge. L’opció Previsualitza permet mostrar una previsualització de la imatge a la mateixa finestra.<br/>
+ Per defecte, la imatge queda incrustada i es desa amb el mateix document. Si activeu Enllaç, s’insereix la imatge vinculant-la amb el fitxer d’origen. Marcant aquesta opció, si canvieu de lloc el fitxer d’origen o envieu el document sense l’arxiu d’origen, la imatge ja no es mostrarà al document.</div>
+</li>
+<li class="level1"><div class="li"> Inserir una imatge de l’escàner. Primer, cal seleccionar un escàner, a continuació, s’obre el controlador que porta incorporat el mateix escàner i, finalment, la imatge obtinguda s’insereix al document.</div>
+</li>
+</ul>
+
+<p>
+<strong>Pel·lícules i so</strong> obre la finestra Insereix una pel·lícula o so. Permet afegir un fitxer de vídeo o de so al document. A Tipo podeu escollir quin format d’arxiu voleu que es mostri. Per reproduir un arxiu de vídeo o de so, cal anar a Eines \ Reproductor multimèdia.
+</p>
+
+<p>
+Amb l’opció <strong>Obcjete</strong>, podeu inserir un objecte al document (<span class="figref"><a href="#Figure20"><span>figura</span></a></span>). Escolliu si voleu inserir un objecte OLE, so, vídeo, una miniaplicació (<em>applet</em> de Java), una fórmula, un diagrama…
+</p>
+<div class="iocfigure"><a name="Figure20"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions d’inserir un objecte
+
+</figcaption><img src="../media/gadm07u3_52.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Per inserir un objecte OLE (full de càlcul, gràfic, dibuix, presentació, fórmula…) podeu crear-lo de nou, o bé cercar-ne un que tingueu a l’arxiu (<span class="figref"><a href="#Figure21"><span>figura</span></a></span>). Per defecte, l’objecte s’insereix incrustat i es desa amb el document.
+</p>
+
+<p>
+Quan inseriu un fitxer ja existent, si marqueu l’opció Crea’n un a partir d’un fitxer, vincula el document amb el fitxer. Aleshores, quan torneu a obrir el document, si no hi ha el fitxer, l’objecte OLE no es veurà.
+</p>
+<div class="iocfigure"><a name="Figure21"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Insereix un objecte OLE
+
+</figcaption><img src="../media/gadm07u3_53.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Marc flotant</strong> permet crear una finestra on es visualitzi un altre document. Cal indicar l’amplada, l’altura i crear el vincle amb el document que s’ha de mostrar.
+</p>
+
+<p>
+<strong>Fitxer</strong> incrusta un document de text o <acronym title="HyperText Markup Language">HTML</acronym> al lloc on es troba el cursor. Per inserir un document vinculat a un altre, cal fer-ho des de l’opció Insereix \ Secció.
+</p>
+
+</div>
+
+<h2><a id="el_menu_format" >El menú Format</a></h2>
+<div class="level2">
+
+<p>
+Podeu donar format al document de manera:
+</p>
+<ul>
+<li class="level1"><div class="li"> Directa: seleccionant manualment un text o altres elements per aplicar-los un atribut.</div>
+</li>
+<li class="level1"><div class="li"> A través dels estils, que es defineixen a la finestra Estil i formatació i, a continuació, s’apliquen. Modificant un estil, canvia el format de totes les parts del document on heu aplicat aquell estil.</div>
+</li>
+</ul>
+
+<p>
+Moltes opcions del menú <strong>Format</strong> són accessibles des de la barra de format. Si no es mostra la barra de format, aneu al menú Visualitza \ Barres d’eines \ Formatació. Activant les diferents icones, podreu aplicar format directe.
+</p>
+
+<p>
+Fent una selecció i anant a l’opció <strong>Formatació per defecte</strong>, treureu el format (font, mida de la lletra, negreta…) que heu aplicat de manera directa. Aquesta opció no treu el format aplicat amb l’estilista.
+</p>
+
+<p>
+<strong>Caràcter</strong> obre la finestra Caràcter, on podeu escollir una font, un estil (negreta, cursiva…), una mida per a la lletra, efectes de la font (color, subratllat…), un color de fons… per aplicar a una selecció o a la paraula on es troba el cursor.
+</p>
+
+<p>
+Fent un clic a l’eina <strong>Pinzell de format</strong> de la barra d’eines, copieu el format de la paraula on es troba el cursor, d’una selecció de text o d’un element seleccionat: taula, imatge… Un cop copiat el format, el punter mostra la icona del cubell i permet aplicar el mateix format fent un clic sobre altres paraules, seleccions o elements.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_56.png" class="imgB" title="Pinzell de format/-25" alt="Pinzell de format/-25" /></li><li><small>Pinzell de format</small></li>
+</ul></div>
+
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_57.png" class="imgB" title="Punter en forma de cubell" alt="Punter en forma de cubell" /></li><li><small>Punter en forma de cubell</small></li>
+</ul></div>
+
+</p>
+
+<p>
+Fent un sol clic sobre el Pinzell de format, podreu fer una vegada l’acció de copiar i aplicar format.
+</p>
+
+<p>
+Fent doble clic, podreu aplicar totes les vegades que vulgueu el format copiat. En aquest segon cas, per desactivar el Pinzell de format, cal fer-li un clic a sobre.
+</p>
+
+<p>
+Des de <strong>Paràgraf</strong>, podeu indicar per al paràgraf seleccionat opcions com:
+</p>
+<ul>
+<li class="level1"><div class="li"> El sagnat abans i després del text.</div>
+</li>
+<li class="level1"><div class="li"> L’alienació a l’esquerra, al centre, a la dreta o justificat.</div>
+</li>
+<li class="level1"><div class="li"> El color de fons, el tipus de marc…</div>
+</li>
+</ul>
+
+<p>
+<strong>Pics i numeració</strong> permet escollir diferents opcions (<span class="figref"><a href="#Figure22"><span>figura</span></a></span>), distribuïdes en pestanyes, per aplicar a un text seleccionat.
+</p>
+<div class="iocfigure"><a name="Figure22"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Pics i numeració
+
+</figcaption><img src="../media/gadm07u3_59.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Pàgina…</strong>, aquesta opció està relacionada amb l’estilista. És el mateix tipus de diàleg que s’activa situant-vos sobre un estil de l’estilista i fent clic amb el botó dret escollint l’opció Modifica. Des de Pàgina, podeu modificar un estil per a una pàgina. Podeu definir opcions com:
+</p>
+<ul>
+<li class="level1"><div class="li"> Format i marges de paper</div>
+</li>
+<li class="level1"><div class="li"> Color de fons</div>
+</li>
+<li class="level1"><div class="li"> Encapçalament i peu de pàgina</div>
+</li>
+<li class="level1"><div class="li"> Marcs</div>
+</li>
+<li class="level1"><div class="li"> Columnes</div>
+</li>
+</ul>
+
+<p>
+<strong>Canvia majúscules/minúscules</strong> permet, seleccionant un text que contingui caràcters en majúscules, convertir-los a minúscules i a l’inrevés. Resulta molt pràctic quan hi ha molts caràcters per canviar.
+</p>
+
+<p>
+<strong>Columnes</strong> permet escollir un disseny de columnes per aplicar a una pàgina o secció (<span class="figref"><a href="#Figure23"><span>figura</span></a></span>). També podeu configurar dissenys personalitzats de columnes.
+</p>
+<div class="iocfigure"><a name="Figure23"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Configurar un disseny de columnes
+
+</figcaption><img src="../media/gadm07u3_61.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Seccions</strong> es mostra actiu si heu inserit una secció al document des d’Insereix \ Secció. Obre la finestra Edita les seccions. Fent un clic al botó Opcions, podeu modificar les columnes, el sagnat, el color de fons…
+</p>
+
+<p>
+<strong>Estils i formatació</strong> obre la finestra que porta el seu nom (<span class="figref"><a href="#Figure24"><span>figura</span></a></span>), anomenada també <em>l’estilista</em> o <em>format dinàmic</em>. Fent un clic a la icona <em>Estils i formatació</em> de la barra de format o fent un clic a F11, podeu fer que es mostri o es deixi de mostrar. L’estilista permet, amb pocs clics, canviar el format del document.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_63.png" class="imgB" title="Estils i formatació/-20" alt="Estils i formatació/-20" /></li><li><small>Estils i formatació</small></li>
+</ul></div>
+
+</p>
+<div class="iocfigure"><a name="Figure24"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Estils i formatació
+
+</figcaption><img src="../media/gadm07u3_64.png" alt="" /></figure>
+
+</p>
+</div><ol>
+<li class="level1"><div class="li"> A les icones que es mostren a la part superior de la finestra, escolliu si voleu aplicar un estil de paràgraf, caràcter, marc, pàgina o de llistes. A la llista central, escolliu un estil.</div>
+</li>
+<li class="level1"><div class="li"> Activeu el cubell.</div>
+</li>
+<li class="level1"><div class="li"> Moveu el punter, que ara té forma de cubell, pel document fins a arribar al lloc on voleu aplicar l’estil. No cal prémer cap botó del ratolí.</div>
+</li>
+<li class="level1"><div class="li"> Amb el mateix cubell, feu la selecció i s’aplicarà l’estil.</div>
+</li>
+<li class="level1"><div class="li"> Deixeu anar el cubell, és a dir, el botó esquerre del ratolí.</div>
+</li>
+</ol>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_57.png" class="imgB" title="Punter en forma de cubell/-30" alt="Punter en forma de cubell/-30" /></li><li><small>Punter en forma de cubell</small></li>
+</ul></div>
+
+</p>
+
+<p>
+Amb el cubell activat, podeu continuar aplicant l’estil a altres elements del document. Quan hàgiu acabat, feu un clic sobre el cubell per desactivar-lo.
+</p>
+
+<p>
+Podeu crear un nou estil personalitzat de diferents maneres:
+</p>
+<ul>
+<li class="level1"><div class="li"> Situeu-vos a sobre d’un estil de l’estilista i feu un clic amb el botó dret del ratolí. Al menú contextual, escolliu l’opció Nou. Al diàleg que s’obre, escriviu un nom per a l’estil i definiu-ne les característiques de format. Feu un clic a D’acord i ja tindreu l’estil personalitzat a l’estilista.</div>
+</li>
+<li class="level1"><div class="li"> Primer, doneu format a un text o a un altre element de manera directa. A continuació, a l’estilista, feu un clic a la icona de la categoria (paràgraf, caràcter, marc, pàgina o de llistes) de l’estil nou que voleu crear. Feu un clic al lloc del document on abans heu donat format directe per copiar l’estil. Feu un clic a la icona situada més a la dreta i escolliu l’opció <em>Nou estil</em> a partir de la selecció. </div>
+</li>
+</ul>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_66.png" class="imgB" title="Creació d&#039;un nou estil/-30" alt="Creació d&#039;un nou estil/-30" /></li><li><small>Creació d&#039;un nou estil</small></li>
+</ul></div>
+
+</p>
+
+<p>
+A la finestra <em>Crea un estil</em>, escriviu un nom per a l’estil i feu clic a D’acord. El vostre estil es mostrarà a l’estilista.
+</p>
+
+<p>
+Podeu eliminar un estil personalitzat situant-vos-hi a sobre, obrint el menú contextual i escollint l’opció Suprimeix. Si elimineu un estil, desapareix del document el format aplicat amb aquell estil.
+</p>
+
+<p>
+Per modificar un estil, situeu-vos a sobre i premeu amb el botó dret. En el menú contextual, escolliu l’opció Modifica.
+</p>
+
+<p>
+<strong>Formatació automàtica</strong> aplica al document les opcions de format, correcció i completar paraules que heu configurat a Eines \ Correcció automàtica. Podeu aplicar-les mentre esteu escrivint, automàticament a tot el document, o bé que es mostri un diàleg amb una relació dels canvis proposats i que pugueu escollir quins accepteu i quins rebutgeu.
+</p>
+
+<p>
+<strong>Ancora</strong> permet ancorar una imatge a una pàgina. Amb aquesta opció, encara que elimineu elements, la imatge no es pot esborrar.
+</p>
+
+<p>
+<strong>Ajusta</strong> permet, després de seleccionar una imatge, escollir com ubicareu el text en relació a la imatge.
+</p>
+
+<p>
+<strong>Alineament</strong> permet situar un o més elements seleccionats a la ubicació escollida: esquerra, centre, dreta, justificat, amunt, centrat verticalment o avall.
+</p>
+
+<p>
+Donats diferents elements que se superposen, per exemple, diverses imatges, <strong>Ordena</strong> permet decidir per a cada element seleccionat on voleu situar-lo: més endavant, més endarrere, al fons…
+</p>
+
+<p>
+<strong>Inverteix</strong> permet invertir una imatge seleccionada, vertical o horitzontalment.
+</p>
+
+<p>
+<strong>Agrupa</strong> permet fer un grup amb diversos elements per moure’ls o aplicar format simultàniament. També podeu desagrupar-los.
+</p>
+
+<p>
+<strong>Objecte</strong> permet donar format (mida, fons, línia…) a un  objecte seleccionat.
+</p>
+
+<p>
+<strong>Marc</strong> només es mostra actiu amb un marc seleccionat. Obre la finestra Marc, que permet configurar opcions de format.
+</p>
+
+<p>
+<strong>Imatge</strong> només es mostra actiu amb una imatge seleccionada. Obre la finestra Imatge, que permet configurar opcions de format per a la imatge.
+</p>
+<div class="iocfigure"><a name="Figure25"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions de format al menú contextual
+
+</figcaption><img src="../media/gadm07u3_69.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Situant-vos a sobre d’un document i fent clic amb el botó dret del ratolí, podeu accedir a diverses opcions de format que també es troben al menú Format (<span class="figref"><a href="#Figure25"><span>figura</span></a></span>).
+</p>
+
+</div>
+
+<h2><a id="el_menu_taula" >El menú Taula</a></h2>
+<div class="level2">
+
+<p>
+Al menú <strong>Taula</strong>, podeu inserir una taula a un document i editar-la.
+</p>
+
+<p>
+<strong>Taula \ Insereix \ Taula</strong> obre la finestra Insereix una taula. Definiu el nombre de files i columnes per a la taula que voleu crear. Formatat automàtic permet escollir un disseny per a la taula. Finalment, feu clic a D’acord.
+</p>
+
+<p>
+A la barra d’eines, amb el punter sobre la fletxa que hi ha a la dreta de la icona Taula podeu crear ràpidament una taula (<span class="figref"><a href="#Figure26"><span>figura</span></a></span>).
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_70.png" class="imgB" title="Botó de taula/-15" alt="Botó de taula/-15" /></li><li><small>Botó de taula</small></li>
+</ul></div>
+
+</p>
+<div class="iocfigure"><a name="Figure26"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Algunes opcions del menú Taula
+
+</figcaption><img src="../media/gadm07u3_71.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Situant el cursor dins una taula ja creada, podeu inserir files noves o columnes noves amb l’opció <strong>Taula \ Insereix \ Files</strong> o bé <strong>Taula \ Insereix \ Columnes</strong>, que obren les finestres corresponents (<span class="figref"><a href="#Figure27"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure27"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Inserir files noves a una taula
+
+</figcaption><img src="../media/gadm07u3_72.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Amb l’opció <strong>Suprimeix</strong>, podeu, després de situar el cursor al lloc adient, eliminar la taula sencera, una fila o una columna.
+</p>
+
+<p>
+<strong>Selecciona</strong>, com el seu nom indica, permet fer la selecció de la taula, fila, columna o cel·la on es troba el cursor. Una altra opció per seleccionar una taula, fila, columna o cel·la és situar el cursor dins la taula i, amb el ratolí, arrossegar per fer la selecció.
+</p>
+
+<p>
+Situant-vos dins una taula i fent clic amb el botó dret del ratolí, es mostra el menú contextual amb moltes opcions de configuració de la taula.
+</p>
+
+<p>
+Quan treballeu amb taules, la barra d’eines flotant Taula us permet crear i editar ràpidament les taules (<span class="figref"><a href="#Figure28"><span>figura</span></a></span>). Recordeu que les barres flotants s’activen a Visualitza \ Barres d’eines i es poden acoblar.
+</p>
+<div class="iocfigure"><a name="Figure28"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra d’eines flotant Taula
+
+</figcaption><img src="../media/gadm07u3_73.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Fusiona les cel·les</strong> ajunta les cel·les seleccionades en una sola cel·la.
+</p>
+
+<p>
+<strong>Divideix les cel·les</strong> divideix una o més cel·les en el nombre de cel·les que indiqueu.
+</p>
+
+<p>
+<strong>Fusiona la taula</strong> ajunta dues taules consecutives, no separades per cap paràgraf. Quan hi ha diferents taules consecutives, un missatge us pregunta quines taules voleu ajuntar (<span class="figref"><a href="#Figure29"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure29"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Fusiona la taula
+
+</figcaption><img src="../media/gadm07u3_76.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Divideix la taula</strong> divideix, en el punt on es troba el cursor, una taula en dues.
+</p>
+
+<p>
+<strong>Converteix</strong> permet convertir automàticament un text situant-lo dins una taula, o bé el contingut d’una taula convertir-lo a text.
+</p>
+
+<p>
+<strong>Ordena</strong> permet organitzar automàticament el contingut d’una taula a partir dels criteris que indiqueu: alfanumèric, ascendent, descendent…
+</p>
+
+<p>
+<strong>Fórmula</strong> mostra la barra de fórmules del full de càlcul. Cada cel·la de la taula equival a una cel·la del full de càlcul.
+</p>
+
+<p>
+A <strong>Format mumèric</strong> podeu configurar el format de les hores, les dates, les monedes, els números…
+</p>
+
+<p>
+<strong>Formatació automàtica</strong> dóna format a la taula a partir del disseny que escolliu (<span class="figref"><a href="#Figure30"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure30"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Aplicar a una taula una Formatació automàtica
+
+</figcaption><img src="../media/gadm07u3_78.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Adaptació automàtica</strong> permet, per a la columna o fila de la taula on estigui situat el cursor, indicar en centímetres l’amplada o altura que ha de tenir.
+</p>
+
+<p>
+A <strong>Amplada de la columna</strong>, indiqueu si voleu modificar l’amplada de la columna 1, 2, 3… en funció del lloc on estigui ubicada, d’esquerra a dreta. A Amplada, indiqueu una amplada en centímetres i feu un clic a D’acord (<span class="figref"><a href="#Figure31"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure31"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Amplada de la columna
+
+</figcaption><img src="../media/gadm07u3_80.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Una altra opció, <strong>Amplada òptima de la columna</strong> i <strong>Alçada òptima de fila</strong>: les columnes i les files s’ajusten automàticament a una amplada o altura òptimes, la de la cel·la més ampla o més alta. També podeu indicar, a <strong>Distribueix les columnes equitativament</strong> i <strong>Distribueix les files equitativament</strong>, que les amplades i alçades siguin equitatives, és a dir, totes igual.
+</p>
+
+<p>
+Fixar l’amplada de columnes i de files també es pot fer manualment estirant del marc de la taula (<span class="figref"><a href="#Figure32"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure32"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Modificar l’alçada d’una fila
+
+</figcaption><img src="../media/gadm07u3_81.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Propietats de la taula</strong> obre la finestra <strong>Format de la taula</strong>. Informa de les propietats de la taula (aliniació, columnes, fons, marc…) i permet modificar-les (<span class="figref"><a href="#Figure33"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure33"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Format de la taula
+
+</figcaption><img src="../media/gadm07u3_82.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="el_menu_eines" >El menú Eines</a></h2>
+<div class="level2">
+
+<p>
+La revisió ortogràfica pot ser manual o automàtica.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_83.png" class="imgB" title="Revisió ortogràfica manual/-10" alt="Revisió ortogràfica manual/-10" /></li><li><small>Revisió ortogràfica manual</small></li>
+</ul></div>
+
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_84.png" class="imgB" title="Revisió manual automàtica/15" alt="Revisió manual automàtica/15" /></li><li><small>Revisió manual automàtica</small></li>
+</ul></div>
+
+</p>
+
+<p>
+A la barra d’eines, trobareu les icones corresponents per activar o desactivar la revisió manual o automàtica.
+</p>
+
+</div>
+
+<h3><a id="revisio_ortografica_manual" >Revisió ortogràfica manual</a></h3>
+<div class="level3">
+
+<p>
+L’opció del menú <strong>Eines \ Ortografia i gramàtica</strong> i la icona de la barra d’eines corresponent obren la finestra que porta el mateix nom. Podeu revisar tot el document, o bé una part seleccionada. Per a cada error ortogràfic, podeu acceptar la suggerència del diccionari i canviar la paraula, o bé ignorar-la (<span class="figref"><a href="#Figure34"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure34"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra de revisió ortogràfica
+
+</figcaption><img src="../media/gadm07u3_87.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h3><a id="revisio_ortografica_automatica" >Revisió ortogràfica automàtica</a></h3>
+<div class="level3">
+
+<p>
+Si està activa la revisió automàtica al document el LibreOffice us indica amb una línia vermella ondulada els errors ortogràfics.
+</p>
+
+<p>
+Situant el punter sobre la paraula amb un error, amb el botó dret del ratolí activareu un menú contextual amb opcions de correcció (<span class="figref"><a href="#Figure35"><span>figura</span></a></span>).
+</p>
+
+<p>
+<strong>Llengua</strong> permet accedir a la finestra de Partició de mots i a la revisió de la separació sil·làbica.
+</p>
+
+<p>
+<strong>Recompte de paraules</strong> us informa del nombre de paraules i caràcters del document actual.
+</p>
+
+<p>
+A <strong>Correcció automàtica</strong> podeu configurar i personalitzar opcions de correcció del text, indicar excepcions… També podeu activar, desactivar i configurar la funció de completar paraules.
+</p>
+<div class="iocfigure"><a name="Figure35"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Menú contextual de revisió automàtica
+
+</figcaption><img src="../media/gadm07u3_89.png" alt="" /></figure>
+
+</p>
+<div class="footfigure">Com tots els menús contextuals, s'activa clicant amb el botó dret, sobre la paraula</div></div>
+<p>
+<strong>Númeració d’esquemes</strong>, <strong>Numeració de línies</strong> i <strong>Notes al peu</strong> obren les finestres que porten el nom corresponent. Permeten configurar opcions com:
+</p>
+<ul>
+<li class="level1"><div class="li"> L’estil de numeració basant-se en lletres (A, B, C…) majúscules o minúscules, xifres àrabs, xifres romanes…</div>
+</li>
+<li class="level1"><div class="li"> Numerar automàticament els capítols, les línies…</div>
+</li>
+<li class="level1"><div class="li"> Indicar el sagnat o la posició de cada línia en relació a les altres.</div>
+</li>
+</ul>
+
+<p>
+El format configurat s’aplica a través de la finestra <strong>Estils i formatació</strong>.
+</p>
+
+<p>
+A <strong>Galeria</strong>, trobareu imatges i sons per inserir al document. Estan classificats per temes, i hi podeu afegir temes nous i elements. Arrossegant un element des de Galeria, el situeu al document (<span class="figref"><a href="#Figure36"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure36"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Arrossegar un element de Galeria al document
+
+</figcaption><img src="../media/gadm07u3_92.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+La finestra de Galeria podeu obrir-la i tancar-la com una persiana, amb més o menys alçada. Es pot deixar activa, però tancada, de manera que es pugui obrir quan es necessiti (<span class="figref"><a href="#Figure37"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure37"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Estirar la finestra de Galeria
+
+</figcaption><img src="../media/gadm07u3_93.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Reproductor multimèdia</strong> obre la finestra que porta el seu nom. Permet cercar un fitxer de so o de vídeo que tingueu arxivat i reproduir-lo (<span class="figref"><a href="#Figure38"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure38"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Reproductor de vídeo i so
+
+</figcaption><img src="../media/gadm07u3_94.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Per reproduir un fitxer que estigui incrustat a la pàgina, aneu a <strong>Visualitza \ Barra d’eines \ Reproductor multimèdia</strong>. A sobre de la barra d’estat, es mostra un reproductor (<span class="figref"><a href="#Figure39"><span>figura</span></a></span>). Seleccionant l’arxiu de so o de vídeo incrustat al document, podeu reproduir-lo utilitzant les diferents icones de control.
+</p>
+
+<p>
+La icona d’enllaç multimèdia permet cercar un arxiu nou de so o vídeo al vostre ordinador.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u3_95.png" class="imgB" title="Enllaç a arxiu multimèdia/-15" alt="Enllaç a arxiu multimèdia/-15" /></li><li><small>Enllaç a arxiu multimèdia</small></li>
+</ul></div>
+
+</p>
+<div class="iocfigure"><a name="Figure39"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Reproductor de vídeo i so sobre la barra d’estat
+
+</figcaption><img src="../media/gadm07u3_96.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Auxiliar de combinació de correu</strong>, com el seu nom indica, ajuda a crear una carta o un correu electrònic que s’ha d’enviar a moltes persones. Cal indicar el document de base amb el contingut, seleccionar una llista d’adreces, tenir en compte el sexe del destinatari/ària en la salutació, configurar el disseny, personalitzar la correspondència amb el nom i l’adreça.
+</p>
+
+<p>
+<strong>Ordena</strong>, com el seu nom indica, ordena les files, paràgrafs seleccionats… seguint el criteri que indiqueu: per ordre alfabètic, numèric…
+</p>
+
+<p>
+<strong>Calcula</strong>, a partir d’una fórmula, fa un càlcul i copia el resultat al porta-retalls.
+</p>
+
+<p>
+<strong>Actualiza</strong>, com el seu nom indica, actualitza el contingut dinàmic que hi hagi a la pàgina: camps, vincles a altres documents…
+</p>
+
+<p>
+Una <strong>Macro</strong> es basa en un esdeveniment que origina una seqüència de comandaments (moure el ratolí sobre un objecte, fer un clic sobre una imatge, un enllaç…).
+</p>
+
+<p>
+<strong>Gestor d’extensions…</strong> permet afegir i treure extensions del LibreOffice
+</p>
+
+<p>
+<strong>Paràmetres del filtre <acronym title="Extensible Markup Language">XML</acronym>..</strong>. permet crear i editar filtres per importar i exportar arxius <acronym title="Extensible Markup Language">XML</acronym>.
+</p>
+
+<p>
+<strong>Personalitza…</strong> permet modificar els menús i crear-ne de nous, afegir i treure icones de la barra d’eines, personalitzar les dreceres de teclat….
+</p>
+
+<p>
+<strong>Opcions…</strong> permet configurar les vostres preferències: dades personals, idioma, indicacions sobre els colors de la interfície, imprimir… Les dades configurades es desen i es mostraran la propera vegada que obriu el LibreOffice.
+</p>
+
+</div>
+
+<h2><a id="el_menu_finestra" >El menú Finestra</a></h2>
+<div class="level2">
+
+<p>
+Al menú <strong>Finestra</strong> trobareu les opcions:
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Nova finestra</strong>: obre una finestra amb el mateix contingut que la finestra actual. Les modificacions fetes en una finestra s’apliquen, també, a totes les altres finestres que contenen el mateix document. </div>
+</li>
+<li class="level1"><div class="li"> <strong>Tanca la finestra</strong>: tanca la finestra activa.</div>
+</li>
+</ul>
+
+<p>
+Al final del menú <strong>Finestra</strong>, trobeu una relació dels documents que teniu oberts amb el LibreOffice. El document actiu mostra un punt negre al davant. Des de <strong>Finestra</strong>, podeu canviar el document actiu seleccionant un altre document obert (<span class="figref"><a href="#Figure40"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure40"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions del menú Finestra
+
+</figcaption><img src="../media/gadm07u3_99.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="el_menu_ajuda" >El menú Ajuda</a></h2>
+<div class="level2">
+
+<p>
+Al menú <strong>Ajuda</strong> trobareu (<span class="figref"><a href="#Figure41"><span>figura</span></a></span>):
+</p>
+<ul>
+<li class="level1"><div class="li"> L’<strong>Ajuda de LibreOffice</strong> permet accedir al tutorial que porta incorporat el programa. Podeu trobar ajuda a través del contingut, l’índex i la cerca.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Què és això?</strong>: Prement aquesta opció, un interrogant es desplaça amb el punter i mostra una etiqueta amb ajuda contextual.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name="Figure41"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions del menú Ajuda
+
+</figcaption><img src="../media/gadm07u3_100.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> <strong>Assistència</strong> us adreça a: <a href="http://www.LibreOffice" class="urlextern" target="_blank" title="http://www.LibreOffice"  rel="nofollow">www.LibreOffice</a></div>
+</li>
+<li class="level1"><div class="li"> <strong>Registre…</strong> us connecta a: <a href="http://www.LibreOffice/welcome/registration20.html" class="urlextern" target="_blank" title="http://www.LibreOffice/welcome/registration20.html"  rel="nofollow">www.LibreOffice</a> per registrar-vos com a usuaris de LibreOffice. No és obligatori el registre.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Quant al LibreOffice</strong> us informa de la versió i dels drets d’autor (<em>copyright</em>).</div>
+</li>
+</ul>
+
+</div>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="../../../WebContent/u3/referencies.html">Referències</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="../../../WebContent/u3/a1/activitats.html">Activitats</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>

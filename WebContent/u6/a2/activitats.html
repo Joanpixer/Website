@@ -1,0 +1,905 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="../../../img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="../../../_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="../../../_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../../../_/js/modernizr-1.7.min.js"></script>
+	<script src="../../../_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="../../../_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="../../../img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="../../../img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="../../../index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="../../../search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="../../../img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="../../../img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="../../../img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="../../../img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="../../../img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="../../../img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="../../../img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="u6" class="parentnode"><p><a href="../../../WebContent/u6/resum.html">6. Imatge i vídeo. Presentacions</a></p><ul class="expander"><li id="u6resum"><a href="../../../WebContent/u6/resum.html">Resum</a></li><li id="u6resultats"><a href="../../../WebContent/u6/resultats.html">Resultats de l'aprenentatge i criteris d'avaluació</a></li><li id="u6referencies"><a href="../../../WebContent/u6/referencies.html">Referències</a></li><li id="u6a1" class="tocsection"><p id="u6a1continguts"><a href="../../../WebContent/u6/a1/continguts.html">Tractament de la imatge</a><span class="buttonexp"></span></p><ul><li id="u6a1activitats"><a href="../../../WebContent/u6/a1/activitats.html">Activitats</a></li><li id="u6a1exercicis"><a href="../../../WebContent/u6/a1/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u6a2" class="tocsection"><p id="u6a2continguts"><a href="../../../WebContent/u6/a2/continguts.html">Vídeo i àudio</a><span class="buttonexp"></span></p><ul><li id="u6a2activitats"><a href="../../../WebContent/u6/a2/activitats.html">Activitats</a></li><li id="u6a2exercicis"><a href="../../../WebContent/u6/a2/exercicis.html">Exercicis d'autoavaluació</a></li><li id="u6a2annexos"><a href="../../../WebContent/u6/a2/annexos.html">Annexos</a></li></ul></li><li id="u6a3" class="tocsection"><p id="u6a3continguts"><a href="../../../WebContent/u6/a3/continguts.html">Elaboració de presentacions</a><span class="buttonexp"></span></p><ul><li id="u6a3activitats"><a href="../../../WebContent/u6/a3/activitats.html">Activitats</a></li><li id="u6a3exercicis"><a href="../../../WebContent/u6/a3/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li></ul></li><li id="" class="indexnode"><p><a href="../../../index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="../../../index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li><a href="../resum.html">Imatge i vídeo. Presentacions</a></li><li><a href="continguts.html">Vídeo i àudio</a></li><li>Activitats</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="activitats"> Activitats  </a></h1>
+    	
+<h2><a id="visualitzacio_de_videos_i_audicio_de_fitxers_de_so" >Visualització de vídeos i audició de fitxers de so</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a instal·lar el programari per tal de poder visualitzar i escoltar fitxers d’àudio i vídeo en qualsevol format. 
+</p>
+
+<p>
+Tant els fitxers de vídeo com els d’àudio poden estar codificats en formats molt diversos, com poden ser, entre molts d’altres:
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Àudio</strong>: WAV, <acronym title="Moving Picture Experts Group Layer 3">MP3</acronym>, OGG, APE, WMA</div>
+</li>
+<li class="level1"><div class="li"> <strong>Vídeo</strong>: MPG, AVI, XVID, FLV, OGM, WMV</div>
+</li>
+</ul>
+
+<p>
+És molt freqüent trobar-nos que no podem accedir al contingut d’aquests tipus d’arxius, sobretot en el cas dels fitxers de vídeo. La manera de resoldre aquest problema no passa necessàriament per instal·lar programari extra, sinó més aviat per donar en els programes que ja tenim les eines necessàries per poder descodificar els fitxers que ara no podem manipular. Aquestes eines de descodificació s’anomenen <em>còdecs</em> (codificadors-descodificadors).
+</p>
+
+<p>
+<strong> Com fer-ho a Windows XP </strong>
+</p>
+
+<p>
+L’ideal és instal·lar en l’ordinador un paquet de còdecs ja preparat. En podeu trobar de gratuïts en la web següent:
+</p>
+<ul>
+<li class="level1"><div class="li"> Free-codecs (<a href="http://www.free-codecs.com" class="urlextern" target="_blank" title="http://www.free-codecs.com"  rel="nofollow">http://www.free-codecs.com</a>)</div>
+</li>
+</ul>
+
+<p>
+Els paquets de còdecs més complets són:
+</p>
+<ul>
+<li class="level1"><div class="li"> K-Lite Codec Pack, que inclou un reproductor molt lleuger, com alternativa al Windows Media Player, i que satisfarà totes les nostres necessitats.</div>
+</li>
+<li class="level2"><div class="li"> Codec Pack All in 1, molt pesat però també molt complet.</div>
+</li>
+</ul>
+
+<p>
+Un cop instal·lat, fent doble clic sobre el fitxer podreu veure o escoltar l’arxiu sense problemes.
+</p>
+
+<p>
+<strong> Com fer-ho a Windows Vista o 7</strong>
+</p>
+
+<p>
+L’ideal és instal·lar en l’ordinador un paquet de còdecs ja preparat. En podeu trobar de gratuïts en la web següent:
+</p>
+<ul>
+<li class="level1"><div class="li"> Free-codecs (<a href="http://www.free-codecs.com" class="urlextern" target="_blank" title="http://www.free-codecs.com"  rel="nofollow">http://www.free-codecs.com</a>)</div>
+</li>
+</ul>
+
+<p>
+Els paquets de còdecs més complets són:
+</p>
+<ul>
+<li class="level1"><div class="li"> K-Lite Codec Pack, que inclou un reproductor molt lleuger, com alternativa al Windows Media Player, i que satisfarà totes les nostres necessitats.</div>
+</li>
+<li class="level2"><div class="li"> Codec Pack All in 1, molt pesat però també molt complet.</div>
+</li>
+</ul>
+
+<p>
+Un cop instal·lat, fent doble clic sobre el fitxer podreu veure o escoltar l’arxiu sense problemes.
+</p>
+
+<p>
+<strong> Com fer-ho a Linux </strong>
+</p>
+
+<p>
+Linux no incorpora per defecte els còdecs de sistemes que no siguin de codi obert o de lliure distribució.
+</p>
+
+<p>
+Respecte a l’àudio, per poder gaudir d’aquests còdecs haureu d’instal·lar un paquet que els contingui. Anireu a <strong>Sistema \ Configuració \ Gestor de paquets Synaptic</strong> i cercareu un paquet anomenat <em>ubuntu-restricted-extras</em>:
+</p>
+
+<p>
+Aquest paquet és el que heu d’instal·lar.
+</p>
+
+<p>
+Els còdecs de vídeo s’instal·len per defecte a Ubuntu de la mà del reproductor GStreamer i, en principi, no cal afegir-ne cap.
+</p>
+
+</div>
+
+<h2><a id="obtenir_i_instal_lar_avidemux" >Obtenir i instal·lar Avidemux</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és obtenir i instal·lar el programari de vídeo Avidemux.
+</p>
+
+<p>
+Avidemux és un programari lliure d’edició de vídeo lineal per a tot tipus de sistemes operatius que permet modificar, tallar, acoblar i aplicar filtres a vídeos codificats amb anterioritat. Cal destacar, també, els diferents elements d’edició que incorpora, com ara els marcadors per distingir diferents parts (retallar i enganxar), la possibilitat de corregir la sincronització entre àudio i vídeo o la possibilitat d’afegir filtres i correccions al vídeo i a l’àudio per fer-los més atractius.
+</p>
+
+<p>
+<strong> Com fer-ho a Windows </strong>
+</p>
+
+<p>
+Des de la web del desenvolupador podem descarregar-nos el programa:
+</p>
+
+<p>
+<a href="http://fixounet.free.fr/avidemux" class="urlextern" target="_blank" title="http://fixounet.free.fr/avidemux"  rel="nofollow">http://fixounet.free.fr/avidemux</a>
+</p>
+
+<p>
+Un cop descarregat, executem el programa i instalarem l’avidemux. La instal·lació és del tipus estàndard, i només haurem d’anar clicant al botó següent, fins que finalitzi.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_2_005.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_2_003.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_2_004.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_2_002.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_2.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_2_006.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Un cop instal·lat, podrem engegar la aplicació des de l’escriptori, el menú d’inici ràpid o des del grup de programes nou que s’haurà creat.
+</p>
+
+<p>
+<strong> Com fer-ho a Linux </strong>
+</p>
+
+<p>
+Obrir una consola de text i executar la ordre:
+</p>
+<pre class="code">sudo apt-get install avidemux</pre>
+
+<p>
+(S’han de tenir permisos d’administració en la màquina on volem instal·lar-ho)
+</p>
+
+<p>
+Quan pregunti si volem continuar, pressionem la tecla “S”[Si].
+</p>
+
+<p>
+Amb això quedarà instal·lat l’Avidemux i ens sortirà en el menú <strong>Aplicacions</strong> -So i vídeo- Avidemux (GTK+)
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_menu_545x354.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Si cliquem a sobre, s’ens obrirà l’aplicació d’Avidemux:
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_avidemux_718x535.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="elements_de_treball_del_programari_avidemux" >Elements de Treball del programari Avidemux</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a identificar els diferents elements de treball que conté el programari Avidemux.
+</p>
+
+<p>
+Un cop hàgim accedit al programari, ja podrem començar a treballar en l’edició d’un videoclip.
+</p>
+
+<p>
+En primer lloc, tal com es mostra a continuació (veure figura següent), haurem d’identificar els diferents elements de treball que el programari posa al nostre abast.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_f_proves_2figura_52_630x584.jpg" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Val a dir que la interfície gràfica del programari és força intuïtiva. Encara més, si ens centrem en la barra superior de la finestra principal, on podrem veure que no només hi ha els elements bàsics propis d’aquest tipus d’aplicacions, sinó que també hi ha eines que ajuden a millorar les tasques d’edició.
+</p>
+
+<p>
+A continuació detallem el contingut de cadascun dels elements que componen la barra d’<strong>Opcions</strong> (veure figura següent).
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_f_proves_2figura_53_414x153.jpg" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li">  <strong>Fitxer</strong>: Aquesta opció permet obrir els fitxers a tractar o incloure altres fitxers en un vídeo ja obert. També hi ha l’opció d’incloure en un vídeo només part d’un altre fitxer, com ara informació o captures d’imatges.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Edició</strong>: Aquesta opció permet tallar escenes, copiar-les o enganxar-les. També permet fer marques en el vídeo (A i B) per, a continuació, tallar el contingut que hi hagi entre les marques.</div>
+</li>
+<li class="level1"><div class="li">  Veure: El programari permet visionar el videoclip en diferents resolucions –o proporcions– mitjançant un zoom (1:4, 1:2, etc.) i també permet visionar el videoclip original i el resultant alhora.</div>
+</li>
+<li class="level1"><div class="li">  <strong>Vídeo</strong>: Aquesta opció permet definir el format del vídeo resultant de la nostra edició, per exemple MP4 o AVI. Paral·lelament, també podem aplicar filtres als videoclips com ara, inserir un logotip, una sentència en un punt de la reproducció o subtítols.</div>
+</li>
+<li class="level1"><div class="li">  <strong>Àudio</strong>: A grans trets, aquesta opció ens permet inserir una font d’àudio externa (o diferent de l’original) o dues pistes de so.</div>
+</li>
+<li class="level1"><div class="li">  <strong>Eines</strong>: Principalment, calcula i estableix la taxa de bits en funció del suport físic en què vulguem emmagatzemar el videoclip resultant.</div>
+</li>
+<li class="level1"><div class="li">  <strong>Automatització</strong>: Aquesta opció ens permet escollir en quin format o dispositiu volem que s’emmagatzemi el videoclip resultant del nostre treball (vídeo Flash, iPod, telèfon mòbil, etc.).</div>
+</li>
+<li class="level1"><div class="li"> <strong>Navegar</strong>: Atès que ens haurem de desplaçar al llarg del videoclip amb què estiguem treballant, endavant, enrere, avançament ràpid o lent, etc., des d’aquí accedirem a totes aquestes eines de treball. Cal destacar que podem trobar aquestes mateixes eines a la barra de reproducció situada a sota de la finestra de reproducció del clip.</div>
+</li>
+</ul>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_f_proves_2figura_54_624x234.jpg" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Arribats a aquest punt, cal que ens fixem en les característiques de la barra de reproducció del programari:
+</p>
+<ul>
+<li class="level1"><div class="li"> Barra de reproducció: Aquest és l’indicatiu del desenvolupament del videoclip mentre l’estem reproduint. En cas que vulguem desplaçar-nos pel clip, haurem de mantenir clicat el ratolí sobre la pestanya i moure-la en un sentit o en un altre.</div>
+</li>
+<li class="level1"><div class="li"> Marques: En cas que vulguem extreure un tros del clip, indicarem amb les marques A (inici) i B (final) els fotogrames inicial i final de la seqüència a retallar.</div>
+</li>
+<li class="level1"><div class="li"> Cerca de fotogrames negres: Permet fer una revisió del clip per detectar si conté fotogrames negres.</div>
+</li>
+<li class="level1"><div class="li"> Desplaçament suau per fotogrames: Permet navegar amb suavitat pel videoclip, o sigui fotograma a fotograma (endavant o enrere). Podem recórrer a aquesta utilitat en cas que vulguem capturar un fotograma concret per obtenir-lo com a imatge.</div>
+</li>
+</ul>
+
+<p>
+Un cop ja coneixem les eines principals que ens proporciona el programari, podem començar a posar en pràctica els nostres coneixements d’edició de vídeo.
+</p>
+
+</div>
+
+<h2><a id="conversio_del_format_d_un_video_amb_avidemux" >Conversió del format d&#039;un vídeo amb Avidemux</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a convertir el format d’un vídeo amb Avidemux.
+</p>
+
+<p>
+Les noves tecnologies han fet possible que puguem disposar tant de les pàgines web dedicades a tractar i a compartir videoclips (Youtube) com dels dispositius portàtils on emmagatzemar i reproduir aquests mateixos clips. Sovint aquests videoclips no comparteixen un mateix format de vídeo o àudio o bé els mateixos reproductors treballen amb un únic format de vídeo, per exemple, l’MP4. Aquest és el motiu pel qual el programari Avidemux, per establir el format del fitxer resultant, proposa escollir el dispositiu en què s’emmagatzemarà el videoclip.
+</p>
+
+<p>
+Des del punt de vista del programari, per treballar en el tractament de l’edició de vídeo, haurem d’accedir al clip per, a continuació, especificar mitjançant els menús desplegables de l’esquerra de la finestra principal els formats específics de vídeo i àudio del videoclip resultant. Val a dir que no solament definirem els formats de vídeo i àudio, sinó que també haurem de definir el format global mitjançant la casella <strong>Format</strong> (veure figura següent).
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusa_f_proves_2figura_55_155x311.jpg" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Cal destacar que, a més de definir els paràmetres del videoclip resultant, també podem accedir a l’establiment de paràmetres més específics com ara la qualitat de la codificació del fitxer. Hem de ser conscients que, en cas de definir uns paràmetres molt alts per obtenir una qualitat alta, el programari tardarà molt més a finalitzar el procés de conversió i el clip resultant serà molt pesat.
+</p>
+
+<p>
+Un cop finalitzada la conversió del videoclip, ja podem definir el nom del clip resultant. Haurem d’anar a l’opció <strong>Fitxers</strong> dins de la barra superior i, a continuació, fer clic sobre l’opció <strong>Desar</strong>, on introduirem el nom del clip resultant. Per defecte, el programari no expressarà el format escollit en el clip resultant, per tant, haurem de definir el clip amb el nom i el format corresponents.
+</p>
+
+</div>
+
+<h2><a id="redimensionar_un_video_amb_avidemux" >Redimensionar un vídeo amb Avidemux</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a redimensionar un vídeo amb el programari Avidemux.
+</p>
+
+<p>
+En canviar qualsevol aspecte d’un vídeo, el que fem es recodificar-lo o sigui fer-lo de nou. Per canviar la resolució d’un vídeo hem d’accedir a la columna de l’esquerra i seleccionar al menú desplegable el còdec que volem que tingui.
+</p>
+
+<p>
+En aquest cas es va escollir la opció <acronym title="Moving Picture Experts Group">MPEG</acronym>-4 <acronym title="Active Server Pages">ASP</acronym> (Xvid) que fa referència al còdec Xvid, basat en l’estàndard <acronym title="Moving Picture Experts Group">MPEG</acronym>-4 <acronym title="Active Server Pages">ASP</acronym> i que és un dels més populars.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusavidemux1_720x480.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Si volem aprofundir en la configuració dels còdecs per variar la qualitat/mida del vídeo podem investigar una mica a l’apartat <em>Configurar</em>. Per norma general, les opcions predefinides solen mantenir la qualitat del vídeo original.
+</p>
+
+<p>
+Per modificar la resolució del vídeo, li aplicarem un filtre. Des de l’apartat <em>Filtres</em>, podem prémer el botó que hi ha a sota de <em>Configurar</em> o bé podem prémer <em>Vídeo</em> i després <em>Filtres</em> a la barra d’eines.
+</p>
+
+<p>
+Apareixerà la següent finestra on hem de seleccionar el filtre <em>Mplayer redimensionar</em>.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusavidemux2_720x439.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A continuació fem doble clic en el filtre <em>Mplayer Resize</em> i apareixerà la finestra per reconfigurar la resolució final.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campusavidemux3_342x232.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Podem modificar l’amplada (<em>height</em>) i l’alçada (<em>width</em>) i també la relació d’aspecte entre l’entrada i la sortida del vídeo.
+</p>
+
+<p>
+Els dos menús desplegables que hi ha al costat d’alçada (<em>width</em>) i amplada (<em>height</em>) serveixen per configurar la relació d’aspecte del vídeo:
+</p>
+<ul>
+<li class="level1"><div class="li"> 1:1 = No modifica res, la relació d’aspecte del vídeo original és la mateixa que la que volem obtenir.</div>
+</li>
+<li class="level1"><div class="li"> 4:3 = Depenent de si el fem servir en <strong>Origen</strong> o <strong>Destinació</strong>, estem indicant a l’Avidemux que el format del vídeo és com el de la televisió, és a dir, aproximadament quadrat.</div>
+</li>
+<li class="level1"><div class="li"> 16:9 = Depenent de si el fem servir en <strong>Origen</strong> o <strong>Destinació</strong>, estem indicant a l’Avidemux que el format del vídeo és com el de una pel·lícula de cinema, és a dir, rectangular.</div>
+</li>
+</ul>
+
+<p>
+S’ha de tenir en compte, però, que si, per exemple, escollim 16:9 a la sortida, no s’afegiran automàticament les franges negres característiques de les pel·lícules de cinema. L’únic que es modifica són les imatges, que quedaran com aixafades.
+</p>
+
+<p>
+Si volem conservar la relació entre amplada i alçada del vídeo original, es millor desplaçar la barra de sota cap a l’esquerra, per tal que es redueixin de forma simultània tant la amplada con la alçada i no es distorsioni el vídeo.
+</p>
+
+<p>
+En acabar, premem <strong>Acceptar</strong>, i després, a la finestra de filtres, el botó <strong>Tancar</strong>. Per fer efectiu el canvi, hem de prémer <strong>Desar</strong> i començarà el procés de codificació.
+</p>
+
+</div>
+
+<h2><a id="retallar_un_video_amb_avidemux" >Retallar un vídeo amb Avidemux</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a retallar un vídeo amb el programari Avidemux.
+</p>
+
+<p>
+Avidemux permet retallar un vídeo de forma senzilla i intuïtiva. Simplement s’ha de desplaçar la barra horitzontal fins al punt on volem que comenci el vídeo.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campustrim1_572x91.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+I després marcar el moment d’inici prement el botó en forma de rectangle tallat que té a la seva esquerra la lletra A.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campustrim2_572x91.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A continuació tornem a desplaçar la barra fins al punt on vulguem que s’acabi el futur vídeo, i premem el botó en forma de rectangle tallat que té a la seva dreta la lletra B.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/iocsau-campustrim3_572x91.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Per últim, desem el nou vídeo que començarà i acabarà en els punts marcats.
+</p>
+
+</div>
+
+<h2><a id="insercio_de_subtitols_amb_avidemux" >Inserció de subtítols amb Avidemux</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és conèixer les tècniques principals utilitzades per a la inserció de subtítols en un vídeo amb el programari Avidemux.
+</p>
+
+<p>
+Tot i que pot semblar una referència molt antiga, és important demostrar com ja fa molts anys hi havia una polèmica notable amb el doblatge de les pel·lícules. De fet, el notable escriptor José Luis Borges (1899-1986) expressava amb molta claredat el seu punt de vista envers el doblatge –tècnica imposada des del franquisme com a eina identificadora pels ciutadans envers el país.
+</p>
+
+<p>
+“L’art de combinar no és infinit, però acostuma a ser espantós. Els grecs van engendrar la quimera, un monstre amb tres caps (un de lleó, un altre de drac, un altre de cabra). Els teòlegs van inventar la Trinitat, en la qual conviuen Pare, Fill i Esperit. I ara la cinematografia acaba d’enriquir aquest museu en va amb el <em>doblatge</em>, un artifici maligne que combina les faccions de Greta Garbo amb la veu de qualsevol Dulcinea espanyola. Com no ens hem de queixar davant aquest prodigi penós, davant aquestes anomalies foneticovisuals?
+</p>
+
+<p>
+Aquells que defensen el doblatge raonaran que el mateix es pot objectar a qualsevol altre exemple de traducció. Aquest argument desconeix, o eludeix, el defecte central: l’empelt arbitrari d’una altra veu i d’un altre llenguatge. La veu de Katherine Hepburn no és intranscendent; és, per al món, un dels atributs que la defineixen.
+</p>
+
+<p>
+Ni tan sols la mímica de l’anglès és igual a la de l’espanyol. Llavors, ja que hi ha usurpació de veus, per què no també dels actors? Quan serà perfecte el sistema? Quan veurem directament una tal Juana González en el paper de Greta Garbo en la pel·lícula <em>Queen Christine</em>?”
+</p>
+
+<p>
+Inseriu els subtítols en el videoclip que mostra el discurs que va realitzar l’Steve Jobs durant la graduació de l’any 2005 en la Universitat de Stanford.
+</p>
+
+<p>
+Us podeu descarregar el vídeo des d’aquí amb el complement Video Downloader del firefox:
+</p>
+<div class="mediavideo"><!--[if !IE]> -->
+<object width="425" height="350" type="application/x-shockwave-flash" data="http://www.youtube.com/v/UF8uR6Z6KLc?allowFullScreen=true&amp;allowScriptAccess=always&amp;fs=1">
+<!-- <![endif]-->
+<!--[if IE]>
+<object width="425" height="350" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+    <param name="movie" value="http://www.youtube.com/v/UF8uR6Z6KLc?allowFullScreen=true&amp;allowScriptAccess=always&amp;fs=1" />
+<!--><!-- -->
+  <param name="wmode" value="opaque" />
+Per a visualitzar aquest contingut necessiteu el <a href="http://www.adobe.com/products/flashplayer/">connector d'Adobe Flash</a>.
+</object>
+<!-- <![endif]-->
+</div>
+<p>
+Per crear subtítols treballarem amb el programari gratuït <strong>Subtitle Workshop</strong>. Mitjançant aquest programari podrem crear, editar i convertir subtítols de manera intuïtiva i senzilla.
+</p>
+
+<p>
+<strong>Pas 1.</strong> Accedirem al programari per conèixer-ne les característiques, familiaritzar-nos amb les diferents opcions de treball i, finalment, accedir al videoclip amb el qual volem treballar.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_147.jpg" title="w2251c3ud5_147.jpg" alt="w2251c3ud5_147.jpg" /></figure>
+
+</p>
+</div>
+<p>
+Un cop ens hàgim familiaritzat amb el programari, ja podrem començar a treballar en la inserció de subtítols. Per fer-ho, haurem d’anar a l’opció <em>Pel·lícula</em> dins de la barra superior per indicar quin videoclip volem obrir. A continuació, haurem de sol·licitar al programari la nostra intenció de crear un nou subtítol per aquest clip mitjançant l’accés a l’opció <em>Fitxer</em> de la barra superior.
+</p>
+
+<p>
+<strong>Pas 2.</strong> Un cop el videoclip estigui obert (i puguem reproduir-lo) i ja puguem començar a crear els subtítols, haurem de triar en quin instant volem que apareguin. De fet, en el moment de sol·licitar un nou subtítol ens haurà aparegut una primera casella amb <em>Mostra</em> en l’instant 00:00:00,000 i <em>Desaparició</em> en l’instant 00:00:01:000.
+</p>
+
+<p>
+En primer lloc, hem d’establir amb correcció el punt d’inici i de final del subtítol, això és, quan en el videoclip sorgeixi la frase que volem subtitular perquè, per exemple, és en anglès. A més, haurem d’establir el temps que volem que aparegui en pantalla i, finalment, el text que volem que aparegui. Tota aquesta informació la inserirem mitjançant el quadre situat en la part inferior del programari.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_148.jpg" title="w2251c3ud5_148.jpg" alt="w2251c3ud5_148.jpg" /></figure>
+
+</p>
+</div>
+<p>
+Per a la inserció del subtítol, tant podem indicar el punt d’inici de cadascun mitjançant la combinació de tecles <em>Alt</em> i <em>Z</em> com el punt de final mitjançant la combinació <em>Alt</em> i <em>X</em>. Val a dir que aquesta combinació de tecles no és més que l’accés ràpid a una de les opcions de la barra de navegació pels subtítols.
+</p>
+
+<p>
+Podeu descarregar la traducció del discurs del vídeo aquí:
+</p>
+
+<p>
+<div class="mediaf filezip"><div class="mediacontent"><a href="../media/subtitols_steve_jobs.zip">Descarrega fitxer .zip que conté el fitxer &quot;discurs_steve_jobs.docx&quot;</a><span> ( 22 KB )</span></div></div>
+</p>
+
+<p>
+En cas que vulguem inserir un volum més gran de text per subtítol haurem de fer clic en l’<strong>Enter</strong> per separar les diferents línies de contingut. En el <strong>Quadre de pantalla</strong>, les línies apareixeran separades amb una pleca simple (|). Paral·lelament, haurem de considerar quin nombre de paraules introduïm per al subtítol en funció de la grandària de la imatge, ja que si incloem massa paraules, aquestes poden quedar fora de la imatge.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_149.jpg" title="w2251c3ud5_149.jpg" alt="w2251c3ud5_149.jpg" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Pas 3.</strong> Ja coneixem el programari i la tècnica per inserir els subtítols. Per tant, ja podem començar a treballar amb un videoclip. En aquest cas, treballarem amb el videoclip que mostra el discurs que va fer Steve Jobs (president de l’empresa d’animació Pixar) en la Universitat d’Stanford l’any 2005. El discurs està en anglès però disposem del discurs en català. Per tant, haurem d’obrir el clip i sol·licitar al programari la creació d’un nou subtítol.
+</p>
+
+<p>
+Per tant, per traduir el que digui Jobs, haurem d’inserir els subtítols respectant els temps (o allò que es digui en el videoclip), si no, podríem trobar que Jobs estigués bevent aigua i apareguessin subtítols que mostressin el que dirà uns quants segons més tard. A més, els subtítols han d’ocupar un espai proporcional de la pantalla (principalment, la part inferior). Per facilitar el treball, de tant en tant podem desar el subtítol, ja que no quedarà incrustat en el videoclip i és una tasca que ens pot demanar força temps de treball. El format principal (o un dels més populars) d’emmagatzematge és l’<strong><em>stream subtext script</em></strong> o <strong><em>srt</em></strong>.
+</p>
+
+<p>
+Podeu veure un exemple de format <em>srt</em> aquí:
+</p>
+
+<p>
+<div class="mediaf filezip"><div class="mediacontent"><a href="../media/subtitols_steve_jobs.zip">Descarrega fitxer .zip que conté fitxer &quot;subtit_discurs.srt&quot;</a><span> ( 22 KB )</span></div></div>
+</p>
+
+<p>
+<strong>Pas 4.</strong> Un cop hàgim finalitzat el nostre arxiu de subtítol, tant podem proporcionar-lo juntament amb el videoclip (l’haurem d’obrir juntament amb la reproducció del videoclip) com incrustar-lo en el videoclip mitjançant un programari específic com, per exemple, l’Avidemux. A tall d’exemple, un parell de captures del videoclip amb els subtítols a partir del treball amb el programari <em>Subtitle Workshop</em>.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/steve_jobs1.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/steve_jobs2.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="efectes_de_so_en_videoclips_amb_audacity_i_avidemux" >Efectes de so en videoclips amb Audacity i Avidemux</a></h2>
+<div class="level2">
+
+<p>
+L’objectiu d’aquesta activitat és aprendre a crear un vídeo amb diferents efectes sonors mitjançant programari lliure multiplataforma com, per exemple, l’Avidemux i l’Audacity.
+</p>
+
+<p>
+Internet està ple de videoclips sobre caigudes, curses o bromes en què sorgeix un efecte de so com, per exemple, un aplaudiment, una frenada de cotxe, etc. El muntatge d’aquests tipus de videoclips pot semblar senzill però demana dedicar-hi un temps i coneixements que, en el nostre cas, podem posar en pràctica sense cap mena de problema.
+</p>
+
+<p>
+Per crear un videoclip amb efectes de so utilitzarem programari lliure i multiplataforma com l’Avidemux i l’Audacity. Per tant, en primer lloc haurem d’extreure la pista d’àudio amb el programari Avidemux, carregar el so amb el programari Audacity i, paral·lelament, inserir l’efecte de so. Finalment, substituirem la pista de so en el vídeo amb el programari Avidemux.
+</p>
+
+<p>
+Un cop hàgim definit el vídeo amb què volem treballar, en el nostre cas, un gatet juganer que no calcula correctament els passos, haurem de triar quin efecte hi posarem. Com a efectes podem inserir el d’una frenada i, a continuació, una caiguda. Per tant, en primer lloc, haurem de cercar per Internet l’efecte de so escollit, ja que elaborar-lo nosaltres mateixos pot resultar un xic complicat i, depenent de l’efecte triat, perillós.
+</p>
+
+<p>
+Descarregar vídeo
+</p>
+
+<p>
+<strong>Pas 1.</strong> Extraurem la pista de so amb el programari Avidemux; per tant, arrencarem el programari per carregar el videoclip i, paral·lelament, avaluarem com està codificada la pista de so del clip. A continuació, anirem a l’opció <strong>So</strong> per emmagatzemar en el nostre ordinador el so del videoclip. Per l’exemple, l’anomenarem <em>gat_avall.mp3</em>.
+</p>
+
+<p>
+Podeu veure com quedaria aquí:
+</p>
+
+<p>
+Descarregar fitxer mp3
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_150.jpg" title="w2251c3ud5_150.jpg" alt="w2251c3ud5_150.jpg" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Pas 2.</strong> Arrencarem el programari Audacity i, a continuació, obrirem l’arxiu de so extret del videoclip (<em>gat_avall.mp3)</em>.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_151.jpg" title="w2251c3ud5_151.jpg" alt="w2251c3ud5_151.jpg" /></figure>
+
+</p>
+</div>
+<p>
+De manera excepcional, podem aplicar un procés de normalització en aquest efecte mitjançant l’accés a l’opció <strong>Efecte</strong> de la barra superior del programari.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_152.jpg" title="w2251c3ud5_152.jpg" alt="w2251c3ud5_152.jpg" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Pas 3.</strong> Un cop arrencat el programari, anirem a l’opció <strong>Projecte</strong> en la barra superior i, un cop dins, importarem l’àudio i seleccionarem l’efecte del so, en aquest cas, el de l’impacte de cotxe.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_153.jpg" title="w2251c3ud5_153.jpg" alt="w2251c3ud5_153.jpg" /></figure>
+
+</p>
+</div>
+<p>
+Podeu descarregar l’efecte d’impacte aquí:
+</p>
+
+<p>
+Descarregar fitxer mp3
+</p>
+
+<p>
+Amb la inserció de l’arxiu de so, el resultat dins del programari serà el següent:
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_154.jpg" title="w2251c3ud5_154.jpg" alt="w2251c3ud5_154.jpg" /></figure>
+
+</p>
+</div>
+<p>
+La inserció de l’arxiu de so comporta que totes dues pistes s’escoltaran en el tram inicial i no en el final, que és quan necessitem que passi. Per tant, haurem de traslladar-lo a partir del moment que ens interessa. Per tant, abans de traslladar el so, haurem de visualitzar el videoclip per saber amb exactitud on ha d’arrencar.
+</p>
+
+<p>
+Un cop ja coneixem en quin segon ha de començar l’efecte, ja podem anar al programari Audacity i, amb l’eina <em>Moure</em>, traslladarem l’efecte per la línia de temps fins allà on vulguem.
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_156.jpg" title="w2251c3ud5_156.jpg" alt="w2251c3ud5_156.jpg" /></figure>
+
+</p>
+</div>
+<p>
+<strong>Pas 4.</strong> Un cop hàgim ajustat l’efecte de so amb el punt on considerem que ha de començar, ja el podem desar i exportar com a <acronym title="Moving Picture Experts Group Layer 3">MP3</acronym>. Per tant, haurem d’anar a l’opció <strong>Arxiu</strong> i exportar-lo en aquest format d’àudio. A continuació, anirem al programari Avidemux per aplicar-hi el clip d’àudio.
+</p>
+
+<p>
+Un cop obert el programari d’edició de vídeo, anirem a l’opció <strong>Àudio</strong> de la barra superior i escollirem <strong>Pista principal</strong> per carregar el clip d’àudio mitjançant la crida a l’opció <strong>Font d’àudio</strong>. Un cop hàgim carregat el clip d’àudio com a <acronym title="Moving Picture Experts Group Layer 3">MP3</acronym> extern, haurem d’indicar al programari els còdecs per al videoclip resultant (per exemple, vídeo Xvid). En el cas del so, aquest haurà d’estar amb l’opció <strong>Copiar</strong> activada (és l’opció per defecte quan obrim el programari).
+</p>
+<div class="iocfigure"><a name=""></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span></figcaption><img src="../media/w2251c3ud5_157.jpg" title="w2251c3ud5_157.jpg" alt="w2251c3ud5_157.jpg" /></figure>
+
+</p>
+</div>
+<p>
+El resultat final serà aquest:
+</p>
+
+<p>
+Descarregar vídeo
+</p>
+
+</div>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="../../../WebContent/u6/a2/continguts.html">Vídeo i àudio</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="../../../WebContent/u6/a2/exercicis.html">Exercicis d'autoavaluació</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>

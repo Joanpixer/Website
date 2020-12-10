@@ -1,0 +1,1383 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="../../../img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="../../../_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="../../../_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../../../_/js/modernizr-1.7.min.js"></script>
+	<script src="../../../_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="../../../_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="../../../img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="../../../img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="../../../index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="../../../search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="../../../img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="../../../img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="../../../img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="../../../img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="../../../img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="../../../img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="../../../img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="u4" class="parentnode"><p><a href="../../../WebContent/u4/resum.html">4. Fulls de càlcul</a></p><ul class="expander"><li id="u4resum"><a href="../../../WebContent/u4/resum.html">Resum</a></li><li id="u4resultats"><a href="../../../WebContent/u4/resultats.html">Resultats de l'aprenentatge i criteris d'avaluació</a></li><li id="u4referencies"><a href="../../../WebContent/u4/referencies.html">Referències</a></li><li id="u4a1" class="tocsection"><p id="u4a1continguts"><a href="../../../WebContent/u4/a1/continguts.html">Tractament de la informació numèrica</a><span class="buttonexp"></span></p><ul><li id="u4a1activitats"><a href="../../../WebContent/u4/a1/activitats.html">Activitats</a></li><li id="u4a1exercicis"><a href="../../../WebContent/u4/a1/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li></ul></li><li id="" class="indexnode"><p><a href="../../../index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="../../../index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li><a href="../resum.html">Fulls de càlcul</a></li><li>Tractament de la informació numèrica</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="tractament_de_la_informacio_numerica"> Tractament de la informació numèrica </a></h1>
+    	
+<p>
+El full de càlcul ajuda a resoldre situacions i problemes de la vida quotidiana amb un gran estalvi de temps. Permet organitzar les dades, fer càlculs, ressaltar visualment elements, dissenyar gràfics…
+</p>
+
+<p>
+Ofereix la utilíssima possibilitat de tornar a calcular automàticament tot el full de càlcul en el moment en què es modifica un valor.
+</p>
+
+<h2><a id="conceptes_basics" >Conceptes bàsics</a></h2>
+<div class="level2">
+
+<p>
+Un full de càlcul consisteix en una quadrícula organitzada en columnes i files. Cada columna està identificada per una lletra i cada fila per un número.
+</p>
+
+<p>
+La intersecció entre una fila i una columna és una cel·la.
+</p>
+
+<p>
+Cada cel·la s’identifica per la columna i la fila corresponent: A1, B5, D4… A la imatge (<span class="figref"><a href="#Figure1"><span>figura</span></a></span>), la cel·la seleccionada és la B5.
+</p>
+<div class="iocfigure"><a name="Figure1"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Vista d’un full de càlcul amb la cel·la B5 seleccionada
+
+</figcaption><img src="../media/gadm07u4_01.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+La cel·la on està situat el cursor és la cel·la activa. Quan seleccioneu una cel·la, es mostra dins un marc negre. Quan seleccioneu més d’una cel·la, el seu fons es mostra de color blau. Per seleccionar diverses cel·les, premeu el botó esquerre del ratolí i, sense deixar-lo anar, moveu-lo sobre les cel·les que voleu seleccionar.
+</p>
+
+<p>
+Un llibre està format per diferents fulls de càlcul que es desen en un mateix fitxer. El LibreOffice versió 3 desa, per defecte, un llibre amb l’extensió ODS.
+</p>
+
+<p>
+Un rang està format per un conjunt de cel·les veïnes. Per identificar un rang, cal anomenar-lo per la cel·la que està més amunt a l’esquerra i la que està més avall a la dreta. El rang B3:D6 conté les cel·les que estan incloses dins la selecció de B3 fins a D6. A l’exemple de sota (<span class="figref"><a href="#Figure2"><span>figura</span></a></span>), les cel·les seleccionades formen el rang B3:D6.
+</p>
+<div class="iocfigure"><a name="Figure2"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Selecció del rang B3:D6
+
+</figcaption><img src="../media/gadm07u4_02.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Dins les cel·les, podeu introduir text, nombres i fórmules. Un cop introduït el contingut, cal prémer la tecla <em>Retorn</em> per confirmar.
+</p>
+
+</div>
+
+<h2><a id="full_de_calculcanviar_el_nom_d_un_full_afegir_un_full_canviar_l_ordre_dels_fulls" >Full de càlcul: canviar el nom d&#039;un full, afegir un full, canviar l&#039;ordre dels fulls...</a></h2>
+<div class="level2">
+
+<p>
+D’entrada, un llibre nou conté tres fulls: Full1, Full2 i Full3. Per canviar de full, només fa falta fer clic sobre la pestanya corresponent (<span class="figref"><a href="#Figure3"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure3"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Podeu canviar el nom dels fulls i també afegir fulls nous o eliminar-ne.
+
+</figcaption><img src="../media/gadm07u4_03.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Per canviar el nom d’un full, situeu-vos a sobre la pestanya que l’identifica i feu clic amb el botó dret del ratolí. Al menú contextual (<span class="figref"><a href="#Figure4"><span>figura</span></a></span>), escolliu l’opció <strong>Reanomena el full…</strong> Al diàleg que s’obre, escriviu un nom nou per al full que estigui relacionat amb el seu contingut, i feu clic al botó <strong>D’acord</strong>. També podeu canviar el nom al menú <strong>Format \ Full \ Reanomena</strong>.
+</p>
+<div class="iocfigure"><a name="Figure4"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Opcions del menú contextual
+
+</figcaption><img src="../media/gadm07u4_04.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Per afegir un full nou, l’opció més ràpida és fer un clic a l’espai que hi ha a continuació de les pestanyes dels fulls. S’obrirà un diàleg per afegir un full nou (<span class="figref"><a href="#Figure5"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure5"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Insereix un full
+
+</figcaption><img src="../media/gadm07u4_06.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+També podeu fer clic amb el botó dret a la pestanya d’un full i, al menú contextual, escollir l’opció <strong>Insereix un full</strong>. Una altra possibilitat és anar al menú <strong>Insereix / Full…</strong>.Al diàleg que s’obre, heu d’escollir on voleu que s’afegeixi el full nou.
+</p>
+
+<p>
+Per canviar l’ordre dels fulls de càlcul, feu clic amb el botó dret a la pestanya amb el nom del full, al menú contextual, escolliu l’opció <strong>Mou \ Copia…</strong>.Al diàleg <strong>Mou / Copia el full</strong>, indiqueu què voleu fer, moure o copiar el full, i on voleu situar-lo (<span class="figref"><a href="#Figure6"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure6"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra Mou / Copia el full
+
+</figcaption><img src="../media/gadm07u4_07.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+També hi podeu accedir des del menú <strong>Edita \ Full \ Mou \ Copia…</strong>.
+</p>
+
+</div>
+
+<h2><a id="introduir_una_formula" >Introduir una fórmula</a></h2>
+<div class="level2">
+
+<p>
+Un full de càlcul permet fer càlculs amb valors continguts a diferents cel·les. Amb una fórmula indiqueu quines operacions es faran amb els valors dipositats a les cel·les que assenyaleu.
+</p>
+
+<p>
+Qualsevol operació que vulgueu fer amb un full de càlcul ha de portar el símbol = al davant. Introduïu dins una cel·la una operació qualsevol, per exemple =3+2, i feu un clic a la tecla <em>Retorn</em>. Veureu com, dins la cel·la, es mostra el resultat.
+</p>
+
+<p>
+Un altre exemple:
+</p>
+
+<p>
+Introduïu un valor a la cel·la A1 i un altre a la cel·la B1. A la cel·la C1, introduïu la fórmula =A1+B1, feu un clic a la tecla de <em>Retorn</em> i comproveu com es mostra el resultat (<span class="figref"><a href="#Figure7"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure7"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Fórmula introduïda a la cel·la C1
+
+</figcaption><img src="../media/gadm07u4_08.png" alt="" /></figure>
+
+</p>
+<div class="footfigure">Fent intro es mostrarà el resultat</div></div>
+<p>
+Seleccioneu de nou la cel·la C1 i mireu la barra de fórmules. Fixeu-vos com a la barra de fórmules es mostra la fórmula que abans heu introduït (<span class="figref"><a href="#Figure8"><span>figura</span></a></span>). A la cel·la C1, es mostra el resultat.
+</p>
+<div class="iocfigure"><a name="Figure8"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Vista del full de càlcul
+
+</figcaption><img src="../media/gadm07u4_09.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Proveu a veure què passa si canvieu el símbol de sumar + pel símbol de restar -, o bé pel de multiplicar * o el de dividir /.
+</p>
+
+<p>
+Com heu vist, les fórmules permeten fer càlculs amb els valors introduïts a les cel·les. Si una fórmula fa referència a una cel·la, canviant el valor de la cel·la, canvia automàticament el resultat de l’operació, que es mostra a una altra cel·la.
+</p>
+
+<p>
+Podeu escriure les fórmules a la barra de fórmules, o bé dins la mateixa cel·la on voleu que es mostri el resultat.
+</p>
+
+<p>
+Per escriure una fórmula a la barra de fórmules:
+</p>
+<ol>
+<li class="level1"><div class="li"> Al full de càlcul, situeu el cursor al lloc on voleu que es mostri el resultat.</div>
+</li>
+<li class="level1"><div class="li"> A la barra de fórmules, feu un clic al símbol = Fixeu-vos com es modifica la botonera de la barra de fórmules.</div>
+</li>
+<li class="level1"><div class="li"> Escriviu la fórmula.</div>
+</li>
+<li class="level1"><div class="li"> Feu un clic a la tecla <em>Retorn</em> o al botó <em>Aplicar</em>. </div>
+</li>
+<li class="level1"><div class="li"> El resultat es mostrarà a la cel·la que abans heu indicat (<span class="figref"><a href="#Figure9"><span>figura</span></a></span>).</div>
+</li>
+</ol>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_10.png" class="imgB" title="Aplicar/-30" alt="Aplicar/-30" /></li><li><small>Aplicar</small></li>
+</ul></div>
+
+</p>
+
+<p>
+El botó <em>Rebutjar</em> o la tecla <em>Esc</em> eliminen el contingut que heu introduït.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_11.png" class="imgB" title="Rebutjar" alt="Rebutjar" /></li><li><small>Rebutjar</small></li>
+</ul></div>
+
+</p>
+<div class="iocfigure"><a name="Figure9"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Resultat de la fórmula
+
+</figcaption><img src="../media/m3c12.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Per escriure una fórmula a la mateixa cel·la:
+</p>
+<ol>
+<li class="level1"><div class="li"> Situeu el cursor dins la cel·la on voleu que es mostri el resultat.</div>
+</li>
+<li class="level1"><div class="li"> Escriviu una fórmula, sempre començant amb el símbol de funció =.</div>
+</li>
+<li class="level1"><div class="li"> Després d’escriure la fórmula, confirmeu amb la tecla <em>Retorn</em> i es mostrarà el resultat.</div>
+</li>
+</ol>
+
+</div>
+
+<h2><a id="formules_basiques" >Fórmules bàsiques</a></h2>
+<div class="level2">
+
+<p>
+Donades les cel·les C3 i E3, voleu:
+</p>
+<ul>
+<li class="level1"><div class="li"> Sumar els valors de les cel·les: a la cel·la on voleu que es mostri el resultat, escriviu la fórmula =C3+E3</div>
+</li>
+<li class="level1"><div class="li"> Restar els valors de les cel·les: a la cel·la on voleu que es mostri el resultat, escriviu la fórmula =C3-E3</div>
+</li>
+<li class="level1"><div class="li"> Multiplicar els valors de les cel·les: a la cel·la on voleu que es mostri el resultat, escriviu la fórmula =C3*E3</div>
+</li>
+<li class="level1"><div class="li"> Dividir els valors de les cel·les: a la cel·la on voleu que es mostri el resultat, escriviu la fórmula =C3/E3</div>
+</li>
+<li class="level1"><div class="li"> Calcular un percentatge del valor introduït a una cel·la. S’explica amb un exemple: donada la cel·la D6, voleu calcular el 15%. La fórmula és =D6*15%.</div>
+</li>
+</ul>
+
+<p>
+També podeu crear fórmules escrivint el nom de l’operació amb lletres i utilitzant parèntesis:
+</p>
+<ul>
+<li class="level1"><div class="li"> =SUMA(A1;B1) és el mateix que =A1+B1.</div>
+</li>
+<li class="level1"><div class="li"> =SUMA(A1:A9) donarà com a resultat la suma de tots els valors introduïts al rang A1:A9, és a dir, les cel·les de la columna A situades entre les files 1 i 9, ambdues incloses.</div>
+</li>
+</ul>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_13.png" class="imgB" title="Suma/-15" alt="Suma/-15" /></li><li><small>Suma</small></li>
+</ul></div>
+
+</p>
+
+<p>
+El botó Suma de la barra de fórmules suma automàticament els valors de les cel·les situades per sobre de la cel·la on es troba el cursor a la mateixa columna. Feu clic al botó Suma, un rectangle de color blau emmarca les cel·les que se sumaran (<span class="figref"><a href="#Figure10"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure10"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Cel·les que se sumaran
+
+</figcaption><img src="../media/gadm07u4_14.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Si hi esteu d’acord, feu clic a la tecla <em>Retorn</em> i es mostrarà el resultat (<span class="figref"><a href="#Figure11"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure11"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Càlcul fet amb el botó Suma
+
+</figcaption><img src="../media/gadm07u4_15.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Buscar la màxima, la mínima i la mitjana (<span class="figref"><a href="#Figure12"><span>figura</span></a></span>):
+</p>
+<div class="iocfigure"><a name="Figure12"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Càlcul de la mitjana, el màxim i el mínim del rang
+
+</figcaption><img src="../media/gadm07u4_17.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Donat el rang B1:B7, cal escriure la fórmula següent per cercar:
+</p>
+<ul>
+<li class="level1"><div class="li"> la màxima o valor més alt: <strong>=MAX(B1:B7)</strong></div>
+</li>
+<li class="level1"><div class="li"> la mínima o valor més baix: <strong>=MIN(B1:B7)</strong></div>
+</li>
+<li class="level1"><div class="li"> el valor mitjà de tots els valors de les cel·les indicades: <strong>=MITJANA(B1:B7)</strong></div>
+</li>
+</ul>
+
+</div>
+
+<h2><a id="l_auxiliar_de_funcions" >L&#039;auxiliar de funcions</a></h2>
+<div class="level2">
+
+<p>
+Per executar l’auxiliar de funcions, feu clic a la icona corresponent de la barra de fórmules.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_18.png" class="imgB" title="Auxiliar de funcions/-15" alt="Auxiliar de funcions/-15" /></li><li><small>Auxiliar de funcions</small></li>
+</ul></div>
+
+</p>
+
+<p>
+L’auxiliar de funcions us ajuda a crear la sintaxi de les fórmules. Seguint les indicacions de l’auxiliar, introduireu la fórmula a la cel·la escollida.
+</p>
+
+<p>
+Les funcions estan classificades en categories (<span class="figref"><a href="#Figure13"><span>figura</span></a></span>). Seleccionant una categoria, es mostrarà una relació de les funcions que conté (<span class="figref"><a href="#Figure14"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure13"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Categories de funcions
+
+</figcaption><img src="../media/gadm07u4_19.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name="Figure14"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Funcions de la categoria escollida
+
+</figcaption><img src="../media/gadm07u4_62.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Fent un clic sobre una funció, us informa del càlcul que farà (<span class="figref"><a href="#Figure15"><span>figura</span></a></span> i <span class="figref"><a href="#Figure16"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure15"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+La funció AVUI determina la data actual de l’ordinador
+
+</figcaption><img src="../media/gadm07u4_20.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name="Figure16"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Descripció de la funció ARRELQ
+
+</figcaption><img src="../media/gadm07u4_63.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Fent doble clic, seleccioneu una funció i es mostrarà el diàleg per crear la fórmula.
+</p>
+
+<p>
+Veureu un camp (poden ser més camps, segons de quina funció es tracti) on heu d’introduir l’identificador de la cel·la. El podeu escriure manualment, o bé fer clic sobre la icona <strong>Seleccionar cel·la.</strong>
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_21.png" class="imgB" title="Seleccionar cel·la/-15" alt="Seleccionar cel·la/-15" /></li><li><small>Seleccionar cel·la</small></li>
+</ul></div>
+
+</p>
+
+<p>
+El diàleg per seleccionar una cel·la consisteix en un rectangle amb un camp on s’introdueix l’identificador de cel·la (<span class="figref"><a href="#Figure17"><span>figura</span></a></span>). Al full de càlcul, feu un clic sobre la cel·la que voleu fer entrar. Fent un clic a <strong>Seleccionar cel·la</strong>, l’identificador de la cel·la seleccionada s’introduirà a la fórmula.
+</p>
+<div class="iocfigure"><a name="Figure17"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Diàleg Seleccionar una cel·la
+
+</figcaption><img src="../media/gadm07u4_23.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Si heu de fer referència a diverses cel·les, seguiu el mateix procediment. Finalment, l’assistent us mostra la fórmula creada, el resultat, us avisa si hi ha algun error… Feu clic a <strong>D’acord</strong> per introduir la fórmula al full de càlcul.
+</p>
+
+<p>
+Un altre exemple:
+</p>
+
+<p>
+Voleu obtenir el mínim comú múltiple dels valors continguts a diferents cel·les d’un full de càlcul. Seleccioneu la cel·la del full de càlcul on voleu que es mostri el resultat i feu clic a la icona per executar l’auxiliar de funcions. Fent doble clic, seleccioneu la funció que voleu obtenir, en aquest cas, MCM (<span class="figref"><a href="#Figure18"><span>figura</span></a></span>).
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_18.png" class="imgB" title="Auxiliar de funcions/-15" alt="Auxiliar de funcions/-15" /></li><li><small>Auxiliar de funcions</small></li>
+</ul></div>
+
+</p>
+<div class="iocfigure"><a name="Figure18"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Calcular el mínim comú múltiple amb l’ajut de l’auxiliar
+
+</figcaption><img src="../media/gadm07u4_26.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Escriviu l’identificador de les cel·les que heu d’introduir a la fórmula, o bé les seleccioneu amb l’ajuda de l’auxiliar <strong>Seleccionar una cel·la</strong>. La fórmula es crea automàticament i, fent clic a <strong>D’acord</strong>, s’introdueix el resultat a la cel·la que abans heu indicat.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_21.png" class="imgB" title="Seleccionar cel·la/-15" alt="Seleccionar cel·la/-15" /></li><li><small>Seleccionar cel·la</small></li>
+</ul></div>
+
+</p>
+
+<p>
+A <strong>Estructura</strong> es mostra l’estructura jeràrquica de la fórmula (<span class="figref"><a href="#Figure19"><span>figura</span></a></span>). Un punt vermell indica que hi ha un error. Un punt blau indica que les dades s’han introduït correctament.
+</p>
+<div class="iocfigure"><a name="Figure19"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Estructura jeràrquica de la fórmula
+
+</figcaption><img src="../media/gadm07u4_27.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="copiar_i_enganxar_formules" >Copiar i enganxar fórmules</a></h2>
+<div class="level2">
+
+<p>
+Podeu seleccionar una o diverses cel·les, copiar-les i enganxar-les a un altre lloc. Si les cel·les que voleu enganxar tenen fórmules, s’actualitzaran a la cel·la nova.
+</p>
+
+<p>
+Un exemple: si la fórmula que copieu de la cel·la A9 és:<br/>
+=SUMA(A2:A8)
+</p>
+
+<p>
+i l’enganxeu a la cel·la B9, automàticament es modifica per:<br/>
+=SUMA(B2:B8)
+</p>
+
+<p>
+Per copiar una fórmula, seleccioneu la cel·la i feu:<br/>
+<strong>Control + C</strong> o aneu al menú <strong>Edita \ Copia</strong>
+</p>
+
+<p>
+Per enganxar la fórmula que heu copiat:<br/>
+<strong>Control + V</strong> o aneu al menú <strong>Edita \ Enganxa</strong>
+</p>
+
+<p>
+Una altra manera molt més pràctica de fer l’acció de copiar i enganxar és seleccionar la cel·la que conté la fórmula i arrossegar la selecció cap a altres cel·les estirant del petit quadrat negre del vèrtex inferior dret (<span class="figref"><a href="#Figure20"><span>figura</span></a></span>). Quan deixeu anar el ratolí, la fórmula s’adapta i s’actualitza amb els identificadors de les altres cel·les.
+</p>
+<div class="iocfigure"><a name="Figure20"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Arrossegar la fórmula
+
+</figcaption><img src="../media/gadm07u4_28.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Els valors dinàmics (que s’actualitzen automàticament) reben el nom de <strong>referència relativa</strong>. Pel contrari, a una <strong>referència absoluta</strong>, els valors esdevenen estàtics i no es modifiquen en funció de variables.
+</p>
+
+</div>
+
+<h2><a id="afegir_automaticament_llistes_i_series" >Afegir automàticament llistes i sèries</a></h2>
+<div class="level2">
+
+<p>
+Podeu veure les llistes predefinides de què disposeu a <strong>Eines \ Opcions \ LibreOffice Calc \ Ordena les llistes</strong>. En aquesta mateixa finestra, també podeu crear noves llistes personalitzades.
+</p>
+
+<p>
+Dins una cel·la, comenceu a escriure un nom de la llista, no cal que sigui la paraula completa. A continuació, seleccioneu la cel·la i estireu del vèrtex inferior dret cap a la direcció que vulgueu: cap a la dreta, cap avall… Automàticament s’ompliran les cel·les amb els noms de la llista predefinida que el LibreOffice ha reconegut.
+</p>
+
+<p>
+Les llistes predefinides del LibreOffice es mostraran en l’idioma que hàgiu indicat a <strong>Eines \ Opcions \ Configuració de la llengua</strong>.
+</p>
+
+<p>
+Per fer sèries aritmètiques, seleccioneu dos o més cel·les veïnes que continguin valors. A continuació, arrossegueu estirant del vèrtex inferior dret i les cel·les s’ompliran amb la sèrie que el LibreOffice, seguint una lògica aritmètica, hagi reconegut.
+</p>
+
+<p>
+Podeu definir més sèries a <strong>Edita \ Emplena \ Sèries…</strong> (<span class="figref"><a href="#Figure21"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure21"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Emplenar sèries
+
+</figcaption><img src="../media/gadm07u4_29.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Primer, seleccioneu les cel·les que voleu emplenar, a continuació, a la finestra <strong>Emplena la sèrie</strong>, indiqueu el valor inicial, el valor final, l’increment… Feu clic a <strong>D’acord</strong> i s’ompliran les cel·les amb la sèrie que heu configurat (<span class="figref"><a href="#Figure22"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure22"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Omplir una selecció de cel·les amb una sèrie
+
+</figcaption><img src="../media/gadm07u4_30.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="donar_format_a_les_cel_les_seleccionades_d_un_full_de_calcul" >Donar format a les cel·les seleccionades d&#039;un full de càlcul</a></h2>
+<div class="level2">
+
+<p>
+Per seleccionar tota una columna, feu un clic a la casella on es troba la lletra del seu nom. Per seleccionar tota una fila, feu un clic a la casella on es troba el número que la identifica. La columna o la fila seleccionades mostren el fons blau.
+</p>
+<ul>
+<li class="level1"><div class="li"> Modificar l’amplada de columnes i l’alçada de files</div>
+</li>
+</ul>
+
+<p>
+Podeu modificar l’amplada de les columnes (<span class="figref"><a href="#Figure23"><span>figura</span></a></span>) o l’alçada de les files situant el cursor a l’encapçalament de les columnes o de les files i arrossegant la línia.
+</p>
+<div class="iocfigure"><a name="Figure23"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Modificar l’amplada de les columnes
+
+</figcaption><img src="../media/gadm07u4_31.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Si a la capçalera feu doble clic sobre la línia, la columna automàticament s’adapta a l’amplada òptima, la de la cel·la més plena. El mateix passa amb les files, que s’ajusten a l’alçada òptima.
+</p>
+
+<p>
+També podeu modificar l’amplada de la columna i l’alçada de fila seleccionada a través dels menús <strong>Format \ Columna</strong> i <strong>Format \ Fila</strong> (<span class="figref"><a href="#Figure24"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure24"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Modificar l’amplada o l’alçada de columnes i files
+
+</figcaption><img src="../media/gadm07u4_32.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Us suggereixen una amplada o una alçada òptima, respectivament, per a la columna o fila seleccionada, en funció del contingut que heu introduït a les cel·les.
+</p>
+
+<p>
+Una altra possibilitat és especificar l’amplada o l’alçada que desitgeu en cm. També podeu fer que una columna o una fila no es mostrin temporalment.Evidentment, és suficient seleccionar una cel·la per modificar les mides de tota la fila o tota la columna on pertany la cel·la.
+</p>
+
+</div>
+
+<h2><a id="afegir_columnes_i_files_noves" >Afegir columnes i files noves</a></h2>
+<div class="level2">
+
+<p>
+Per afegir una columna nova, aneu a <strong>Insereix \ Columnes</strong>. La columna nova se situa a l’esquerra de la cel·la activa i desplaça columnes cap a la dreta. Si seleccioneu diverses columnes, s’insereix el mateix nombre de columnes noves que heu seleccionat.
+</p>
+
+<p>
+Per afegir una fila nova, aneu a <strong>Insereix \ Files</strong>. La fila nova se situa a sobre de la fila seleccionada i desplaça files cap avall. Si seleccioneu diverses files, es creen tantes files noves com heu seleccionat.
+</p>
+
+<p>
+També podeu inserir files o columnes noves seleccionant la fila o la columna i desplegant el menú contextual amb el botó dret del ratolí.
+</p>
+
+</div>
+
+<h2><a id="unir_cel_les" >Unir cel·les</a></h2>
+<div class="level2">
+
+<p>
+Fent clic a la icona <strong>Fusiona les cel·les</strong> o anant al menú <strong>Format \ Fusiona les cel·les</strong>, podeu unir les cel·les veïnes seleccionades en una sola cel·la. Un missatge us pregunta: <em>”</em>¿Voleu moure el contingut de les cel·les amagades a la primera fila?<em>”</em>. Si contesteu afirmativament, es mostrarà tot el contingut introduït a les cel·les.
+</p>
+
+<p>
+Podeu desfer l’acció seleccionant la cel·la unida i desmarcant l’opció <strong>Fusiona les cel·les</strong>.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_33.png" class="imgB" title="Fusiona les cel·les/-15" alt="Fusiona les cel·les/-15" /></li><li><small>Fusiona les cel·les</small></li>
+</ul></div>
+
+</p>
+
+</div>
+
+<h2><a id="suprimir_cel_les" >Suprimir cel·les</a></h2>
+<div class="level2">
+
+<p>
+Per suprimir cel·les, primer les heu de seleccionar. Situeu-vos a sobre i feu clic amb el botó dret. Al menú contextual, escolliu si voleu eliminar només el contingut, o bé les cel·les seleccionades (<span class="figref"><a href="#Figure25"><span>figura</span></a></span>).
+</p>
+
+<p>
+També podeu accedir a aquesta opció des del menú <strong>Edita \ Suprimeix els continguts</strong> i <strong>Edita \ Suprimeix les cel·les</strong>.
+</p>
+
+<p>
+Uns diàlegs us presentaran opcions sobre com s’ha d’eliminar el contingut o les cel·les.
+</p>
+<div class="iocfigure"><a name="Figure25"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Menú contextual d’eliminar cel·les
+
+</figcaption><img src="../media/gadm07u4_35.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="alinear_el_contingut_de_les_cel_les" >Alinear el contingut de les cel·les</a></h2>
+<div class="level2">
+
+<p>
+Per defecte, quan a una cel·la introduïu contingut, el text se situa a l’esquerra i les xifres se situen a la dreta.
+</p>
+
+<p>
+Podeu canviar l’alineació per defecte seleccionant les cel·les i fent clic amb el botó dret. Al menú contextual, escolliu l’opció <strong>Formata les cel·les</strong> (<span class="figref"><a href="#Figure26"><span>figura</span></a></span>). També hi podeu accedir des del menú <strong>Format \ Cel·les…</strong> La finestra que s’obre us permet configurar moltes opcions de format. Feu un clic a la pestanya Alineació.
+</p>
+<div class="iocfigure"><a name="Figure26"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Escollir opcions per alinear el contingut de les cel·les
+
+</figcaption><img src="../media/gadm07u4_36.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A Horizontal, escolliu si voleu alinear a l’esquerra, dreta, centre, justificat…
+</p>
+
+<p>
+A Vertical, escolliu si voleu alinear el text de manera que se situï a la part superior, central o inferior d’una fila.
+</p>
+
+<p>
+A <strong>Direcció d’escriptura</strong> teniu l’opció d’inclinar la selecció amb l’angle que indiqueu. Marcant l’opció <strong>Apilat verticalment</strong>, el contingut de la cel·la, lletres o nombres, s’haurà de llegir de dalt a baix.
+</p>
+
+</div>
+
+<h2><a id="donar_format_als_numeros" >Donar format als números</a></h2>
+<div class="level2">
+
+<p>
+Per donar format als números, primer seleccioneu les cel·les on voleu aplicar el format, a continuació, aneu al menú <strong>Format \ Cel·les</strong> i, a la finestra <strong>Atributs de les cel·les</strong>, feu clic a la pestanya <strong>Nombres</strong> (<span class="figref"><a href="#Figure27"><span>figura</span></a></span>). També hi podeu accedir fent clic amb el botó dret sobre la selecció i escollint l’opció del menú contextual <strong>Formata les cel·les</strong>.
+</p>
+
+<p>
+Podeu escollir diferents categories de la llista (data, hora, monedes, percentatges…) i indicar el nombre de decimals que voleu que es mostri, si voleu que els valors negatius es mostrin de color vermell…
+</p>
+
+<p>
+A la part central dreta de la finestra, obteniu una previsualització d’un número seleccionat amb el format escollit.
+</p>
+<div class="iocfigure"><a name="Figure27"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Format dels nombres 
+
+</figcaption><img src="../media/gadm07u4_37.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A la barra de format, a sota de la barra d’eines, trobeu unes icones per donar format als números de les cel·les seleccionades (<span class="tabref"><a href="#tau02"><span>taula</span></a></span>). 
+</p>
+<div class="ioctable donthyphenate"><div class="titletable"><a name="tau02"><span>Taula</span></a>
+
+Formats de números
+
+</div><div class="table"><table class="inline">
+	<tr class="row0">
+		<th class="col0"> Icona </th><th class="col1"> Format numèric </th>
+	</tr>
+	<tr class="row1">
+		<td class="col0"> <img src="../media/gadm07u4_38.png" width="50" alt="" /> </td><td class="col1"> Moneda </td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"> <img src="../media/gadm07u4_39.png" width="50" alt="" /> </td><td class="col1"> Percentatge </td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"> <img src="../media/gadm07u4_40.png" width="50" alt="" /> </td><td class="col1"> Estàndard </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"> <img src="../media/gadm07u4_41.png" width="50" alt="" /> </td><td class="col1"> Afegeix una posició decimal </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"> <img src="../media/gadm07u4_42.png" width="50" alt="" /> </td><td class="col1"> Suprimeix una posició decimal </td>
+	</tr>
+</table></div>
+</div>
+</div>
+
+<h2><a id="donar_format_a_les_cel_lesfont_color_de_la_font_color_de_fons_marc" >Donar format a les cel·les: font, color de la font, color de fons, marc...</a></h2>
+<div class="level2">
+
+<p>
+Primer, seleccioneu les cel·les on voleu aplicar el format i, a continuació, aneu al menú <strong>Format \ Cel·les</strong>. També hi podeu accedir fent clic amb el botó dret sobre la selecció i escollint l’opció <strong>Formata les cel·les</strong> del menú contextual. S’obre la finestra <strong>Atributs de la cel·la</strong>. Podeu escollir:
+</p>
+<ul>
+<li class="level1"><div class="li"> Format dels números, com s’ha comentat abans.</div>
+</li>
+<li class="level1"><div class="li"> Font: tipus de lletra, estil i mida. Mostra una previsualització a la mateixa finestra.</div>
+</li>
+<li class="level1"><div class="li"> Efectes de font: diferents tipus de subratllat, color del subratllat, tipus de ratllat, color de la font, relleu, contorn, ombra… Mostra una previsualització a la mateixa finestra.</div>
+</li>
+<li class="level1"><div class="li"> Alineació, com s’ha comentat abans.</div>
+</li>
+<li class="level1"><div class="li"> Marc: disposició de les línies, estil, distància del text…</div>
+</li>
+<li class="level1"><div class="li"> Fons: escollir entre 91 colors. Mostra previsualització.</div>
+</li>
+<li class="level1"><div class="li"> Protecció de cel·la: segons les opcions que escolliu, configura, per a la cel·la o cel·les seleccionades, que no es puguin fer canvis, que no es mostrin les fórmules, que no s’imprimeixin… Per introduir una contrasenya, aneu a <strong>Eines \ Protegeix document</strong>.</div>
+</li>
+</ul>
+
+</div>
+
+<h2><a id="formatacio_condicional" >Formatació condicional</a></h2>
+<div class="level2">
+
+<p>
+Aquesta opció permet que, si es dóna una condició determinada, es ressalti el valor amb el color, format… que indiqueu.
+</p>
+
+<p>
+Primer, cal que creeu un estil nou per al format condicional. Feu un clic a la icona de l’estilista.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_43.png" class="imgB" title="Icona de l&#039;estilista/-15" alt="Icona de l&#039;estilista/-15" /></li><li><small>Icona de l&#039;estilista</small></li>
+</ul></div>
+
+</p>
+
+<p>
+També podeu anar al menú <strong>Format \ Estils i formatació</strong> per fer que es mostri la finestra de l’estilista (<span class="figref"><a href="#Figure28"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure28"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Finestra de l’estilista
+
+</figcaption><img src="../media/gadm07u4_44.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Ja només queda indicar quina és la condició o quines són les condicions (<span class="figref"><a href="#Figure29"><span>figura</span></a></span>). Seleccioneu les cel·les on voleu aplicar un format condicional i aneu al menú <strong>Format \ Formatació condicional</strong>. S’obrirà el diàleg Formatació condicional. En el vostre cas, heu indicat que, quan el valor de la cel·la sigui inferior o igual a 100, s’apliqui el format que abans heu creat.
+</p>
+<div class="iocfigure"><a name="Figure29"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Indicar les condicions de format
+
+</figcaption><img src="../media/gadm07u4_45.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="afegir_un_diagrama" >Afegir un diagrama</a></h2>
+<div class="level2">
+
+<p>
+A partir de les dades d’un full de càlcul, podeu crear un gràfic.
+</p>
+
+<p>
+Primer, seleccioneu les cel·les que s’inseriran al gràfic. Si voleu seleccionar cel·les que no són veïnes, utilitzeu la tecla <em>Control</em> per sumar. Per seleccionar tota una columna, feu clic sobre la lletra amb el seu nom. Per seleccionar tota una fila, feu clic sobre la xifra que la identifica.
+</p>
+
+<p>
+A continuació, activeu la icona de la barra d’eines <strong>Diagrama</strong>, o bé aneu al menú <strong>Insereix \ Diagrama…</strong>.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_46.png" class="imgB" title="Diagrama/-15" alt="Diagrama/-15" /></li><li><small>Diagrama</small></li>
+</ul></div>
+
+</p>
+
+<p>
+A continuació apareix automàticament el gràfic corresponent a la selecció feta i al mateix temps, s’obre la finestra de l’<strong>Auxiliar de diagrames</strong>. L’auxiliar consta de quatre finestres de diàlegs on podeu anar indicant les característiques del diagrama (<span class="figref"><a href="#Figure30"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure30"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Escollir un tipus de diagrama
+
+</figcaption><img src="../media/gadm07u4_47.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Al primer diàleg, es mostren els tipus de diagrama i apareix remarcat el diagrama que el programa ha fet per defecte amb les cel·les seleccionades. Si voleu canviar el tipus de gràfic només heu de fer clic sobre l’opció desitjada. Automàticament veureu el canvi reflectit en el diagrama.
+</p>
+
+<p>
+Al segon diàleg, es mostren totes les cel·les que heu seleccionat. Marqueu si voleu que les etiquetes que informen dels conceptes (nom dels continguts) siguin els de la primera columna seleccionada, els de la primera fila o les dues opcions i també si voleu la sèrie de dades en files o en columnes (<span class="figref"><a href="#Figure31"><span>figura</span></a></span>). Feu clic al botó <strong>Següent</strong>.
+</p>
+<div class="iocfigure"><a name="Figure31"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Interval de dades
+
+</figcaption><img src="../media/gadm07u4_48.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+En el tercer diàleg, podeu modificar l’interval de dades (<span class="figref"><a href="#Figure32"><span>figura</span></a></span>): suprimir sèries, afegir sèries i indicar l’interval per a la categoria de l’eix (és a dir, els rètols que portarà l’eix de categories).
+</p>
+<div class="iocfigure"><a name="Figure32"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Modificar les sèries de dades
+
+</figcaption><img src="../media/gadm07u4_49.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+En l’últim diàleg, podeu escriure el títol del gràfic i els títols dels eixos (si en voleu), indicar si voleu que es mostri la llegenda i, si és el cas, marcar-ne la posició. En les tres últimes finestres de diàleg podeu tornar enrere, continuar endavant o finalitzar (<span class="figref"><a href="#Figure33"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure33"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Modificar els elements del diagrama
+
+</figcaption><img src="../media/gadm07u4_50.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Finalment, feu clic al botó <strong>Finalitza</strong>. Si l’aspecte del diagrama no us acaba de convèncer, no us preocupeu, ja li donareu format.
+</p>
+
+<p>
+El diagrama està vinculat al full de càlcul. Si canvieu algun valor al full, també es modifica al diagrama.
+</p>
+
+</div>
+
+<h2><a id="canviar_el_format_del_diagrama" >Canviar el format del diagrama</a></h2>
+<div class="level2">
+
+<p>
+Fent un sol clic (<span class="figref"><a href="#Figure34"><span>figura</span></a></span>), es mostren uns tiradors verds que permeten canviar la mida del diagrama.
+</p>
+
+<p>
+També es mostra el símbol que permet moure el diagrama per canviar-lo de lloc.
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_51.png" class="imgB" title="Moure el diagrama" alt="Moure el diagrama" /></li><li><small>Moure el diagrama</small></li>
+</ul></div>
+
+</p>
+<div class="iocfigure"><a name="Figure34"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Selecció amb un clic
+
+</figcaption><img src="../media/gadm07u4_52.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Al menú contextual, accediu a les opcions que es mostren en la <span class="figref"><a href="#Figure35"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figure35"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Menú contextual
+
+</figcaption><img src="../media/gadm07u4_53.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Fent doble clic (<span class="figref"><a href="#Figure36"><span>figura</span></a></span>), el diagrama mostra una línia grisa al voltant amb uns punts negres.
+</p>
+<div class="iocfigure"><a name="Figure36"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Selecció amb doble clic
+
+</figcaption><img src="../media/gadm07u4_54.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+A més de les opcions anteriors de canvi de mida i de lloc, aquesta selecció activa els menús, la barra d’eines i el menú contextual per donar format al diagrama.
+</p>
+
+<p>
+Fent un sol clic sobre algunes de les icones de la barra de format, canviareu automàticament l’aspecte del diagrama. Altres icones us permeten modificar el tipus de diagrama, canviar manualment els valors de les entrades… (<span class="figref"><a href="#Figure37"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure37"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra d’eines per donar format al diagrama
+
+</figcaption><img src="../media/gadm07u4_55.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Si el gràfic està seleccionat amb la vora grisa visible (doble clic) i moveu el cursor lentament amb el ratolí sobre les diferents parts del gràfic, veureu com van sortint, en finestretes de fons groc, els noms d’aquestes parts: <strong>Títol principal</strong> (és el títol), <strong>Àrea del diagrama</strong> (és el fons de la finestra gràfica) i <strong>Llegenda</strong>. Cadascuna d’aquestes parts és independent i pot ser modificada fent servir uns menús que surten en prémer el botó dret del ratolí, havent-les seleccionat prèviament.
+</p>
+
+<p>
+També podeu modificar les característiques del gràfic des de la barra de menús.
+</p>
+
+<p>
+En el menú <strong>Insereix</strong> trobareu les opcions que es mostren en la <span class="figref"><a href="#Figure38"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figure38"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Menú Insereix
+
+</figcaption><img src="../media/gadm07u4_56.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+En el menú <strong>Format</strong> trobareu les opcions que es mostren en la <span class="figref"><a href="#Figure39"><span>figura</span></a></span>.
+</p>
+<div class="iocfigure"><a name="Figure39"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Menú Format
+
+</figcaption><img src="../media/gadm07u4_57.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Exemples de diagrames (<span class="figref"><a href="#Figure40"><span>figura</span></a></span> i <span class="figref"><a href="#Figure41"><span>figura</span></a></span>):
+</p>
+<div class="iocfigure"><a name="Figure40"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Exemple de format aplicat a un diagrama de sectors
+
+</figcaption><img src="../media/gadm07u4_58.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name="Figure41"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Exemple de format aplicat a un diagrama de barres
+
+</figcaption><img src="../media/gadm07u4_59.png" alt="" /></figure>
+
+</p>
+</div>
+</div>
+
+<h2><a id="configurar_per_imprimir_o_exportar_a_pdf_donar_format_a_la_pagina" >Configurar per imprimir o exportar a PDF. Donar format a la pàgina</a></h2>
+<div class="level2">
+
+<p>
+Per donar format a les pàgines d’un llibre, aneu al menú <strong>Format \ Pàgina</strong>. Una manera més pràctica per aplicar el format de pàgina és treballar amb el mode previsualització de la pàgina. Així, podreu veure directament el format que apliqueu a la pàgina i com es mostrarà quan l’imprimiu en un full o l’exporteu en format <acronym title="Portable Document Format">PDF</acronym>.
+</p>
+
+<p>
+Feu un clic a la icona previsualització de la barra d’eines. 
+</p>
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/gadm07u4_60.png" class="imgB" title="Previsualització/-15" alt="Previsualització/-15" /></li><li><small>Previsualització</small></li>
+</ul></div>
+
+</p>
+
+<p>
+A la pantalla del mode previsualització, feu un clic al botó <strong>Formata la pàgina</strong> o aneu al menú <strong>Format \ Pàgina</strong>. S’obrirà la finestra <strong>Estil de la pàgina: Per defecte</strong>, que us permet configurar les opcions de la pàgina (<span class="figref"><a href="#Figure42"><span>figura</span></a></span>).
+</p>
+<div class="iocfigure"><a name="Figure42"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Diàleg per donar format a la pàgina
+
+</figcaption><img src="../media/gadm07u4_61.png" alt="" /></figure>
+
+</p>
+</div><ul>
+<li class="level1"><div class="li"> <strong>Organitzador</strong> es refereix a l’estil que esteu modificant. En el vostre cas, esteu modificant l’estil <strong>Per defecte</strong> de la finestra <strong>Estil i formatació</strong>. Si teniu creats més estils, també els podeu aplicar a la pàgina i modificar-los en aquest mateix diàleg.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Pàgina</strong> permet indicar el format de paper, l’orientació, els marges, com s’ha d’ubicar el contingut al full…</div>
+</li>
+<li class="level1"><div class="li"> <strong>Vores</strong> permet configurar el marc que limita la pàgina: disposició de les línies, estil, color…</div>
+</li>
+<li class="level1"><div class="li"> <strong>Fons</strong> permet escollir un color de fons per la pàgina.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Capçalera</strong>: a través dels botons <strong>Opcions</strong> i <strong>Edita</strong>, permet incloure un encapçalament al llibre.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Peu de pàgina</strong>: a través dels botons <strong>Opcions</strong> i <strong>Edita</strong>, permet incloure un peu de pàgina al llibre.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Full</strong> permet marcar o desmarcar els elements que s’imprimiran: quadrícula, imatges, diagrames, fórmules… També permet indicar l’ordre de les pàgines.</div>
+</li>
+</ul>
+
+<p>
+Als menús <strong>Arxiu \ Configuració de la impressora</strong> i <strong>Arxiu \ Imprimir</strong>, podeu acabar de configurar les propietats i opcions d’impressió.
+</p>
+
+</div>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="../../../WebContent/u4/referencies.html">Referències</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="../../../WebContent/u4/a1/activitats.html">Activitats</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>

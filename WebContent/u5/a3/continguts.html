@@ -1,0 +1,478 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="ca"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="ca"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="ca"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="ca"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="ca"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="www-sitename-com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Aplicacions ofimàtiques</title>
+	
+<!-- <meta name="title" content=""> --> 
+	<meta name="description" content="">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+	
+	<meta name="author" content="Institut Obert de Catalunya">
+	<meta name="Copyright" content="Copyright Institut Obert de Catalunya 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Aplicacions ofimàtiques">
+	<meta name="DC.subject" content="Informàtica i comunicacions">
+	<meta name="DC.creator" content="Institut Obert de Catalunya">
+	
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use � use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="../../../img/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+		 
+	<link rel="apple-touch-icon" href="../../../img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	
+	<!-- CSS: screen, mobile & print are all in the same file -->
+	<link rel="stylesheet" href="../../../_/css/style.css">
+
+	<!-- CSS: jQuery UI -->
+	<link rel="stylesheet" href="../../../_/css/jquery-ui.css">
+	
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../../../_/js/modernizr-1.7.min.js"></script>
+	<script src="../../../_/js/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	   Hyphenator.config({
+		minwordlength : 4
+	   });
+	   Hyphenator.run();
+	</script>
+    <script src="../../../_/js/build.js" type="text/javascript"></script>
+</head>
+
+<body class="style-newspaper">
+
+<div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+
+	<header id="header">
+		<div class="head"><a href="http://ioc.gencat.cat"><img src="../../../img/logo.png" alt="Institut Obert de Catalunya"/></a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca"><img src="../../../img/license.png" alt="Llic&egrave;ncia" class="license"/></a></div>
+		<div class="headdocument"><a href="../../../index.html">Aplicacions ofimàtiques</a></div>
+        <div id="search" class="search" name="search">
+         <form id="frmsearch" action="../../../search.html" method="get">
+          <input type="text" name="q"/>
+        </form>
+        </div>
+	</header>
+   <div id="upbutton" class="upbutton" style="display:none;"><img src="../../../img/uparrow.png" alt="Pujar a l'inici de p&agrave;gina"/></div>
+   <aside id="aside">
+    <div id="menu">
+      <ul>
+       <li name="toc"><div><img src="../../../img/toc.png" alt="&Iacute;ndex"/></div></li>
+       <li name="settings"><div><img src="../../../img/settings.png" alt="Configuraci&oacute;"/></div></li>
+       <li name="printer"><div><img src="../../../img/printer.png" alt="Imprimir"/></div></li>
+       <li name="favorites"><div><img src="../../../img/favorites.png" alt="Favorits"/></div></li>
+       <li name="help_icon" class="help_icon"><div><img src="../../../img/help_icon.png" alt="Ajuda"/></div></li>
+      </ul>
+     </div>
+   </aside>
+   <div id="sidebar-hide" name="sidebar-hide"><img src="../../../img/arrows.png"/></div>
+   <section>
+     <div id="toc" class="hidden">
+      <div class="menucontent">
+        <ul>
+        <li id="u5" class="parentnode"><p><a href="../../../WebContent/u5/resum.html">5. Bases de dades</a></p><ul class="expander"><li id="u5resum"><a href="../../../WebContent/u5/resum.html">Resum</a></li><li id="u5resultats"><a href="../../../WebContent/u5/resultats.html">Resultats d'aprenentatge i criteris d'avaluació</a></li><li id="u5referencies"><a href="../../../WebContent/u5/referencies.html">Referències</a></li><li id="u5a1" class="tocsection"><p id="u5a1continguts"><a href="../../../WebContent/u5/a1/continguts.html">Disseny i creació de bases de dades</a><span class="buttonexp"></span></p><ul><li id="u5a1activitats"><a href="../../../WebContent/u5/a1/activitats.html">Activitats</a></li><li id="u5a1exercicis"><a href="../../../WebContent/u5/a1/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a2" class="tocsection"><p id="u5a2continguts"><a href="../../../WebContent/u5/a2/continguts.html">Taules</a><span class="buttonexp"></span></p><ul><li id="u5a2activitats"><a href="../../../WebContent/u5/a2/activitats.html">Activitats</a></li><li id="u5a2exercicis"><a href="../../../WebContent/u5/a2/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a3" class="tocsection"><p id="u5a3continguts"><a href="../../../WebContent/u5/a3/continguts.html">Consultes: definició i tipus</a><span class="buttonexp"></span></p><ul><li id="u5a3activitats"><a href="../../../WebContent/u5/a3/activitats.html">Activitats</a></li><li id="u5a3exercicis"><a href="../../../WebContent/u5/a3/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a4" class="tocsection"><p id="u5a4continguts"><a href="../../../WebContent/u5/a4/continguts.html">Formularis</a><span class="buttonexp"></span></p><ul><li id="u5a4activitats"><a href="../../../WebContent/u5/a4/activitats.html">Activitats</a></li><li id="u5a4exercicis"><a href="../../../WebContent/u5/a4/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a5" class="tocsection"><p id="u5a5continguts"><a href="../../../WebContent/u5/a5/continguts.html">Informes</a><span class="buttonexp"></span></p><ul><li id="u5a5activitats"><a href="../../../WebContent/u5/a5/activitats.html">Activitats</a></li><li id="u5a5exercicis"><a href="../../../WebContent/u5/a5/exercicis.html">Exercicis d'autoavaluació</a></li></ul></li><li id="u5a6" class="tocsection"><p id="u5a6continguts"><a href="../../../WebContent/u5/a6/continguts.html">Macros i altres eines</a><span class="buttonexp"></span></p><ul></ul></li></ul></li><li id="" class="indexnode"><p><a href="../../../index.html">Anar a l&#39;&iacute;ndex general</a></p></li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <section>
+   <div id="settings" class="hidden">
+    <div class="menucontent">
+     <div class="allsettings">
+     <div class="settings">
+      <label>Font i Color</label>
+		<div class="setting-option">
+	        <ul class="fontBackground">
+				<li id="style-newspaper" title="Newspaper" class="appearance-style-newspaper"><span>Newspaper</span></li>
+                <li id="style-novel" title="Novel" class="appearance-style-novel"><span>Novel</span></li>
+                <li id="style-ebook" title="eBook" class="appearance-style-ebook"><span>eBook</span></li>
+				<li id="style-inverse" title="Inverse" class="appearance-style-inverse active"><span>Inverse</span></li>
+				<li id="style-athelas" title="Athelas" class="appearance-style-athelas"><span>Athelas</span></li>
+			</ul>
+		</div>
+     </div>
+	<div class="settings">
+      <label>Amplada</label>
+		<div class="setting-option">
+	        <div id="slider-width"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+		<div class="setting-option">
+	        <div id="slider-font"></div>
+		</div>
+     </div>
+     <div class="settings">
+      <label>Mida de la font</label>
+	  <div class="setting-option">
+       <form action="" class="sett-options">
+		<ul>
+		    <li><input type="checkbox" id="secondary-content" /><label for="secondary-content">Mostra recursos complementaris</label></li>
+		    <li><input type="checkbox" id="main-images" /><label for="main-images">Mostra imatges</label></li>
+		    <li><input type="checkbox" id="text-alignment" /><label for="text-alignment">Text justificat</label></li>
+			<li><input type="checkbox" id="text-hyphen" /><label for="text-hyphen">Partici&oacute; sil·l&agrave;bica</label></li>
+		</ul>
+       </form>
+	  </div>
+     </div>
+     </div>
+    </div>
+   </div>
+   </section>
+ <section>
+ <div id="favorites" class="hidden"></div>
+ </section>   
+ <div id="bridge" class="hidden"></div>
+ <div id="help" class="hidden">
+  <div class="helptitle">Dreceres del teclat<hr></div>
+  <div class="helpsection"><span>General</span>
+   <ul>
+    <li><span class="shortcut">g</span>: Anar al men&uacute; de navegaci&oacute;</li>
+    <li><span class="shortcut">o</span>: Anar a opcions</li>
+    <li><span class="shortcut">s</span>: Guardar la p&agrave;gina actual a favorits</li>
+    <li><span class="shortcut">p</span>: Imprimir la p&agrave;gina actual</li>
+    <li><span class="shortcut">?</span>: Mostrar/Ocultar l&#39;ajuda</li>
+   </ul>
+  </div>
+  <div class="helpsection"><span>Navegaci&oacute;</span>
+   <ul>
+    <li><span class="shortcut">i</span>: Anar a l&#39;&iacute;ndex general</li>
+    <li><span class="shortcut">t</span>: Anar a l&#39;inici de p&agrave;gina</li>
+    <li><span class="shortcut">b</span>: Anar al final de p&agrave;gina</li>
+    <li><span class="shortcut">j</span>: Anar cap endavant dintre la p&agrave;gina</li>
+    <li><span class="shortcut">k</span>: Anar cap enrere dintre la p&agrave;gina</li>
+    <li><span class="shortcut">h</span>: Anar a la p&agrave;gina anterior:</li>
+    <li><span class="shortcut">l</span>: Anar a la p&agrave;gina seg&uuml;ent:</li>
+   </ul>
+   </div>
+ </div>
+ <div id="favcounter" name="favcounter" class="hidden"><span></span></div>
+ <div id="navmenu" class="navmenu"><ul class="webnav"><li><a href="../../../index.html" title="Anar a l&#39;&iacute;ndex general">Inici</a></li><li><a href="../resum.html">Bases de dades</a></li><li>Consultes: definició i tipus</li></ul></div>
+	<div id="content" lang="ca" class="hyphenate text">
+     <article lang="ca" class="sheet">
+        <h1><a id="consultesdefinicio_i_tipus"> Consultes: definició i tipus </a></h1>
+    	
+<p>
+
+</p>
+
+<p>
+Les consultes eliminen les diferències entre una base de dades i una font de dades. Una base de dades no és més que un tipus de font de dades. De res serveix tenir la  informació perfectament estructurada en taules si no hi ha la possibilitat de recuperar aquestes dades.
+</p>
+
+<p>
+Els SGBD  mitjançant les <strong>consultes</strong> permeten obtenir tota la informació continguda en les taules afegint interessants funcionalitats:
+</p>
+<ul>
+<li class="level1"><div class="li"> Filtrar la informació per recuperar només aquelles dades que interessin en cada cas.</div>
+</li>
+<li class="level1"><div class="li"> Ordenar la informació recuperada utilitzant tants criteris com es necessitin.</div>
+</li>
+<li class="level1"><div class="li"> Utilitzar diverses taules per obtenir-ne dades combinades. </div>
+</li>
+</ul>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+Una <strong>consulta</strong> és un objecte de les bases de dades que permet establir criteris de selecció per l’usuari i dóna com a resultat una taula especial dins d’una base de dades.
+</p>
+</div></div>
+<p>
+Hi ha diverses formes de crear consultes en Base segons les característiques de cada projecte:
+</p>
+<ul>
+<li class="level1"><div class="li"> Crear una consulta en la vista <em>Disseny</em>.</div>
+</li>
+<li class="level1"><div class="li"> Utilitzar l’assistent per a consultes.</div>
+</li>
+<li class="level1"><div class="li"> Crear una consulta amb el llenguatge de consultes estructurat <acronym title="Structured Query Language">SQL</acronym>.</div>
+</li>
+</ul>
+
+<p>
+Aquestes tres possibilitats les trobeu a la part superior de la finestra de l’aplicació, tal com podeu veure a la <span class="figref"><a href="#Figura1.3.1"><span>figura</span></a></span>
+</p>
+<div class="iocfigure"><a name="Figura1.3.1"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Formes de crear consultes
+
+</figcaption><img src="../media/1.3.1.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+Analitzem l’espai d’edició de consultes en la figura <span class="figref"><a href="#Figura1.3.7"><span>figura</span></a></span>
+</p>
+<div class="iocfigure"><a name="Figura1.3.7"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Espai d’edició de consultes
+
+</figcaption><img src="../media/1.3.7.png" alt="" /></figure>
+
+</p>
+</div>
+<h2><a id="funcions_amb_consultes" >Funcions amb consultes</a></h2>
+<div class="level2">
+
+<p>
+Després d’executar la consulta i tenir accés als registres resultants, tindreu la possibilitat de realitzar-hi diferents operacions com per exemple editar o modificar qualsevol dels registres resultants, tallar, copiar i enganxar, buscar informació, etc.
+</p>
+
+<p>
+Algunes operacions d’edició no estan permeses.
+</p>
+<div class="iocimportant"><div class="ioccontent">
+<p>
+No està permès editar aquells camps que formen part de la clau de la taula o taules orígens de la consulta.
+</p>
+</div></div>
+</div>
+
+<h3><a id="navegar_pels_registres_de_la_consulta" >Navegar pels registres de la consulta</a></h3>
+<div class="level3">
+
+<p>
+Si el resultat de la consulta conté pocs registres no tindreu problemes, però si el nombre de registres és molt gran, podeu utilitzar els botons de navegació que hem ressaltat en la <span class="figref"><a href="#Figura1.3.8"><span>figura</span></a></span>
+</p>
+<div class="iocfigure"><a name="Figura1.3.8"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Navegació per consultes
+
+</figcaption><img src="../media/1.3.5.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+El primer que mostra la barra de navegació és el número del registre actual en què us trobeu del total de la consulta: 1 de 10, 5 de 200, 34 de 1240, etc. El primer d’aquests valors és editable, cosa que significa que podeu escriure un número de registre i desplaçar-vos-hi directament. Introduïu un valor dins del rang de registres i premeu la tecla <em>Enter</em>.
+</p>
+
+<p>
+La resta de botons de la barra permeten el desplaçament.
+</p>
+
+</div>
+
+<h3><a id="cercar_un_registre" >Cercar un registre</a></h3>
+<div class="level3">
+
+<p>
+<div class="iocfigurec">
+<ul>
+<li>
+<img src="../media/1.3.11.png" class="imgB" title="Botó Cerca" alt="Botó Cerca" /></li><li><small>Botó Cerca</small></li>
+</ul></div>
+
+</p>
+
+<p>
+Mitjançant el botó <em>Cerca</em> podeu buscar  i localitzar qualsevol informació. Comproveu-ho i seleccioneu el botó <em>Cercar registre de dades</em> per accedir al quadre de diàleg de <em>Cerca</em>.
+</p>
+
+<p>
+En el quadre de diàleg de cerca també todeu cercar els registres <strong><em>null</em></strong> que permeten localitzar un camp buit: contingut del camp és <em>null</em> o no és <em>null</em>
+</p>
+
+</div>
+
+<h3><a id="ordenar_i_filtrar_registres" >Ordenar i filtrar registres</a></h3>
+<div class="level3">
+
+<p>
+Les consultes són objectes de la base de dades que inclouen entre les seves funcions el filtratge i l’ordenació d’informació obtinguda directament des de taules i altres consultes. Si bé això és cert, també hi ha la possibilitat de recórrer a eines d’ordenació i filtrat per organitzar les dades del resultat de la recerca.
+</p>
+
+<p>
+Quan el volum dels resultats de les vostres consultes sigui important heu de recórrer a les eines d’ordenació i filtrat disponibles a LibreOffice Base.
+</p>
+
+<p>
+En les dues figures següents, <span class="figref"><a href="#1.3.10"><span>figura</span></a></span> i <span class="figref"><a href="#1.3.9"><span>figura</span></a></span>, podeu observar els botons disponibles:
+</p>
+<div class="iocfigure"><a name="1.3.10"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra d’ordenació i filtrat
+
+</figcaption><img src="../media/1.3.10.png" alt="" /></figure>
+
+</p>
+</div><div class="iocfigure"><a name="1.3.9"></a>
+<p>
+<figure>
+<figcaption><span class="figuretitle">Figura</span>
+
+Barra de disseny de consulta
+
+</figcaption><img src="../media/1.3.9.png" alt="" /></figure>
+
+</p>
+</div>
+<p>
+El menú contextual de filtre estàndard presenta la possibilitat d’utilitzar els operadors recollits a la <span class="tabref"><a href="#Taula2"><span>taula</span></a></span>.
+</p>
+<div class="ioctable donthyphenate"><div class="titletable"><a name="Taula2"><span>Taula</span></a>
+
+Operadors
+
+</div><div class="table"><table class="inline">
+	<tr class="row0">
+		<th class="col0"> Condició </th><th class="col1 centeralign">  Descripció  </th><th class="col2"> Realitza </th>
+	</tr>
+	<tr class="row1">
+		<td class="col0"><code>=</code></td><td class="col1">Igual a</td><td class="col2">Retorna els registres que coincideixen amb la condició.</td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"><code>&lt;&gt;</code></td><td class="col1">Diferent de</td><td class="col2">Només mostra els registres que tenen valors diferents a la condició.</td>
+	</tr>
+	<tr class="row3">
+		<td class="col0"><code>&lt;</code></td><td class="col1"> Menor que</td><td class="col2"> Mostra els registres els valors dels quals són estrictament menors que la condició. </td>
+	</tr>
+	<tr class="row4">
+		<td class="col0"><code>&gt;</code></td><td class="col1">Major que</td><td class="col2">Mostra els registres els valors dels quals són estrictament majors que la condició. </td>
+	</tr>
+	<tr class="row5">
+		<td class="col0"><code>&gt;=</code></td><td class="col1">Major o igual que </td><td class="col2"> Retorna els registres els valors dels quals són majors o iguals a la condició.</td>
+	</tr>
+	<tr class="row6">
+		<td class="col0"><code>&lt; =</code></td><td class="col1">Menor o igual que </td><td class="col2"> Retorna els registres els valors són menors o iguals a la condició.</td>
+	</tr>
+	<tr class="row7">
+		<td class="col0"><code>com</code></td><td class="col1"> Com </td><td class="col2"> Mostra els registres  i els valors iguals al que establiu.</td>
+	</tr>
+	<tr class="row8">
+		<td class="col0"><code>no com</code></td><td class="col1"> No igual a </td><td class="col2"> Mostra els registres i els valors diferents al que s’ha establert.</td>
+	</tr>
+</table></div>
+</div>
+</div>
+
+<h3><a id="graella_de_la_consulta" >Graella de la consulta</a></h3>
+<div class="level3">
+
+<p>
+El dissenyador de consultes és l’element principal a l’hora de compondre, editar i executar consultes amb LibreOffice Base.
+</p>
+
+<p>
+
+</p>
+
+<p>
+Les accions que podeu aplicar a la graella són:
+</p>
+<ul>
+<li class="level1"><div class="li"> Modificar la posició dels camps: per millorar la seva visibilitat i l’accessibilitat.</div>
+</li>
+<li class="level1"><div class="li"> Eliminar qualsevol camp. Només cal fer clic amb el botó dret sobre l’encapçalament i seleccionar la comanda <em>Elimina</em>.</div>
+</li>
+<li class="level1"><div class="li"> Anomenar un camp de forma més entenedora utilitzant un àlies.</div>
+</li>
+<li class="level1"><div class="li"> Escollir la taula d’origen del camp si la consulta està composta de més d’una taula.</div>
+</li>
+<li class="level1"><div class="li"> Establir l’ordre de presentació de les dades: ascentent o descendent.</div>
+</li>
+<li class="level1"><div class="li"> Visibilitzar o ocultar la informació que correspongui a un camp. No implica eliminar el camp. S’utilitza si la informació és reiterativa i poc rellevant.</div>
+</li>
+<li class="level1"><div class="li"> Incloure funcions. Les consultes no només permeten seleccionar certs registres d’una o diverses taules, també permeten realitzar operacions sobre els resultats, com ara sumar, comptar, trobar la mitjana, o calcular el màxim o el mínim d’una sèrie de valors. Cal tenir en compte que si afegim una funció en un camp, la resta de camps també han de tenir associada alguna funció. Hi ha disponibles les següents funcions:</div>
+<ul>
+<li class="level2"><div class="li">  <em>Grup</em>: permet agrupar les dades de la consulta d’acord amb un o més camps. Les funcions que incorporem es calcularan sobre els grups indicats.</div>
+</li>
+<li class="level2"><div class="li"> <em>Compta</em>: determina el nombre de registres o files que tenen algun valor en aquell camp.</div>
+</li>
+<li class="level2"><div class="li"> <em>Mitjana</em>: calcula la mitjana aritmètica dels valors d’un camp.</div>
+</li>
+<li class="level2"><div class="li"> <em>Suma</em>: calcula la suma dels valors d’un camp.</div>
+</li>
+<li class="level2"><div class="li"> <em>Màxim</em>: determina el valor més alt d’un camp.</div>
+</li>
+<li class="level2"><div class="li"> <em>Mínim</em>: determina el valor més baix d’un camp.</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> Especificar els criteris de filtratge. A la fila de criteris hi podem incorporar totes aquelles condicions que volem que compleixin els registres que ens retornarà la consulta. Podeu utilitzar, entre d’altres, els següents operadors i expressions: </div>
+<ul>
+<li class="level2"><div class="li"> Els operadors que teniu recollits a la <span class="tabref"><a href="#Taula2"><span>taula</span></a></span> i també l’expressió <em>ENTRE… I…</em> que equival a <em>&gt;= …. I &lt; =….</em>.</div>
+</li>
+<li class="level2"><div class="li"> Els caràcters comodí <em>?</em> i <em>*</em>. <em>?</em> equival a un caràcter i <em>*</em> equival a un conjunt de caràcters. Si el criteri inclou comodins cal que vagi precedit de l’operador <em>COM</em>. Per exemple l’expressió <em>COM ‘c?la’</em> retornaria els registres amb els valors <em>cola</em> i <em>cala</em> i l’expressió <em>COM ‘s*’</em> retornaria els registres amb qualsevol valor que comencés per <em>s</em>.</div>
+</li>
+<li class="level2"><div class="li"> El caràcter <em>?</em> com un paràmetre. Si incorporeu aquest caràcter com a criteri en algun dels camps, cada cop que s’executi la consulta podreu indicar el valor del criteri.</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> També podeu crear consultes amb diversos criteris. En funció de la fila on col·loqueu els criteris, aquests quedaran units pels operadors lògics <em>AND</em> o <em>OR</em>. Si els criteris es situen a la mateixa fila queden units per l’operador <em>AND</em>, això vol dir que la consulta només ens retornarà els registres que compleixin tots els criteris que hem indicat. Si es situen a files diferents, en canvi, queden units per l’operador <em>OR</em> i la consulta ens retornarà tots aquells registres que compleixin algun dels criteris incorporats, no caldrà que els compleixin tots.</div>
+</li>
+</ul>
+
+</div>
+
+	 </article>
+     <div class="pnpage">
+      <div class="left-corner"></div>
+      <div id="prevpage">Anar a la p&agrave;gina anterior:<br /><a href="../../../WebContent/u5/a2/exercicis.html">Exercicis d'autoavaluació</a></div>
+      <div id="nextpage">Anar a la p&agrave;gina seg&uuml;ent:<br /><a href="../../../WebContent/u5/a3/activitats.html">Activitats</a></div>
+      <div class="right-corner"></div>
+     </div>
+    </div>
+    <footer class="footer">
+      <div><small>Aquest document està subjecte a una llicència oberta de Creative Commons, es reserva el dret de reconeixement de l'autoria, d'exigir que no se'n faci cap mena d'ús comercial. Si altereu o transformeu aquesta obra, o en genereu obres derivades, només podeu distribuir l'obra generada amb una llicència idèntica a aquesta.</small></div>
+    </footer>
+ </div>
+ <div id="back_preview" class="hidden"></div>
+ <div id="preview" class="hidden">
+  <div class="prevcontent"></div>
+ </div>
+ <div id="help-tooltips">
+  <div id="help-toc" class="hidden tooltip"><span>Taula de continguts:</span> Ofereix una vista general de l&#39;estructura del m&ograve;dul, que us facilitar&agrave; la navegaci&oacute; a trav&eacute;s dels seus continguts.<span class="arrow-left"></span></div> 
+  <div id="help-settings" class="hidden tooltip"><span>Opcions de format:</span> Permet configurar el format de lectura a partir de les vostres prefer&egrave;ncies, modificant la mida de la lletra, el color del fons, l&#39;amplada de la p&agrave;gina o l&#39;ocultaci&oacute; dels continguts complementaris, entre d&#39;altres.<span class="arrow-left"></span></div>
+  <div id="help-printer" class="hidden tooltip"><span>Imprimir:</span>  Envia el contingut seleccionat a la impressora.<span class="arrow-left"></span></div>
+  <div id="help-favorites" class="hidden tooltip"><span>Prefereits:</span> Permet desar aquelles parts del contingut a les que us interessi accedir en un moment posterior; us permetr&agrave; anar creant un repositori personalitzat de les seccions que considereu m&eacute;s rellevants. Un cop l&#39;hageu començat a fer servir se us mostrar&agrave; a sota un comptador que us informar&agrave; del nombre de preferits que s&#39;hagin emmagatzemat fins al moment.<span class="arrow-left"></span></div>
+  <div id="help-favcounter" class="hidden tooltip"><span>Comptador i llistat de preferits:</span> Indica el nombre de preferits que s&#39;han desat fins el moment; clicant damunt seu accedireu al llistat de preferits, i a trav&eacute;s d&#39;aquest podreu accedir directament als continguts que hageu emmagatzemat.<span class="arrow-left"></span></div>
+  <div id="help-help_icon" class="hidden tooltip"><span>Ajuda:</span> Aquesta opci&oacute; activa la informaci&oacute; de les funcionalitats del web tot situant el punter del ratol&iacute; al damunt dels diferents &iacute;tems.<span class="arrow-left"></span></div>
+  <div id="help-sidebar-hide" class="hidden tooltip"><span>Mostrar/Ocultar barra lateral:</span>  Deshabilita la barra d&#39;opcions, permetent la seva recuperaci&oacute; quan es desitgi.<span class="arrow-left"></span></div>
+  <div id="help-search" class="hidden tooltip"><span>Cerca:</span>  Introdu&iuml;u les paraules clau sobre aquells conceptes que desitgeu localitzar en els continguts del m&ograve;dul. Tamb&eacute; podeu excloure un terme de la cerca tot afegint-hi el signe &#8220;-&#8221; al davant.<span class="arrow-top"></span></div>
+  <div id="help-header" class="hidden tooltip"><span>Cap&ccedil;alera:</span>  Indica l&#39;apartat o secci&oacute; que es mostra en pantalla. Tingueu present que les capçaleres de segon, tercer i quart nivell tamb&eacute; es poden desar com a marcadors.<span class="arrow-left"></span></div>
+</div> 
+</body>
+</html>
